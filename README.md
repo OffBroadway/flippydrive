@@ -20,7 +20,7 @@ The exciting new FlippyDrive modchip will be available for Pre-order September 9
 #### Upcoming Features (2024)
 - Bluetooth Game Controller support for Pico W
 
-#### Upcoming add-ons
+#### Upcoming add-ons (2024)
 - USB Drive Loader (Including SSD/HDD adapters)
 - USB Game Controller support
 
