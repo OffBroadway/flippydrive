@@ -1,7 +1,7 @@
 # FlippyDrive
 An open-source ODE modchip for GameCube!
 
-![FlippyDrive Picture](flippydrive.png)
+![FlippyDrive Picture](flippydrive.png){:height="400px"}
 
 ## Upcoming FlippyDrive Release
 The exciting new FlippyDrive modchip will be available for Pre-order September 9th at the tentative price of $25 without Pico or $32 with Pico W included ($35 with $3 preorder discount).
