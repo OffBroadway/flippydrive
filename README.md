@@ -1,12 +1,12 @@
 # FlippyDrive
 An open-source ODE modchip for GameCube!
 
-![FlippyDrive Picture](flippydrive.jpg){:height="400px"}
+![FlippyDrive Install](console_install.jpg){:width="640px"}
 
 ## Upcoming FlippyDrive Release
 The exciting new FlippyDrive modchip will be available beginning of 2024. Expect to see Reviewer content in the next few weeks!
 
-Pre-order launching in January 2024.
+**Pre-order Email Sing-ups are live on** [flippydrive.com](https://flippydrive.com)
 
 #### It will have have the following specs and features:
 - No-solder internal install into the original Disc Drive slot
@@ -19,10 +19,13 @@ Pre-order launching in January 2024.
 - Original Nintendo Disc Drivers are not destroyed to get connectors
 - Keep your original Disc Drive installed and play physical Discs (optional)
 
-#### Upcoming Features (Early 2024)
+#### Upcoming Features
 - Bluetooth Controller support
-- Configuration with BLE using PC or Phone
-
-#### Upcoming add-ons (Early 2024)
-- USB Drive Loader (Including SSD/HDD adapters)
 - USB Game Controller support
+- Configuration webapp in Chrome using BLE
+
+#### Upcoming add-ons
+- Ethernet Adapter
+- USB Drive Loader (Including SSD/HDD adapters)
+
+![FlippyDrive Picture](flippydrive.jpg){:width="640px"}
