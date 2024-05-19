@@ -1,0 +1,16 @@
+.status {
+    text-align: center;
+    color: #fff;  /* white text color */
+}
+
+.status-gok {
+    background-color: #4CAF50;  /* green */
+}
+
+.status-gprob {
+    background-color: #FFC107;  /* amber */
+}
+
+.status-gbad {
+    background-color: #F44336;  /* red */
+}

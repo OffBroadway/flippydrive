@@ -6,7 +6,7 @@
 FlippyDrive Documentation
 =========================
 
-The FlippyDrive is an optical drive emulator for the GameCube, designed so you can keep your OEM drive installed and use both.
+The FlippyDrive is a solderless optical drive emulator for the GameCube, designed so you can keep your OEM drive installed and use both.
 
 .. todo::
    Photo of FlippyDrive
@@ -27,7 +27,6 @@ Major Features
 - Keep your original disc drive installed and :ref:`play physical discs <bypassmode>`
 - Software updates via :ref:`SD card <sdintall>` or :ref:`USB drag-and-drop/brick recovery <usbintall>`
 
-
    
 .. toctree::
    :hidden:
@@ -36,6 +35,7 @@ Major Features
    
    installation
    usage
+   compatibility
    troubleshooting
    sd
    network
