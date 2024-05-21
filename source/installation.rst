@@ -32,7 +32,7 @@ Flip the gamecube rightside up, remove and set aside the lid
 Set aside the rear IO shield and let the front IO shield dangle.  
 
 .. note::
-    It is not necessary to detach the front IO panel. You may do so, but time will be lost nd must be set on first boot.
+    It is not necessary to detach the front IO panel. You may do so, but time will be lost and must be set on first boot.
     
 .. image:: _static/4X1A7478.jpg
     :width: 100%
@@ -62,10 +62,13 @@ At this point, your gamecube will be disassembled, hooray  🎉
 .. image:: _static/4X1A7493.jpg
     :width: 100%
     
-Step 2: Install the FlippyDrive
-```````````````````````````````
+Step 2: Prepare FlippyDrive
+```````````````````````````
 
-Fold the flex along the perforared shape as seen below. Make sure the fold along the perforation is {todo} relative to the long arm of the flex as seen below.
+Fold the flex along the perforation as seen below. When viewing the flex, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex with a triangle sybmol.
+
+.. note::    
+    The flex is quite forgiving to excessive force, but it is undesirable to form a sharp fold. As long as it can seat into the connector, it will function.
 
 .. image:: _static/4X1A7498.jpg
     :width: 100%
@@ -113,7 +116,21 @@ The mounting frame covers one of the screw holes, so put 1 of the RF shield scre
 
 .. image:: _static/4X1A7520.jpg
     :width: 100%
-    
+
+Step 2b: Without Disc Drive
+---------------------------
+
+Use the provided drive plug and push straight down onto the flex and connector until it stops.
+
+.. attention::    
+    If you need to remove the drive plug for any reason, pull it up from both sides simultaneously and do not aggressively rock it from side to side. Doing so may break off the alignment tabs inside the connector. If that happens, use tweasers to reach underneath the broken plastic to pull it upward.  The drive plug will still work with broken alignment tabs, although you will need to be more careful about left-right placement.
+
+.. image:: _static/4X1A7512.jpg
+    :width: 100%
+
+Step 3: Install the FlippyDrive
+```````````````````````````````
+
 Inspect the flippydrive. Check the flex connector locking tab and make sure it is in the unlocked/up position.
 
 .. image:: _static/4X1A7525.jpg
@@ -136,19 +153,8 @@ Attach flippydrive to frame
 
 .. image:: _static/4X1A7533.jpg
     :width: 100%
-    
-Step 2b: Without Disc Drive
----------------------------
 
-Use the provided drive plug and push straight down onto the flex and connector until it stops.
-
-.. attention::    
-    If you need to remove the drive plug for any reason, pull it up from both sides simultaneously and do aggressively rock it from side to side. Doing so may break the alignment tabs off inside the connector. If that happens, use tweasers to reach underneath the broken plastic to pull it upward.  The drive plug will still work with broken alignment tabs, although you will need to be more careful about left-right placement.
-
-.. image:: _static/4X1A7512.jpg
-    :width: 100%
-    
-Step 3: Verify Installation
+Step 4: Verify Installation
 ```````````````````````````
 
 .. attention::    
@@ -158,10 +164,12 @@ Connect the gamecube to a display and power on the cube while holding X. It is s
 
 You may safely turn off the cube at any point during the update process with no risk of a brick.
 
-.. hint:: Need help?
-    Having issues, see the :doc:`troubleshooting` section
+.. admonition:: Need help?
+    :class: hint
+    
+    See the :doc:`troubleshooting` section for more tips
 
-Step 4: Reassemble Cube
+Step 5: Reassemble Cube
 ```````````````````````
 
 Follow the instructions in Step 2 in reverse.
