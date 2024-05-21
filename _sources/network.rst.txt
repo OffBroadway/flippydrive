@@ -1,0 +1,7 @@
+Networking
+==========
+
+.. toctree::
+    :hidden:
+
+    wifi
