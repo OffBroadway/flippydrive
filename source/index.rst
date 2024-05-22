@@ -1,4 +1,4 @@
-.. flippydrive documentation master file, created by
+.. FlippyDrive documentation master file, created by
    sphinx-quickstart on Wed May 15 22:51:02 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -23,9 +23,9 @@ Major Features
 - Load games from µSD Card
 - Experimental loading over :doc:`Wi-Fi <wifi>` (RPi / PC / NAS)
 - No software patching required (games can run stock)
-- Preinstalled `Cubeboot <https://github.com/OffBroadway/cubeboot>`_ menu patcher
+- Preinstalled `cubeboot <https://github.com/OffBroadway/cubeboot>`_ menu patcher
 - Keep your original disc drive installed and :ref:`play physical discs <bypassmode>`
-- Software updates via :ref:`SD card <sdintall>` or :ref:`USB drag-and-drop/brick recovery <usbintall>`
+- Software updates via :ref:`SD card <sdinstall>` or :ref:`USB drag-and-drop/brick recovery <usbinstall>`
 
    
 .. toctree::

@@ -1,7 +1,7 @@
 Game Compatibility
 ==================
 
-Having just entered beta, the FlippyDrive currently has a few thousand hours of total game runtime.  Compatibility has been excellent overall with a handful of third-party titles revealing a few minor bugs in our drive emulation, since fixed.  Below is the list of GameCube titles, and their status with various loading modes.
+Having just entered beta, the FlippyDrive currently has a few thousand hours of total game runtime.  Compatibility has been excellent overall with a handful of third-party titles revealing a few minor bugs in our drive emulation that have since been fixed.  Below is the list of GameCube titles, and their status with various loading modes.
 
 .. important::
     We do not yet have automated status reporting, so we rely on `viewers like you` to report game compatibility, especially positive reports
@@ -16,7 +16,7 @@ Game List
 +--------------------------------------------------------------------+----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 |                                                                    |                                                                      |                                                                    Network                          |
 | Name                                                               |                  SD Card                                             +---------------------------------------------------------------------+-------------------------------+
-|                                                                    |                                                                      |                                 Wifi                                | Ethernet                      |
+|                                                                    |                                                                      |                                 Wi-Fi                               | Ethernet                      |
 +====================================================================+======================================================================+=====================================================================+===============================+
 | 4x4 Evo 2                                                          |                                                                      |                                                                     |                               |
 +--------------------------------------------------------------------+----------------------------------------------------------------------+---------------------------------------------------------------------+-------------------------------+
