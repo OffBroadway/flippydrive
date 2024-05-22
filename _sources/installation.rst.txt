@@ -3,6 +3,9 @@ Installation
 
 FlippyDrive has a solderless installation process and can be used with or without the disc drive. Watch out for the notes in this section to make the install process as easy as possible.
 
+.. attention::
+    IF YOU READ NOTHING ELSE, READ :ref:`THIS NOTE <fpctab>`
+
 Things Required
 ```````````````
 
@@ -141,7 +144,17 @@ Attach the mounting frame to the GameCube with two of the RF shield screws.
 .. image:: _static/4X1A7528.jpg
     :width: 100%
 
-Check the orientation of the flex cable and line up so that the two triangles are on the same side.  Attach the flex cable to the FlippyDrive, push it in until it reaches a hard stop, and push closed the locking tab. When locked, the black locking tab will be flush with the body of the connector.
+Check the orientation of the flex cable and line up so that the two triangles are on the same side.  Attach the flex cable to the FlippyDrive, push it in until it reaches a hard stop, and push closed the locking tab.
+
+.. _fpctab:
+
+.. danger::
+    When closing the flex black locking tab, push it closed from the center only. **DO NOT** push it closed from the edges. **YOU WILL BREAK IT** if you try closing the tab unevenly. See the manufacturer's drawing:
+
+    .. image:: _static/molex.png
+        :width: 100%
+
+When locked, the black locking tab will be flush with the body of the connector.
 
 .. image:: _static/4X1A7529.jpg
     :width: 100%
