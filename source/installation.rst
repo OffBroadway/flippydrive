@@ -65,7 +65,7 @@ At this point, your gamecube will be disassembled, hooray  🎉
 Step 2: Prepare FlippyDrive
 ```````````````````````````
 
-Fold the flex along the perforation as seen below. When viewing the flex, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex with a triangle sybmol.
+Fold the flex along the perforation as seen below. When viewing the flex, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex with a triangle symbol.
 
 .. note::    
     The flex is quite forgiving to excessive force, but it is undesirable to form a sharp fold. As long as it can seat into the connector, it will function.
