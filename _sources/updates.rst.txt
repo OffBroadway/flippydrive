@@ -1,12 +1,12 @@
 Software Updates
 ================
 
-.. _sdintall:
+.. _sdinstall:
 
 Install from µSD
 ````````````````
 
-.. _usbintall:
+.. _usbinstall:
 
 Install via USB
 ```````````````
