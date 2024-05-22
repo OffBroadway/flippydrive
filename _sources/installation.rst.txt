@@ -160,7 +160,7 @@ Step 4: Verify Installation
 .. warning::    
     If you removed the front panel/controller board, time will be lost and you must set the clock. After setting the clock, power cycle the cube to proceed.
 
-Connect the gamecube to a display and power on the cube while holding X. It is safe to run the gamecube without a fan for quite some time. You should see the flippydrive bootloader, which means the install was successful!
+Connect the gamecube to a display and power on the cube while holding ``X``. It is safe to run the gamecube without a fan for quite some time. You should see the flippydrive bootloader, which means the install was successful!
 
 You may safely turn off the cube at any point during the update process with no risk of a brick.
 
@@ -176,13 +176,12 @@ Follow the instructions in Step 1 in reverse.
 
 .. danger::
     Make sure your disc lid is **open** before reassembly. Attaching it when closed can damage the door cover switch.
+
+.. note::
+    If you did not remove the front controller panel during disassembly, make sure its flex cable it is still fully seated on the gamecube motherboard
     
 .. note::
     Don't forget to install the 4 screws normally hidden by the fan/power connector assembly before placing it back on
-    
-.. note::
-    If you did not remove the front controller panel during disassembly, make sure its flex cable it is still fully seated on the gamecube motherboard
-
 
 
 
