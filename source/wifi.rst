@@ -15,7 +15,7 @@ The GameCube disc interface is a simple command/response style, so any network d
 - <5ms ping between desktop/server and FlippyDrive
 - Ability to maintain MCS4 data rates (39Mbps) with FlippyDrive
 - No significant interference/SNR drops
-- For multi-AP setups: Ability to bond FlippyDrive to nearest AP as it does not currently as it may select a sub-optimal distant AP BSSID
+- For multi-AP setups: Ability to bond FlippyDrive to nearest AP as it may select a sub-optimal distant AP BSSID
 
 .. note::
     The upcoming on-cube Wifi configuration app will include a speed and latency test to indicate if your network likely supports these performance requirements.
