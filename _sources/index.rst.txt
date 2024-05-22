@@ -38,4 +38,5 @@ Major Features
    compatibility
    troubleshooting
    network
+   mods
    developer
