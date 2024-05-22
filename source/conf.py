@@ -76,5 +76,5 @@ html_theme_options = {
     "announcement": "<em>IMPORTANT:</em> docs are still a work in progress!",
 }
 
-html_title = 'Flippydrive Docs'
+html_title = 'FlippyDrive Docs'
 html_show_sphinx = False

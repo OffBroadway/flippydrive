@@ -4,7 +4,7 @@ Disc Interface Commands
 OEM Commands
 ````````````
 
-Flippydrive IPC Commands
+FlippyDrive IPC Commands
 ````````````````````````
 
 Other Commands
