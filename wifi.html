@@ -9,7 +9,7 @@
         <title>WiFi - Flippydrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=871c613d" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=b9ad413d" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
     
     
@@ -196,7 +196,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -225,7 +225,6 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sd.html">µSD Card Usage</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="network.html">Networking</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">WiFi</a></li>
 </ul>
@@ -270,7 +269,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -278,6 +277,26 @@
         <article role="main" id="furo-main-content">
           <section id="wifi">
 <h1>WiFi<a class="headerlink" href="#wifi" title="Link to this heading">¶</a></h1>
+<p>The FlippyDrive has onboard WiFi for management, updates, and experimental support for loading games live.  All of this is accomplished with the FlippyDrive application.</p>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>This application and wifi configuration is still in internal testing. Coming Soon.</p>
+</div>
+<section id="gameplay-network-requirements">
+<h2>Gameplay Network Requirements<a class="headerlink" href="#gameplay-network-requirements" title="Link to this heading">¶</a></h2>
+<p>Playing games live over WiFi is very network intensive and desktop/server dependant. As such, live loading of disc images is experimental and will likely remain that way forever as results cannot be guaranteed under many conditions.</p>
+<p>The GameCube disc interface is a simple command/response style, so any network delays in responding to requests can cause significant performance problems. In general, your network must meet the following requirements:</p>
+<ul class="simple">
+<li><p>&lt;5ms ping between desktop/server and FlippyDrive</p></li>
+<li><p>Ability to maintain MCS4 data rates (39Mbps) with FlippyDrive</p></li>
+<li><p>No significant interference/SNR drops</p></li>
+<li><p>For multi-AP setups: Ability to bond FlippyDrive to nearest AP as it does not currently as it may select a sub-optimal distant AP BSSID</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The upcoming on-cube Wifi configuration app will include a speed and latency test to indicate if your network likely supports these performance requirements.</p>
+</div>
+</section>
 </section>
 
         </article>
@@ -322,8 +341,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">WiFi</a><ul>
+<li><a class="reference internal" href="#gameplay-network-requirements">Gameplay Network Requirements</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
