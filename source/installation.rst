@@ -12,9 +12,9 @@ Things Required
 - 5-10 Minutes
 - FlippyDrive kit (FlippyDrive, flex, mounting frame, drive plug, two screws)
 - 4.5mm Gamebit screwdriver
-- #0 Philips screwdriver
-- #1 Philips screwdriver (optional)
-- #2 Philips screwdriver
+- #0 Phillips screwdriver
+- #1 Phillips screwdriver (optional)
+- #2 Phillips screwdriver
 
 Step 1: Open the cube
 `````````````````````
@@ -37,7 +37,7 @@ Set aside the rear IO shield and let the front IO shield dangle.
 .. image:: _static/4X1A7478.jpg
     :width: 100%
     
-Remove the 10 RF shield screws
+Using a #2 Phillips, remove the 10 RF shield screws
 
 .. image:: _static/4X1A7479.jpg
     :width: 100%
@@ -47,7 +47,7 @@ Tilt and let the fan/power connector assembly rest loose. It remains attached to
 .. image:: _static/4X1A7485.jpg
     :width: 100%
 
-Remove the 4 memory card RF-finger screws
+Using a #1 or #0 Phillips, remove the 4 memory card RF-finger screws
 
 .. image:: _static/4X1A7486.jpg
     :width: 100%
@@ -106,7 +106,7 @@ Back on the gamecube, route the flex between the nearby small and large plastic 
 
 Gently lower the drive assembly down onto the cube, and snake the flex though the slot in the folded sheet metal shield. Once the flex is in the proper position, push the drive downward.
 
-.. attention::    
+.. danger::    
     It only takes approximately 10lb (5kg) of force to mate the drive to the cube. If you encounter more resistance, don't force it. Stop, remove the drive, and inspect the flex placement. The flex is fairly tear resistant, but not if you put your entire body weight on it.
 
 .. image:: _static/4X1A7517.jpg
@@ -147,9 +147,9 @@ Check the orientation of the flex and line up so the two triangles are on the sa
     :width: 100%
     
 .. note::
-    Attaching the flex to the flippydrive after mounting to the frame is quite difficult, so it is recomended to attach flex first, then flippydrive to frame
+    Attaching the flex to the flippydrive after mounting to the frame is quite difficult, so it is recommended to attach flex first, then flippydrive to frame
 
-Attach flippydrive to frame
+Using a #0 Phillips, attach flippydrive to frame using the two provided screws
 
 .. image:: _static/4X1A7533.jpg
     :width: 100%
@@ -157,7 +157,7 @@ Attach flippydrive to frame
 Step 4: Verify Installation
 ```````````````````````````
 
-.. attention::    
+.. warning::    
     If you removed the front panel/controller board, time will be lost and you must set the clock. After setting the clock, power cycle the cube to proceed.
 
 Connect the gamecube to a display and power on the cube while holding X. It is safe to run the gamecube without a fan for quite some time. You should see the flippydrive bootloader, which means the install was successful!
@@ -172,8 +172,11 @@ You may safely turn off the cube at any point during the update process with no 
 Step 5: Reassemble Cube
 ```````````````````````
 
-Follow the instructions in Step 2 in reverse.
+Follow the instructions in Step 1 in reverse.
 
+.. danger::
+    Make sure your disc lid is **open** before reassembly. Attaching it when closed can damage the door cover switch.
+    
 .. note::
     Don't forget to install the 4 screws normally hidden by the fan/power connector assembly before placing it back on
     
