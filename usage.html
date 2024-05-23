@@ -283,15 +283,15 @@
 <p>You can use any SDHC/SDXC card with FlippyDrive. We do not suggest using SD Cards with a capacity less than 4GB as those may have compatibility issues.</p>
 <section id="sd-card-setup">
 <span id="sdcardsetup"></span><h3>SD Card Setup<a class="headerlink" href="#sd-card-setup" title="Link to this heading">¶</a></h3>
-<p>In order to use the FlippyDrive you must first format the SD card or configure Wi-Fi to Target a desktop machine..</p>
+<p>In order to use the FlippyDrive you must first format the SD card or configure Wi-Fi to target a desktop machine.</p>
 <p>Make sure your SD card is formatted with exFAT or FAT32. We suggest using exFAT as it is a more modern standard.</p>
 </section>
 <section id="sd-card-files">
 <span id="sdcardfiles"></span><h3>SD Card Files<a class="headerlink" href="#sd-card-files" title="Link to this heading">¶</a></h3>
-<p>Once your SD card is formatted you can place <cite>.ISO</cite>, <cite>.GCM</cite>, or <cite>.FDI</cite> files in the root of the SD card.</p>
+<p>Once your SD card is formatted you can place <code class="docutils literal notranslate"><span class="pre">.ISO</span></code>, <code class="docutils literal notranslate"><span class="pre">.GCM</span></code>, or <code class="docutils literal notranslate"><span class="pre">.FDI</span></code> files in the root of the SD card.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Currently only files ending in dot ISO are detected by cubeboot. If you have a GCM file simply rename it to ISO.
+<p>Currently only files ending in <code class="docutils literal notranslate"><span class="pre">.ISO</span></code> are detected by cubeboot. If you have a GCM or NKIT file, simply rename it to ISO.
 Folders are not currently supported. This will change in the future.</p>
 </div>
 </section>
@@ -301,25 +301,25 @@ Folders are not currently supported. This will change in the future.</p>
 <p>Now that you have your SD card setup you can insert it into the FlippyDrive and power on your GameCube.</p>
 <section id="startup">
 <span id="id2"></span><h3>Startup<a class="headerlink" href="#startup" title="Link to this heading">¶</a></h3>
-<p>When booting the GameCube using FlippyDrive you have three options.</p>
+<p>When booting the GameCube using FlippyDrive you have three options:</p>
 </section>
 <section id="update-mode">
 <span id="updatemode"></span><h3>Update Mode<a class="headerlink" href="#update-mode" title="Link to this heading">¶</a></h3>
-<p>If you hold down the x button on the P1 controller it will start a software update.</p>
+<p>If you hold down the <code class="docutils literal notranslate"><span class="pre">X</span></code> button on the P1 controller it will start a software update.</p>
 </section>
 <section id="passthrough-mode">
 <span id="bypassmode"></span><h3>Passthrough Mode<a class="headerlink" href="#passthrough-mode" title="Link to this heading">¶</a></h3>
-<p>If you hold down the right trigger on the P1 controller it will force the GameCube to start the disc in passthrough mode.
-Currently a pass-through mode is done by fully rebooting the console. This means that it does not support loading games from other regions yet. This feature will be added in a future software update.</p>
+<p>If you hold down the <code class="docutils literal notranslate"><span class="pre">L</span></code> trigger on the P1 controller when powering on the console, it will force the GameCube to start the disc in passthrough mode.</p>
+<p>Currently a pass-through mode is done by fully rebooting the console and handing off control to the drive. This means that it does not support loading games from other regions yet as your cube and drive behave as if there is no modchip installed. This feature will be added in a future software update.</p>
 </section>
 <section id="normal-mode">
 <span id="cubeboot"></span><h3>Normal Mode<a class="headerlink" href="#normal-mode" title="Link to this heading">¶</a></h3>
-<p>If you do not hold down any buttons while the GameCube is turning on it will boot directly into cubeboot. However if you have placed a boot.dol file in the root of your SD card it will boot that program instead.
-cubeboot will play the GameCube startup animation and then jump directly into the cubeboot loader which allows you to select a game to play.</p>
-<p>You can navigate the loader with the analog stick and press a to select a game. If you do not want to start that game simply press B to get back to the list of games.</p>
+<p>If you do not hold down any buttons while the GameCube is turning on, it will boot directly into Cubeboot. However if you have placed a <code class="docutils literal notranslate"><span class="pre">boot.dol</span></code> file in the root of your SD card it will boot that program instead.</p>
+<p>Cubeboot will play the GameCube startup animation and then jump directly into the Cubeboot Loader which allows you to select a game to play.</p>
+<p>You can navigate the loader with the analog stick and press a to select a game. If you do not want to start that game simply press <code class="docutils literal notranslate"><span class="pre">B</span></code> to get back to the list of games.</p>
 <p>Once you are ready to play press start on the game select screen and it will immediately boot the game.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
 <p>If you experience any issues during gameplay please reference the compatibility page and submit a bug report using the form.</p>
 <p>For FlippyDrive bugs go to <a class="reference internal" href="troubleshooting.html"><span class="doc">Troubleshooting</span></a>
 For Game related issues while using FlippyDrive check <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> and submit a bug report.</p>
