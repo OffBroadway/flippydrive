@@ -151,7 +151,7 @@ Check the orientation of the flex cable and line up so that the two triangles ar
 .. _fpctab:
 
 .. danger::
-    When closing the flex black locking tab, push it closed from the center only. **DO NOT** push it closed from the edges. **YOU WILL BREAK IT** if you try closing the tab unevenly. See the manufacturer's drawing:
+    When closing the black flex locking tab, push it closed from the center only. **DO NOT** push it closed from the edge. **YOU WILL BREAK IT** if you try closing the tab unevenly. See the manufacturer's drawing:
 
     .. image:: _static/molex.png
         :width: 100%
