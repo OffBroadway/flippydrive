@@ -6,6 +6,8 @@ FlippyDrive has a solderless installation process and can be used with or withou
 .. attention::
     IF YOU READ NOTHING ELSE, READ :ref:`THIS NOTE <fpctab>`
 
+It is *highly recommended* to use the the disc drive installation method, even if your drive is non-functional. The drive plug is included simply as a convenience for people who have lost their drive. The OEM disc drive is rigidly attached with screws and provides a highly reliable connection for the FlippyDrive flex.
+
 Things Required
 ```````````````
 

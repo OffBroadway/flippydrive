@@ -6,13 +6,13 @@ Software Updates
 Install from µSD
 ````````````````
 
-In order to install software updates from the micro SD card you must download the `update.fpkg` file from the latest `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest release and download the update file.
+In order to install software updates from the micro SD card, you must download the `update.fpkg` file from the latest `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest release and download the update file.
 
-You can then place the file on the root of your SD card. It must be named `update.fpkg` in order for the FlippyDrive to detect the update properly.
+You can then place the file on the root of your SD card. It must be named ``update.fpkg`` in order for the FlippyDrive to detect the update properly.
 
-In order to start the update you must hold down `X` on the P1 controller while turning on the GameCube.
+In order to start the update, you must hold down ``X`` on the P1 controller while turning on the GameCube.
 
-There is an alternative to doing this where you can create an empty file called forceupdate on the root of the SD card as well. This will do the same thing as holding down `X` and force the FlippyDrive to do a software update when it starts.
+There is an alternative to doing this where you can create an empty file called forceupdate on the root of the SD card as well. This will do the same thing as holding down ``X`` and force the FlippyDrive to do a software update when it starts.
 
 .. _usbinstall:
 
