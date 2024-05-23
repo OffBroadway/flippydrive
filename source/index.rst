@@ -19,7 +19,7 @@ The FlippyDrive is a solderless optical drive emulator for the GameCube, designe
 .. admonition:: Just got your FlippyDrive?
    :class: hint
    
-   Check for the latest version at `https://teamoffbroadway.com/category/updates/fd-software/ <https://teamoffbroadway.com/category/updates/fd-software/>`_
+   Check for the latest software info at `https://teamoffbroadway.com/category/updates/fd-software/ <https://teamoffbroadway.com/category/updates/fd-software/>`_
 
 Major Features
 ==============
