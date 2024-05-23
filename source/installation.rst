@@ -90,6 +90,9 @@ Verify that the flex cable is folded correctly and is not upside down. The long 
 
 Now fold the flex cable down such that it sits between the disc connector and heat sink and is no longer on top of the heat sink.
 
+.. attention::
+    Do not skip this step as it will reduce the available length of the flex and make it harder to attach later.
+    
 .. image:: _static/4X1A7506.jpg
     :width: 100%
 
