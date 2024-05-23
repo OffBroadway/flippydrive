@@ -14,7 +14,7 @@ Things Required
 .. image:: _static/4X1A7495.jpg
     :width: 100%
     
-- 5-10 Minutes
+- 10-15 Minutes
 - FlippyDrive kit (FlippyDrive, flex cable, mounting frame, drive plug, two screws)
 - 4.5mm Gamebit screwdriver
 - #0 Phillips screwdriver
