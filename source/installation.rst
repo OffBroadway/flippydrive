@@ -182,7 +182,7 @@ Step 4: Verify Installation
 
 Connect the GameCube to a display and power on the GameCube while holding ``X``. It is safe to run the GameCube without a fan for quite some time. You should see the FlippyDrive bootloader, which means the install was successful!
 
-Please check to see that the install completes successfully and press ``START`` when prompted before powering off.
+Please wait to see that the install completes successfully and press ``START`` when prompted before powering off.
 
 .. admonition:: Need help?
     :class: hint
