@@ -169,7 +169,7 @@ When locked, the black locking tab will be flush with the body of the connector.
 .. note::
     Attaching the flex cable to the FlippyDrive after mounting it to the frame is quite difficult, so it is recommended to follow these assembly instructions in-order.
 
-Using a #0 Phillips, attach FlippyDrive to the frame using the two provided screws.
+Using a #0 Phillips, attach FlippyDrive to the frame with the two provided screws.
 
 .. image:: _static/4X1A7533.jpg
     :width: 100%
