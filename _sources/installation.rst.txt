@@ -70,6 +70,11 @@ At this point, your GameCube will be disassembled, hooray 🎉
 Step 2: Prepare FlippyDrive
 ```````````````````````````
 
+The mounting frame will cover one of the GameCube screw holes, so put 1 of the RF shield screws into the provided storage hole and set aside for later.
+
+.. image:: _static/4X1A7520.jpg
+    :width: 100%
+
 Fold the flex cable along the perforation as seen below. When viewing the flex cable, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex cable with a triangle symbol.
 
 .. note::    
@@ -120,11 +125,6 @@ Gently lower the drive assembly down onto the GameCube, and snake the flex cable
     It only takes approximately 10 lb (5 kg) of force to mate the drive to the GameCube. If you encounter more resistance, don't force it. Stop, remove the drive, and inspect the flex cable placement. The flex cable is fairly tear-resistant, but not if you put your entire body weight on it.
 
 .. image:: _static/4X1A7517.jpg
-    :width: 100%
-    
-The mounting frame covers one of the screw holes, so put 1 of the RF shield screws into the provided storage hole.
-
-.. image:: _static/4X1A7520.jpg
     :width: 100%
 
 Step 2b: Without Disc Drive
