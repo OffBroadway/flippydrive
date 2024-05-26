@@ -19,8 +19,8 @@ There is an alternative to doing this where you can create an empty file called 
 Install via USB
 ```````````````
 
-.. note::
-    This process is only necessary if the firmware has somehow become corrupt and unbootable. You should always use the SD install process first, at attempt a software reinstall of the current version by holding ``X`` at boot.
+.. hint::
+    This process is only necessary if the firmware has somehow become corrupt and unbootable. You should always use the SD install process first, and attempt a software reinstall of the current version by holding ``X`` at boot.
 
 In order to install a software update from USB you have to perform a full recovery. 
 This method must be performed while the GameCube is turned off. It is suggested that you remove the power cable from the back of the GameCube.
