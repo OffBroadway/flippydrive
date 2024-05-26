@@ -143,6 +143,9 @@ Step 3: Install the FlippyDrive
 
 Inspect the FlippyDrive. Check the flex cable connector locking tab and make sure it is in the unlocked/up position.
 
+.. danger::
+    **DO NOT** try prying the tab up if it is already unlocked as you will likely snap it off. When unlocked, the tab wiggles gently when touched and sits proud of the rest of the connector body.
+
 .. image:: _static/4X1A7525.jpg
     :width: 100%
     
@@ -151,7 +154,7 @@ Attach the mounting frame to the GameCube with two of the RF shield screws.
 .. image:: _static/4X1A7528.jpg
     :width: 100%
 
-Check the orientation of the flex cable and line up so that the two triangles are on the same side.  Attach the flex cable to the FlippyDrive, push it in until it reaches a hard stop, and push closed the locking tab.
+Check the orientation of the flex cable and line up so that the two triangles are on the same side.  Attach the flex cable to the FlippyDrive, gently push it in until it reaches a hard stop, and push closed the locking tab. If the flex does not easily insert, check the previous step. Remember it's a delicate connector, so be gentle.
 
 .. _fpctab:
 
