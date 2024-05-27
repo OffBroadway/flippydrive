@@ -20,7 +20,7 @@ First Boot
 1. I see the bootloader on first boot/pressing ``X`` but get a black screen after:
       Your connection to the cube is fully working. The flex and nearly all of the FlippyDrive hardware is exercised to get to this point.
       
-      This is almost certainly a Cubeboot bug and the details of your cube/install should be reported `to the issue tracker <https://github.com/OffBroadway/flippydrive/issues>`_ or `customer support <https://help.teamoffbroadway.com/portal>`_.
+      Make sure you're :doc:`running the latest software<updates>`. This is almost certainly a software bug and the details of your cube/install should be reported `to the issue tracker <https://github.com/OffBroadway/flippydrive/issues>`_ or `customer support <https://help.teamoffbroadway.com/portal>`_.
 
 Normal Usage
 ````````````
