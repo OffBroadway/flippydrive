@@ -1,7 +1,7 @@
 Installation
 ============
 
-FlippyDrive has a solderless installation process and can be used with or without the disc drive. Watch out for the notes in this section to make the install process as easy as possible.
+FlippyDrive has a solderless installation process and can be used with or without the disc drive. Many of the notes and callouts here are the result of previous failed installs, so read them carefully to avoid falling into the same trap.
 
 .. attention::
     IF YOU READ NOTHING ELSE, READ :ref:`THIS NOTE <fpctab>`
