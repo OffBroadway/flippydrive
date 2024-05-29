@@ -280,7 +280,13 @@
 <h1>Other Mod Compatibility<a class="headerlink" href="#other-mod-compatibility" title="Link to this heading">¶</a></h1>
 <section id="picoboot-and-other-ipl-replacements">
 <h2>Picoboot and other IPL replacements<a class="headerlink" href="#picoboot-and-other-ipl-replacements" title="Link to this heading">¶</a></h2>
-<p>Because Picoboot and other IPL replacements feed the GameCube a non-stock boot program, Cubeboot is not compatible with these mods. It is not necessary to remove them, but they must be disabled according to their respective project’s documentation. Pico based mods like the Picoboot can be disabled simply by erasing the flash using the first-party <code class="docutils literal notranslate"><span class="pre">picotool</span></code>.</p>
+<p>Because Picoboot and other IPL replacements feed the GameCube a non-stock boot program, Cubeboot is not compatible with these mods. It is not necessary to remove them, but they must be disabled according to their respective project’s documentation.</p>
+<p>Pico based mods like the Picoboot can be disabled simply by erasing the flash using the first-party <code class="docutils literal notranslate"><span class="pre">picotool</span></code>.</p>
+</section>
+<section id="gcvideo">
+<h2>GCVideo<a class="headerlink" href="#gcvideo" title="Link to this heading">¶</a></h2>
+<p>In general, GCVideo output mods work just fine, although some are very poorly designed electrically. We have received reports that when coupled with questionable displays, a few backpower the GameCube’s 5V rail even when the GameCube is off in violation of the HDMI specification’s reverse current protection requirement.</p>
+<p>In addition to the damage this may be doing to the GameCube, it keeps the FlippyDrive powered up while the cube is off, usually resulting in the previously selected game immediately launching or region errors depending on the game and cube in question. We are gathering more information on how prevalent this is.</p>
 </section>
 <section id="power">
 <h2>Power<a class="headerlink" href="#power" title="Link to this heading">¶</a></h2>
@@ -347,6 +353,7 @@
             <ul>
 <li><a class="reference internal" href="#">Other Mod Compatibility</a><ul>
 <li><a class="reference internal" href="#picoboot-and-other-ipl-replacements">Picoboot and other IPL replacements</a></li>
+<li><a class="reference internal" href="#gcvideo">GCVideo</a></li>
 <li><a class="reference internal" href="#power">Power</a></li>
 </ul>
 </li>
