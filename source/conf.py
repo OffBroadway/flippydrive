@@ -78,3 +78,13 @@ html_theme_options = {
 
 html_title = 'FlippyDrive Docs'
 html_show_sphinx = False
+
+html_css_files = [
+    'https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css',
+]
+
+html_js_files = [
+    'https://code.jquery.com/jquery-3.7.1.min.js',
+    'https://cdn.datatables.net/2.0.8/js/dataTables.min.js',
+    'main.js',
+]
