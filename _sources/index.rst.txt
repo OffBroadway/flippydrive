@@ -39,6 +39,7 @@ Major Features
    
    installation
    usage
+   configuration
    compatibility
    troubleshooting
    network

@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Installation" href="installation.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Game Compatibility" href="compatibility.html" /><link rel="prev" title="Software Updates" href="updates.html" />
 
     <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
-        <title>FlippyDrive Docs</title>
+        <title>Configuration Files - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee08dfba" />
@@ -185,7 +185,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">FlippyDrive Docs</div></a>
+      <a href="index.html"><div class="brand">FlippyDrive Docs</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -197,7 +197,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -206,7 +206,7 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
   
   <span class="sidebar-brand-text">FlippyDrive Docs</span>
@@ -218,13 +218,13 @@
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Configuration Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -258,7 +258,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="_sources/index.rst.txt" title="View this page">
+  <a class="muted-link" href="_sources/configuration.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -272,35 +272,35 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="flippydrive-documentation">
-<h1>FlippyDrive Documentation<a class="headerlink" href="#flippydrive-documentation" title="Link to this heading">¶</a></h1>
-<p>The FlippyDrive is a solderless optical drive emulator for the GameCube, designed so you can keep your OEM drive installed and use both.</p>
-<a class="reference internal image-reference" href="_images/4X1A7535.jpg"><img alt="_images/4X1A7535.jpg" src="_images/4X1A7535.jpg" style="width: 100%;" />
-</a>
-<div class="hint admonition">
-<p class="admonition-title">Just got your FlippyDrive?</p>
-<p>Check for the latest software info at <a class="reference external" href="https://teamoffbroadway.com/category/updates/fd-software/">https://teamoffbroadway.com/category/updates/fd-software/</a></p>
+          <section id="configuration-files">
+<h1>Configuration Files<a class="headerlink" href="#configuration-files" title="Link to this heading">¶</a></h1>
+<p>The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.</p>
+<section id="configuration-file-format">
+<h2>Configuration File Format<a class="headerlink" href="#configuration-file-format" title="Link to this heading">¶</a></h2>
+<p>The configuration file is a simple ini file with sections. The sections are used to group the configuration options. The configuration file is divided into two sections, the FlippyDrive section and the cubeboot section. The FlippyDrive section is used to configure the FlippyDrive and the cubeboot section is used to configure the cubeboot.</p>
+<p><strong>Example Configuration file:</strong></p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[cubeboot]</span>
+
+<span class="c1"># Support rgb hex colors aka websafe colors</span>
+<span class="na">cube_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">660089</span>
+
+<span class="c1"># Enable booting through Swiss for all games</span>
+<span class="na">force_swiss_default</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1</span>
+
+<span class="c1"># Force progressive scan inside the IPL menu</span>
+<span class="na">force_progressive</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1</span>
+
+<span class="c1"># Used for waiting for GCVideo to initialize</span>
+<span class="na">preboot_delay_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
+</pre></div>
 </div>
 </section>
-<section id="major-features">
-<h1>Major Features<a class="headerlink" href="#major-features" title="Link to this heading">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="installation.html"><span class="doc">No-solder internal install</span></a> into the original Disc Drive slot</p></li>
-<li><p>Load games from µSD Card</p></li>
-<li><p>Experimental loading over <a class="reference internal" href="wifi.html"><span class="doc">Wi-Fi</span></a> (RPi / PC / NAS)</p></li>
-<li><p>No software patching required (games can run stock)</p></li>
-<li><p>Preinstalled <a class="reference external" href="https://github.com/OffBroadway/cubeboot">cubeboot</a> menu patcher</p></li>
-<li><p>Keep your original disc drive installed and <a class="reference internal" href="usage.html#bypassmode"><span class="std std-ref">play physical discs</span></a></p></li>
-<li><p>Software updates via <a class="reference internal" href="updates.html#sdinstall"><span class="std std-ref">SD card</span></a> or <a class="reference internal" href="updates.html#usbinstall"><span class="std std-ref">USB drag-and-drop/brick recovery</span></a></p></li>
-</ul>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
         </article>
@@ -308,16 +308,26 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="installation.html">
+          <a class="next-page" href="compatibility.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Installation</div>
+                <div class="title">Game Compatibility</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          
+          <a class="prev-page" href="updates.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Software Updates</div>
+                
+              </div>
+            </a>
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -335,8 +345,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Configuration Files</a><ul>
+<li><a class="reference internal" href="#configuration-file-format">Configuration File Format</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
