@@ -81,6 +81,8 @@ Once you are ready to play press start on the game select screen and it will imm
     For FlippyDrive bugs go to :doc:`troubleshooting`
     For Game related issues while using FlippyDrive check :doc:`compatibility` and submit a bug report.
 
+    For more information on configuring the FlippyDrive check the :doc:`configuration` page.
+
 .. toctree::
     :hidden:
 
