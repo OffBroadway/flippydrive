@@ -8,6 +8,8 @@ Configuration File Format
 
 The configuration file is a simple ini file with sections. The sections are used to group the configuration options. The configuration file is divided into two sections, the FlippyDrive section and the cubeboot section. The FlippyDrive section is used to configure the FlippyDrive and the cubeboot section is used to configure the cubeboot.
 
+Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[cubeboot]`` section header.
+
 
 **Example Configuration file:**
 
