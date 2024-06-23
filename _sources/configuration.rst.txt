@@ -21,10 +21,10 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     cube_color = 660089
 
     # Enable booting through Swiss for all games
-    force_swiss_default = 1
+    force_swiss_default = 0
 
     # Force progressive scan inside the IPL menu
-    force_progressive = 1
+    force_progressive = 0
 
     # Used for waiting for GCVideo to initialize
     preboot_delay_ms = 0
