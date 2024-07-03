@@ -5,3 +5,5 @@ Networking
     :hidden:
 
     wifi
+    server
+    desktop
