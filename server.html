@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Game Compatibility" href="compatibility.html" /><link rel="prev" title="Software Updates" href="updates.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="GUI Application" href="desktop.html" /><link rel="prev" title="Wi-Fi" href="wifi.html" />
 
     <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
-        <title>Configuration Files - FlippyDrive Docs</title>
+        <title>Headless Server - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee08dfba" />
@@ -224,12 +224,12 @@
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="network.html">Networking</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="wifi.html">Wi-Fi</a></li>
-<li class="toctree-l2"><a class="reference internal" href="server.html">Headless Server</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Headless Server</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desktop.html">GUI Application</a></li>
 </ul>
 </li>
@@ -260,7 +260,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="_sources/configuration.rst.txt" title="View this page">
+  <a class="muted-link" href="_sources/server.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -280,40 +280,13 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="configuration-files">
-<h1>Configuration Files<a class="headerlink" href="#configuration-files" title="Link to this heading">¶</a></h1>
-<p>The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.</p>
-<section id="configuration-file-format">
-<h2>Configuration File Format<a class="headerlink" href="#configuration-file-format" title="Link to this heading">¶</a></h2>
-<p>The configuration file is a simple ini file with sections. The sections are used to group the configuration options.</p>
-<p>Create an text file on the root of your SD card called <code class="docutils literal notranslate"><span class="pre">config.ini</span></code>. The file should look similar to the example in the following section. Note that the settings file <strong>must</strong> include the <code class="docutils literal notranslate"><span class="pre">[cubeboot]</span></code> section header.</p>
-<p><strong>Example Configuration file:</strong></p>
-<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[cubeboot]</span>
-
-<span class="c1"># Support rgb hex colors aka websafe colors</span>
-<span class="na">cube_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">660089</span>
-
-<span class="c1"># Enable booting through Swiss for all games</span>
-<span class="na">force_swiss_default</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
-
-<span class="c1"># Force progressive scan inside the IPL menu</span>
-<span class="na">force_progressive</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
-
-<span class="c1"># Used for waiting for GCVideo to initialize</span>
-<span class="na">preboot_delay_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
-
-<span class="k">[network]</span>
-
-<span class="c1"># Server IP address, currently (TEMP) as IPv4 mapped IPv6 address, for example, 198.51.100.1 becomes:</span>
-<span class="na">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">::ffff:198.51.100.1</span>
-
-<span class="c1"># SSID of your network</span>
-<span class="na">ssid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">FBIWhiteVan</span>
-
-<span class="c1"># Network key</span>
-<span class="na">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">JEdgarHooverDidNothingWrong</span>
-</pre></div>
-</div>
+          <section id="headless-server">
+<h1>Headless Server<a class="headerlink" href="#headless-server" title="Link to this heading">¶</a></h1>
+<section id="install">
+<h2>Install<a class="headerlink" href="#install" title="Link to this heading">¶</a></h2>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading">¶</a></h2>
 </section>
 </section>
 
@@ -322,23 +295,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="compatibility.html">
+          <a class="next-page" href="desktop.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Game Compatibility</div>
+                <div class="title">GUI Application</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="updates.html">
+          <a class="prev-page" href="wifi.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Software Updates</div>
+                <div class="title">Wi-Fi</div>
                 
               </div>
             </a>
@@ -371,8 +344,9 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Configuration Files</a><ul>
-<li><a class="reference internal" href="#configuration-file-format">Configuration File Format</a></li>
+<li><a class="reference internal" href="#">Headless Server</a><ul>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#usage">Usage</a></li>
 </ul>
 </li>
 </ul>

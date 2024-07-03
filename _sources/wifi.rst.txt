@@ -3,7 +3,9 @@ Wi-Fi
 
 The FlippyDrive has onboard Wi-Fi for management, updates, and experimental support for loading games live.  All of this is accomplished with the FlippyDrive application.
 
-.. todo:: This application and Wi-Fi configuration is still in internal testing. Coming Soon.
+Take a look at the :doc:`configuration file<configuration>` entries, :doc:`server<server>`, and/or :doc:`desktop app<desktop>` required to use wifi.
+
+.. todo:: The desktop application is still in internal testing. Coming Soon.
 
 Gameplay Network Requirements
 `````````````````````````````

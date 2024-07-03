@@ -6,7 +6,7 @@ The FlippyDrive and cubeboot can be configured using a configuration file. The c
 Configuration File Format
 `````````````````````````
 
-The configuration file is a simple ini file with sections. The sections are used to group the configuration options. The configuration file is divided into two sections, the FlippyDrive section and the cubeboot section. The FlippyDrive section is used to configure the FlippyDrive and the cubeboot section is used to configure the cubeboot.
+The configuration file is a simple ini file with sections. The sections are used to group the configuration options.
 
 Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[cubeboot]`` section header.
 
@@ -28,3 +28,14 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
 
     # Used for waiting for GCVideo to initialize
     preboot_delay_ms = 0
+
+    [network]
+    
+    # Server IP address, currently (TEMP) as IPv4 mapped IPv6 address, for example, 198.51.100.1 becomes:
+    server = ::ffff:198.51.100.1
+    
+    # SSID of your network
+    ssid = FBIWhiteVan
+    
+    # Network key
+    password = JEdgarHooverDidNothingWrong
