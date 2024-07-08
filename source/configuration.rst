@@ -31,6 +31,13 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
 
     [network]
     
+    # All network features require a server to be set and running the FlippyDrive app
+    # WiFi connections also require a ssid and password
+    
+    # Sets the network interface as the default disc device (active is 1)
+    # cubeboot can use other network features regardless of setting
+    is_default = 0
+    
     # Server IP address, currently (TEMP) as IPv4 mapped IPv6 address
     # For example, 198.51.100.1 becomes:
     server = ::ffff:198.51.100.1
