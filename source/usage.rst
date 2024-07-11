@@ -58,9 +58,23 @@ If you hold down the ``X`` button on the P1 controller it will start a software 
 Passthrough Mode
 ------------------
 
-If you hold down the ``L`` trigger on the P1 controller when powering on the console, it will force the GameCube to start the disc in passthrough mode.
+Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.
 
-Currently a pass-through mode is done by fully rebooting the console and handing off control to the drive. This means that it does not support loading games from other regions yet as your cube and drive behave as if there is no modchip installed. This feature will be added in a future software update.
+Enhanced Passthrough
+********************
+
+Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
+
+This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
+
+Pure Passthrough
+****************
+
+Hold the ``L`` trigger on P1 when powering up the console to enter pure passthrough mode.
+
+Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.
+
+Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.
 
 .. _cubeboot:
 
