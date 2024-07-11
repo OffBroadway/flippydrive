@@ -313,8 +313,18 @@ Folders are not currently supported. This will change in the future.</p>
 </section>
 <section id="passthrough-mode">
 <span id="bypassmode"></span><h3>Passthrough Mode<a class="headerlink" href="#passthrough-mode" title="Link to this heading">¶</a></h3>
-<p>If you hold down the <code class="docutils literal notranslate"><span class="pre">L</span></code> trigger on the P1 controller when powering on the console, it will force the GameCube to start the disc in passthrough mode.</p>
-<p>Currently a pass-through mode is done by fully rebooting the console and handing off control to the drive. This means that it does not support loading games from other regions yet as your cube and drive behave as if there is no modchip installed. This feature will be added in a future software update.</p>
+<p>Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.</p>
+<section id="enhanced-passthrough">
+<h4>Enhanced Passthrough<a class="headerlink" href="#enhanced-passthrough" title="Link to this heading">¶</a></h4>
+<p>Hold the <code class="docutils literal notranslate"><span class="pre">R</span></code> trigger on P1 when powering up the console to enter enhanced passthrough mode.</p>
+<p>This process uses your physical disc loaded via cubeboot with the <code class="docutils literal notranslate"><span class="pre">config.ini</span></code> file with read with appropriate video and region-free settings applied.</p>
+</section>
+<section id="pure-passthrough">
+<h4>Pure Passthrough<a class="headerlink" href="#pure-passthrough" title="Link to this heading">¶</a></h4>
+<p>Hold the <code class="docutils literal notranslate"><span class="pre">L</span></code> trigger on P1 when powering up the console to enter pure passthrough mode.</p>
+<p>Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.</p>
+<p>Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.</p>
+</section>
 </section>
 <section id="normal-mode">
 <span id="cubeboot"></span><h3>Normal Mode<a class="headerlink" href="#normal-mode" title="Link to this heading">¶</a></h3>
@@ -398,7 +408,11 @@ For Game related issues while using FlippyDrive check <a class="reference intern
 <li><a class="reference internal" href="#usage">Usage</a><ul>
 <li><a class="reference internal" href="#startup">Startup</a></li>
 <li><a class="reference internal" href="#update-mode">Update Mode</a></li>
-<li><a class="reference internal" href="#passthrough-mode">Passthrough Mode</a></li>
+<li><a class="reference internal" href="#passthrough-mode">Passthrough Mode</a><ul>
+<li><a class="reference internal" href="#enhanced-passthrough">Enhanced Passthrough</a></li>
+<li><a class="reference internal" href="#pure-passthrough">Pure Passthrough</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#normal-mode">Normal Mode</a></li>
 </ul>
 </li>
