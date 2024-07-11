@@ -101,3 +101,5 @@ Once you are ready to play press start on the game select screen and it will imm
     :hidden:
 
     updates
+    backup
+
