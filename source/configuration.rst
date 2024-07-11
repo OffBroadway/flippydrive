@@ -38,9 +38,8 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     # cubeboot can use other network features regardless of setting
     is_default = 0
     
-    # Server IP address, currently (TEMP) as IPv4 mapped IPv6 address
-    # For example, 198.51.100.1 becomes:
-    server = ::ffff:198.51.100.1
+    # Server IP address, in either ipv4 or ipv6
+    server = 198.51.100.1
     
     # SSID of your network
     ssid = FBIWhiteVan
