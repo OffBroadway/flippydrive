@@ -8,12 +8,18 @@ Configuration File Format
 
 The configuration file is a simple ini file with sections. The sections are used to group the configuration options.
 
-Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[cubeboot]`` section header.
+Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
 
 
 **Example Configuration file:**
 
 .. code-block:: ini
+
+    [flippydrive]
+
+    #Default boot mode, options are "normal" and "bypass"
+    #Setting "bypass" will always boot from the disc drive unless X is held down, at which point you can choose cubeboot, swiss, etc.
+    boot_mode = normal
 
     [cubeboot]
 
