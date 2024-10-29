@@ -287,9 +287,15 @@
 <section id="configuration-file-format">
 <h2>Configuration File Format<a class="headerlink" href="#configuration-file-format" title="Link to this heading">¶</a></h2>
 <p>The configuration file is a simple ini file with sections. The sections are used to group the configuration options.</p>
-<p>Create an text file on the root of your SD card called <code class="docutils literal notranslate"><span class="pre">config.ini</span></code>. The file should look similar to the example in the following section. Note that the settings file <strong>must</strong> include the <code class="docutils literal notranslate"><span class="pre">[cubeboot]</span></code> section header.</p>
+<p>Create an text file on the root of your SD card called <code class="docutils literal notranslate"><span class="pre">config.ini</span></code>. The file should look similar to the example in the following section. Note that the settings file <strong>must</strong> include the <code class="docutils literal notranslate"><span class="pre">[&lt;name&gt;]</span></code> section headers for the settings to take effect.</p>
 <p><strong>Example Configuration file:</strong></p>
-<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[cubeboot]</span>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[flippydrive]</span>
+
+<span class="c1">#Default boot mode, options are &quot;normal&quot; and &quot;bypass&quot;</span>
+<span class="c1">#Setting &quot;bypass&quot; will always boot from the disc drive unless X is held down, at which point you can choose cubeboot, swiss, etc.</span>
+<span class="na">boot_mode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">normal</span>
+
+<span class="k">[cubeboot]</span>
 
 <span class="c1"># Support rgb hex colors aka websafe colors</span>
 <span class="na">cube_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">660089</span>
