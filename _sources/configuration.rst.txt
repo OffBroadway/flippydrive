@@ -44,7 +44,7 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     # cubeboot can use other network features regardless of setting
     is_default = 0
     
-    # Server IP address, in either ipv4 or ipv6
+    # Server IP address, in either ipv4 or ipv6. Port is 7031
     server = 198.51.100.1
     
     # SSID of your network

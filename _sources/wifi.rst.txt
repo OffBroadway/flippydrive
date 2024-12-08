@@ -5,7 +5,7 @@ The FlippyDrive has onboard Wi-Fi for management, updates, and experimental supp
 
 Take a look at the :doc:`configuration file<configuration>` entries, :doc:`server<server>`, and/or :doc:`desktop app<desktop>` required to use wifi.
 
-.. todo:: The desktop application is still in internal testing. Coming Soon.
+.. todo:: The desktop application documentation is now in progress, standby.
 
 Gameplay Network Requirements
 `````````````````````````````
