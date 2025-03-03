@@ -22,8 +22,7 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     boot_mode = normal
 
     [cubeboot]
-
-    # Support rgb hex colors aka websafe colors
+    # Support rgb hex colors aka websafe colors (comment out to use default color)
     cube_color = 660089
 
     # Enable booting through Swiss for all games
@@ -32,23 +31,25 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     # Force progressive scan inside the IPL menu
     force_progressive = 0
 
+    # Disable Memcard Pro Support
+    disable_mcp_select = 0
+
     # Used for waiting for GCVideo to initialize
     preboot_delay_ms = 0
 
     [network]
-    
     # All network features require a server to be set and running the FlippyDrive app
     # WiFi connections also require a ssid and password
-    
+
     # Sets the network interface as the default disc device (active is 1)
     # cubeboot can use other network features regardless of setting
     is_default = 0
-    
-    # Server IP address, in either ipv4 or ipv6. Port is 7031
+
+    # Server IP address, in either IPv4 or IPv6 format. Port is 7031
     server = 198.51.100.1
-    
+
     # SSID of your network
     ssid = FBIWhiteVan
-    
+
     # Network key
     password = JEdgarHooverDidNothingWrong
