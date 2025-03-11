@@ -17,7 +17,8 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
 
     [flippydrive]
     # Default boot mode, options are "normal" and "bypass"
-    # Setting "bypass" will always boot from the disc drive unless X is held down, at which point you can choose cubeboot, swiss, etc.
+    # Setting "bypass" will always boot from the disc drive unless X is held down,
+    # at which point you can choose cubeboot, swiss, etc.
     boot_mode = normal
 
     [cubeboot]
