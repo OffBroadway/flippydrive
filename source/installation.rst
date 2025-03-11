@@ -52,7 +52,7 @@ Tilt and let the fan/power connector assembly rest loose. It remains attached to
 .. image:: _static/4X1A7485.jpg
     :width: 100%
 
-Using a #1 or #0 Phillips, remove the 4 memory card RF-finger screws
+Using a #1 or #0 Phillips, remove the 4 memory card RF-finger screws and the two metal RF shield grounding brackets
 
 .. image:: _static/4X1A7486.jpg
     :width: 100%
