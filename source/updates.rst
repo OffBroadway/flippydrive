@@ -3,8 +3,8 @@ Software Updates
 
 .. _sdinstall:
 
-Install from µSD
-````````````````
+Install from microSD
+````````````````````
 
 In order to install software updates from the microSD card, you must download the *update.fpkg* file from the latest `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest release and download the update file.
 
