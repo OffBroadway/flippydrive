@@ -52,7 +52,7 @@ def setup(app):
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'flippydrive'
-copyright = '2024-2025, ChrisPVille & RadicalPlants'
+copyright = '2024-%Y, ChrisPVille & RadicalPlants'
 author = 'ChrisPVille & RadicalPlants'
 
 # -- General configuration ---------------------------------------------------
