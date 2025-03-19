@@ -5,13 +5,13 @@
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Disc Backup Utility" href="backup.html" /><link rel="prev" title="Using the FlippyDrive" href="usage.html" />
 
-    <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
+    <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
         <title>Software Updates - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee08dfba" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
     
     
 
@@ -90,19 +90,6 @@
       <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
     </svg>
   </symbol>
-  <symbol id="svg-sun-half" viewBox="0 0 24 24">
-    <title>Auto light/dark mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M13 12h5" />
-      <path d="M13 15h4" />
-      <path d="M13 18h1" />
-      <path d="M13 9h4" />
-      <path d="M13 6h1" />
-    </svg>
-  </symbol>
   <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
     <title>Auto light/dark, in light mode</title>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -143,7 +130,7 @@
       <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
       <path d="M13.5 6.5l4 4" />
       <path d="M20 21l2 -2l-2 -2" />
-      <path d="M17 17l-2 2l2 2" /
+      <path d="M17 17l-2 2l2 2" />
     </svg>
   </symbol>
   <symbol id="svg-eye" viewBox="0 0 24 24">
@@ -223,6 +210,7 @@
 <li class="toctree-l1 current has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Software Updates</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
@@ -260,12 +248,8 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="view-this-page">
-  <a class="muted-link" href="_sources/updates.rst.txt" title="View this page">
-    <svg><use href="#svg-eye"></use></svg>
-    <span class="visually-hidden">View this page</span>
-  </a>
-</div>
+          
+
 <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
@@ -283,12 +267,12 @@
         <article role="main" id="furo-main-content">
           <section id="software-updates">
 <h1>Software Updates<a class="headerlink" href="#software-updates" title="Link to this heading">¶</a></h1>
-<section id="install-from-sd">
-<span id="sdinstall"></span><h2>Install from µSD<a class="headerlink" href="#install-from-sd" title="Link to this heading">¶</a></h2>
-<p>In order to install software updates from the micro SD card, you must download the <cite>update.fpkg</cite> file from the latest <a class="reference external" href="https://github.com/OffBroadway/flippydrive-assets/releases">FlippyDrive assets GitHub repo</a>. Look for the latest release and download the update file.</p>
-<p>You can then place the file on the root of your SD card. It must be named <code class="docutils literal notranslate"><span class="pre">update.fpkg</span></code> in order for the FlippyDrive to detect the update properly.</p>
+<section id="install-from-microsd">
+<span id="sdinstall"></span><h2>Install from microSD<a class="headerlink" href="#install-from-microsd" title="Link to this heading">¶</a></h2>
+<p>In order to install software updates from the microSD card, you must download the <em>update.fpkg</em> file from the latest <a class="reference external" href="https://github.com/OffBroadway/flippydrive-assets/releases">FlippyDrive assets GitHub repo</a>. Look for the latest release and download the update file.</p>
+<p>You can then place the file on the root of your microSD card. It must be named <code class="docutils literal notranslate"><span class="pre">update.fpkg</span></code> in order for the FlippyDrive to detect the update properly.</p>
 <p>In order to start the update, you must hold down <code class="docutils literal notranslate"><span class="pre">X</span></code> on the P1 controller while turning on the GameCube.</p>
-<p>There is an alternative to doing this where you can create an empty file called forceupdate on the root of the SD card as well. This will do the same thing as holding down <code class="docutils literal notranslate"><span class="pre">X</span></code> and force the FlippyDrive to do a software update when it starts.</p>
+<p>There is an alternative to doing this where you can create an empty file called <code class="docutils literal notranslate"><span class="pre">forceupdate</span></code> on the root of the microSD card as well. This will do the same thing as holding down <code class="docutils literal notranslate"><span class="pre">X</span></code> and force the FlippyDrive to do a software update when it starts.</p>
 </section>
 <section id="install-via-usb">
 <span id="usbinstall"></span><h2>Install via USB<a class="headerlink" href="#install-via-usb" title="Link to this heading">¶</a></h2>
@@ -300,12 +284,12 @@
 This method must be performed while the GameCube is turned off. It is suggested that you remove the power cable from the back of the GameCube.</p>
 <section id="disassembly">
 <span id="id1"></span><h3>Disassembly<a class="headerlink" href="#disassembly" title="Link to this heading">¶</a></h3>
-<p>First you must open your GameCube to get access to the FlippyDrive. Depending on the size of your micro USB cable you may need to unscrew the two retaining screws that hold the FlippyDrive in place.</p>
+<p>First you must open your GameCube to get access to the FlippyDrive. Depending on the size of your Micro-USB cable you may need to unscrew the two retaining screws that hold the FlippyDrive in place.</p>
 <p>Be very careful when doing so as to not put undue stress on the flex cable. The flex cable is quite delicate and may tear. If you need to unscrew the posts it is suggested that you unclip the flex cable from the FlippyDrive first so that it is not dangling.</p>
 </section>
 <section id="connecting-to-pc">
 <span id="connecting"></span><h3>Connecting to PC<a class="headerlink" href="#connecting-to-pc" title="Link to this heading">¶</a></h3>
-<p>Before plugging in the USB cable hold down the button on the front of the FlippyDrive while inserting the USB. You will know that it worked if a USB drive called “RPI-RP2” is mounted on your computer.</p>
+<p>Before plugging in the USB cable, hold down the button on the front of the FlippyDrive while inserting the USB. You will know that it worked if a USB drive called “RPI-RP2” is mounted on your computer.</p>
 <p>You can download the latest recovery.uf2 firmware file from the <a class="reference external" href="https://github.com/OffBroadway/flippydrive-assets/releases">FlippyDrive assets GitHub repo</a>. Look for the latest release and download the recovery file.</p>
 </section>
 <section id="installing">
@@ -314,13 +298,13 @@ This method must be performed while the GameCube is turned off. It is suggested 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Installing via this method will wipe out the internal flash on the FlippyDrive. This means any Homebrew dol files you have copied over will be removed.</p>
-<p>This method does not affect the SD card at all and it is safe to use while the SD card is inserted.</p>
+<p>This method does not affect the microSD card at all and it is safe to use while the microSD card is inserted.</p>
 </div>
 </section>
 <section id="reassembly">
 <span id="id4"></span><h3>Reassembly<a class="headerlink" href="#reassembly" title="Link to this heading">¶</a></h3>
-<p>Next you can unplug the USB cable and mount the FlippyDrive back to the mounting post with the two screws.</p>
-<p>If you have unplugged the flex cable insert it as directed in the install guide with the matching square symbol facing out.</p>
+<p>Next, you can unplug the USB cable and mount the FlippyDrive back to the mounting post with the two screws.</p>
+<p>If you have unplugged the flex cable, insert it as directed in the install guide with the matching square symbol facing out.</p>
 </section>
 </section>
 </section>
@@ -354,7 +338,7 @@ This method must be performed while the GameCube is turned off. It is suggested 
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2024, ChrisPVille RadicalPlants
+                Copyright &#169; 2024-2025, ChrisPVille &amp; RadicalPlants
             </div>
             Made with 
             <a href="https://github.com/pradyunsg/furo">Furo</a>
@@ -380,7 +364,7 @@ This method must be performed while the GameCube is turned off. It is suggested 
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Software Updates</a><ul>
-<li><a class="reference internal" href="#install-from-sd">Install from µSD</a></li>
+<li><a class="reference internal" href="#install-from-microsd">Install from microSD</a></li>
 <li><a class="reference internal" href="#install-via-usb">Install via USB</a><ul>
 <li><a class="reference internal" href="#disassembly">Disassembly</a></li>
 <li><a class="reference internal" href="#connecting-to-pc">Connecting to PC</a></li>
@@ -400,11 +384,11 @@ This method must be performed while the GameCube is turned off. It is suggested 
     </aside>
   </div>
 </div><script src="_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/scripts/furo.js?v=4e2eecee"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>

@@ -3,15 +3,15 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Game Compatibility" href="compatibility.html" /><link rel="prev" title="Disc Backup Utility" href="backup.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Game Compatibility" href="compatibility.html" /><link rel="prev" title="MemCard PRO GC" href="memcardprogc.html" />
 
-    <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
+    <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
         <title>Configuration Files - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee08dfba" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
     
     
 
@@ -90,19 +90,6 @@
       <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
     </svg>
   </symbol>
-  <symbol id="svg-sun-half" viewBox="0 0 24 24">
-    <title>Auto light/dark mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M13 12h5" />
-      <path d="M13 15h4" />
-      <path d="M13 18h1" />
-      <path d="M13 9h4" />
-      <path d="M13 6h1" />
-    </svg>
-  </symbol>
   <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
     <title>Auto light/dark, in light mode</title>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -143,7 +130,7 @@
       <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
       <path d="M13.5 6.5l4 4" />
       <path d="M20 21l2 -2l-2 -2" />
-      <path d="M17 17l-2 2l2 2" /
+      <path d="M17 17l-2 2l2 2" />
     </svg>
   </symbol>
   <symbol id="svg-eye" viewBox="0 0 24 24">
@@ -223,6 +210,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Configuration Files</a></li>
@@ -260,12 +248,8 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="view-this-page">
-  <a class="muted-link" href="_sources/configuration.rst.txt" title="View this page">
-    <svg><use href="#svg-eye"></use></svg>
-    <span class="visually-hidden">View this page</span>
-  </a>
-</div>
+          
+
 <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
@@ -290,14 +274,15 @@
 <p>Create an text file on the root of your SD card called <code class="docutils literal notranslate"><span class="pre">config.ini</span></code>. The file should look similar to the example in the following section. Note that the settings file <strong>must</strong> include the <code class="docutils literal notranslate"><span class="pre">[&lt;name&gt;]</span></code> section headers for the settings to take effect.</p>
 <p><strong>Example Configuration file:</strong></p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[flippydrive]</span>
-
-<span class="c1">#Default boot mode, options are &quot;normal&quot; and &quot;bypass&quot;</span>
-<span class="c1">#Setting &quot;bypass&quot; will always boot from the disc drive unless X is held down, at which point you can choose cubeboot, swiss, etc.</span>
+<span class="c1"># Default boot mode, options are &quot;normal&quot; and &quot;bypass&quot;</span>
+<span class="c1"># Setting &quot;bypass&quot; will always boot from the disc drive unless X is held down,</span>
+<span class="c1"># at which point you can choose cubeboot, swiss, etc.</span>
 <span class="na">boot_mode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">normal</span>
 
 <span class="k">[cubeboot]</span>
-
-<span class="c1"># Support rgb hex colors aka websafe colors</span>
+<span class="c1"># Cube color - Supports RGB hex colors aka websafe colors</span>
+<span class="c1"># comment out/remove the whole line to use the original color</span>
+<span class="c1"># Setting &quot;random&quot; shows a random color</span>
 <span class="na">cube_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">660089</span>
 
 <span class="c1"># Enable booting through Swiss for all games</span>
@@ -306,11 +291,17 @@
 <span class="c1"># Force progressive scan inside the IPL menu</span>
 <span class="na">force_progressive</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
 
+<span class="c1"># Disable MemCard PRO GC Support</span>
+<span class="na">disable_mcp_select</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
+
 <span class="c1"># Used for waiting for GCVideo to initialize</span>
 <span class="na">preboot_delay_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
 
-<span class="k">[network]</span>
+<span class="c1"># Delays loading after the boot logo</span>
+<span class="c1"># to mimic the load times you would usually experience when booting a disc</span>
+<span class="c1"># postboot_delay_ms = 3000</span>
 
+<span class="k">[network]</span>
 <span class="c1"># All network features require a server to be set and running the FlippyDrive app</span>
 <span class="c1"># WiFi connections also require a ssid and password</span>
 
@@ -318,7 +309,7 @@
 <span class="c1"># cubeboot can use other network features regardless of setting</span>
 <span class="na">is_default</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
 
-<span class="c1"># Server IP address, in either ipv4 or ipv6. Port is 7031</span>
+<span class="c1"># Server IP address, in either IPv4 or IPv6 format. Port is 7031</span>
 <span class="na">server</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">198.51.100.1</span>
 
 <span class="c1"># SSID of your network</span>
@@ -345,14 +336,14 @@
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="backup.html">
+          <a class="prev-page" href="memcardprogc.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Disc Backup Utility</div>
+                <div class="title">MemCard PRO GC</div>
                 
               </div>
             </a>
@@ -360,7 +351,7 @@
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2024, ChrisPVille RadicalPlants
+                Copyright &#169; 2024-2025, ChrisPVille &amp; RadicalPlants
             </div>
             Made with 
             <a href="https://github.com/pradyunsg/furo">Furo</a>
@@ -399,11 +390,11 @@
     </aside>
   </div>
 </div><script src="_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/scripts/furo.js?v=4e2eecee"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>

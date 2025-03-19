@@ -25,11 +25,19 @@ Make sure your SD card is formatted with exFAT or FAT32. We suggest using exFAT 
 SD Card Files
 ------------------
 
-Once your SD card is formatted you can place ``.ISO``, ``.GCM``, or ``.FDI`` files in the root of the SD card.
+Once your SD card is formatted you can place supported files in the root of the SD card.
 
-.. note::
-    Currently only files ending in ``.ISO`` are detected by cubeboot. If you have a GCM or NKIT file, simply rename it to ISO.
-    Folders are not currently supported. This will change in the future.
+Supported files are:
+    - ``.iso``
+    - ``.fdi``
+    - ``.gcm``
+    - ``.dol``
+    - ``.dol+cli``
+
+.. note::    
+    If you have a ``.nkit`` file, just rename it to ``.iso``.
+
+    ``.rvz`` will be supported in the future but **only** through Wi-Fi or Ethernet due to hardware limitations.
 
 .. _usage:
 
@@ -51,7 +59,7 @@ When booting the GameCube using FlippyDrive you have three options:
 Update Mode
 -----------
 
-If you hold down the ``X`` button on the P1 controller it will start a software update.
+If you hold down the ``X`` button on the P1 controller it will start the FlippyDrive bootloader menu.
 
 .. _bypassmode:
 
@@ -59,13 +67,6 @@ Passthrough Mode
 ------------------
 
 Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.
-
-Enhanced Passthrough
-********************
-
-Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
-
-This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
 
 Pure Passthrough
 ****************
@@ -76,6 +77,13 @@ Control is handed completely to the physical disc drive and the disc will load a
 
 Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.
 
+Enhanced Passthrough
+********************
+
+Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
+
+This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
+
 .. _cubeboot:
 
 Normal Mode
@@ -85,21 +93,20 @@ If you do not hold down any buttons while the GameCube is turning on, it will bo
 
 Cubeboot will play the GameCube startup animation and then jump directly into the Cubeboot Loader which allows you to select a game to play.
 
-You can navigate the loader with the analog stick and press a to select a game. If you do not want to start that game simply press ``B`` to get back to the list of games.
+You can navigate the loader with the analog stick and press ``A`` to select a game. If you do not want to start that game simply press ``B`` to get back to the list of games.
 
-Once you are ready to play press start on the game select screen and it will immediately boot the game.
+Once you are ready to play, press ``START`` on the game select screen and it will immediately boot the game.
 
 .. seealso::
-    If you experience any issues during gameplay please reference the compatibility page and submit a bug report using the form.
-    
-    For FlippyDrive bugs go to :doc:`troubleshooting`
-    For Game related issues while using FlippyDrive check :doc:`compatibility` and submit a bug report.
-
-    For more information on configuring the FlippyDrive check the :doc:`configuration` page.
+  - If you experience any issues during gameplay please reference the :doc:`compatibility` page and submit a bug report using the form.
+  - For FlippyDrive bugs go to :doc:`troubleshooting`.
+  - For Game related issues while using FlippyDrive check :doc:`compatibility` and submit a bug report.
+  - For more information on configuring the FlippyDrive check the :doc:`configuration` page.
 
 .. toctree::
     :hidden:
 
     updates
     backup
+    memcardprogc
 

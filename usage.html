@@ -5,13 +5,13 @@
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Software Updates" href="updates.html" /><link rel="prev" title="Installation" href="installation.html" />
 
-    <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
+    <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
         <title>Using the FlippyDrive - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee08dfba" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
     
     
 
@@ -90,19 +90,6 @@
       <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
     </svg>
   </symbol>
-  <symbol id="svg-sun-half" viewBox="0 0 24 24">
-    <title>Auto light/dark mode</title>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M13 12h5" />
-      <path d="M13 15h4" />
-      <path d="M13 18h1" />
-      <path d="M13 9h4" />
-      <path d="M13 6h1" />
-    </svg>
-  </symbol>
   <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
     <title>Auto light/dark, in light mode</title>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -143,7 +130,7 @@
       <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
       <path d="M13.5 6.5l4 4" />
       <path d="M20 21l2 -2l-2 -2" />
-      <path d="M17 17l-2 2l2 2" /
+      <path d="M17 17l-2 2l2 2" />
     </svg>
   </symbol>
   <symbol id="svg-eye" viewBox="0 0 24 24">
@@ -223,6 +210,7 @@
 <li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Using the FlippyDrive</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
@@ -260,12 +248,8 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="view-this-page">
-  <a class="muted-link" href="_sources/usage.rst.txt" title="View this page">
-    <svg><use href="#svg-eye"></use></svg>
-    <span class="visually-hidden">View this page</span>
-  </a>
-</div>
+          
+
 <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
@@ -293,11 +277,21 @@
 </section>
 <section id="sd-card-files">
 <span id="sdcardfiles"></span><h3>SD Card Files<a class="headerlink" href="#sd-card-files" title="Link to this heading">¶</a></h3>
-<p>Once your SD card is formatted you can place <code class="docutils literal notranslate"><span class="pre">.ISO</span></code>, <code class="docutils literal notranslate"><span class="pre">.GCM</span></code>, or <code class="docutils literal notranslate"><span class="pre">.FDI</span></code> files in the root of the SD card.</p>
+<p>Once your SD card is formatted you can place supported files in the root of the SD card.</p>
+<dl class="simple">
+<dt>Supported files are:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.iso</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.fdi</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.gcm</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.dol</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.dol+cli</span></code></p></li>
+</ul>
+</dd>
+</dl>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Currently only files ending in <code class="docutils literal notranslate"><span class="pre">.ISO</span></code> are detected by cubeboot. If you have a GCM or NKIT file, simply rename it to ISO.
-Folders are not currently supported. This will change in the future.</p>
+<p>If you have a <code class="docutils literal notranslate"><span class="pre">.nkit</span></code> file, just rename it to <code class="docutils literal notranslate"><span class="pre">.iso</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">.rvz</span></code> will be supported in the future but <strong>only</strong> through Wi-Fi or Ethernet due to hardware limitations.</p>
 </div>
 </section>
 </section>
@@ -310,35 +304,37 @@ Folders are not currently supported. This will change in the future.</p>
 </section>
 <section id="update-mode">
 <span id="updatemode"></span><h3>Update Mode<a class="headerlink" href="#update-mode" title="Link to this heading">¶</a></h3>
-<p>If you hold down the <code class="docutils literal notranslate"><span class="pre">X</span></code> button on the P1 controller it will start a software update.</p>
+<p>If you hold down the <code class="docutils literal notranslate"><span class="pre">X</span></code> button on the P1 controller it will start the FlippyDrive bootloader menu.</p>
 </section>
 <section id="passthrough-mode">
 <span id="bypassmode"></span><h3>Passthrough Mode<a class="headerlink" href="#passthrough-mode" title="Link to this heading">¶</a></h3>
 <p>Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.</p>
-<section id="enhanced-passthrough">
-<h4>Enhanced Passthrough<a class="headerlink" href="#enhanced-passthrough" title="Link to this heading">¶</a></h4>
-<p>Hold the <code class="docutils literal notranslate"><span class="pre">R</span></code> trigger on P1 when powering up the console to enter enhanced passthrough mode.</p>
-<p>This process uses your physical disc loaded via cubeboot with the <code class="docutils literal notranslate"><span class="pre">config.ini</span></code> file with read with appropriate video and region-free settings applied.</p>
-</section>
 <section id="pure-passthrough">
 <h4>Pure Passthrough<a class="headerlink" href="#pure-passthrough" title="Link to this heading">¶</a></h4>
 <p>Hold the <code class="docutils literal notranslate"><span class="pre">L</span></code> trigger on P1 when powering up the console to enter pure passthrough mode.</p>
 <p>Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.</p>
 <p>Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.</p>
 </section>
+<section id="enhanced-passthrough">
+<h4>Enhanced Passthrough<a class="headerlink" href="#enhanced-passthrough" title="Link to this heading">¶</a></h4>
+<p>Hold the <code class="docutils literal notranslate"><span class="pre">R</span></code> trigger on P1 when powering up the console to enter enhanced passthrough mode.</p>
+<p>This process uses your physical disc loaded via cubeboot with the <code class="docutils literal notranslate"><span class="pre">config.ini</span></code> file with read with appropriate video and region-free settings applied.</p>
+</section>
 </section>
 <section id="normal-mode">
 <span id="cubeboot"></span><h3>Normal Mode<a class="headerlink" href="#normal-mode" title="Link to this heading">¶</a></h3>
 <p>If you do not hold down any buttons while the GameCube is turning on, it will boot directly into Cubeboot. However if you have placed a <code class="docutils literal notranslate"><span class="pre">boot.dol</span></code> file in the root of your SD card it will boot that program instead.</p>
 <p>Cubeboot will play the GameCube startup animation and then jump directly into the Cubeboot Loader which allows you to select a game to play.</p>
-<p>You can navigate the loader with the analog stick and press a to select a game. If you do not want to start that game simply press <code class="docutils literal notranslate"><span class="pre">B</span></code> to get back to the list of games.</p>
-<p>Once you are ready to play press start on the game select screen and it will immediately boot the game.</p>
+<p>You can navigate the loader with the analog stick and press <code class="docutils literal notranslate"><span class="pre">A</span></code> to select a game. If you do not want to start that game simply press <code class="docutils literal notranslate"><span class="pre">B</span></code> to get back to the list of games.</p>
+<p>Once you are ready to play, press <code class="docutils literal notranslate"><span class="pre">START</span></code> on the game select screen and it will immediately boot the game.</p>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
-<p>If you experience any issues during gameplay please reference the compatibility page and submit a bug report using the form.</p>
-<p>For FlippyDrive bugs go to <a class="reference internal" href="troubleshooting.html"><span class="doc">Troubleshooting</span></a>
-For Game related issues while using FlippyDrive check <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> and submit a bug report.</p>
-<p>For more information on configuring the FlippyDrive check the <a class="reference internal" href="configuration.html"><span class="doc">Configuration Files</span></a> page.</p>
+<ul class="simple">
+<li><p>If you experience any issues during gameplay please reference the <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> page and submit a bug report using the form.</p></li>
+<li><p>For FlippyDrive bugs go to <a class="reference internal" href="troubleshooting.html"><span class="doc">Troubleshooting</span></a>.</p></li>
+<li><p>For Game related issues while using FlippyDrive check <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> and submit a bug report.</p></li>
+<li><p>For more information on configuring the FlippyDrive check the <a class="reference internal" href="configuration.html"><span class="doc">Configuration Files</span></a> page.</p></li>
+</ul>
 </div>
 <div class="toctree-wrapper compound">
 </div>
@@ -375,7 +371,7 @@ For Game related issues while using FlippyDrive check <a class="reference intern
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2024, ChrisPVille RadicalPlants
+                Copyright &#169; 2024-2025, ChrisPVille &amp; RadicalPlants
             </div>
             Made with 
             <a href="https://github.com/pradyunsg/furo">Furo</a>
@@ -410,8 +406,8 @@ For Game related issues while using FlippyDrive check <a class="reference intern
 <li><a class="reference internal" href="#startup">Startup</a></li>
 <li><a class="reference internal" href="#update-mode">Update Mode</a></li>
 <li><a class="reference internal" href="#passthrough-mode">Passthrough Mode</a><ul>
-<li><a class="reference internal" href="#enhanced-passthrough">Enhanced Passthrough</a></li>
 <li><a class="reference internal" href="#pure-passthrough">Pure Passthrough</a></li>
+<li><a class="reference internal" href="#enhanced-passthrough">Enhanced Passthrough</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#normal-mode">Normal Mode</a></li>
@@ -429,11 +425,11 @@ For Game related issues while using FlippyDrive check <a class="reference intern
     </aside>
   </div>
 </div><script src="_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/scripts/furo.js?v=4e2eecee"></script>
+    <script src="_static/scripts/furo.js?v=5fa4622c"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>
