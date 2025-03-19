@@ -37,6 +37,10 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     # Used for waiting for GCVideo to initialize
     preboot_delay_ms = 0
 
+    # Delays loading after the boot logo
+    # to mimic the load times you would usually experience when booting a disc
+    # postboot_delay_ms = 3000
+
     [network]
     # All network features require a server to be set and running the FlippyDrive app
     # WiFi connections also require a ssid and password
