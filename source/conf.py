@@ -31,10 +31,9 @@ class BaseStatusDirective(Directive):
         # Adds classes
         paragraph_node['classes'].extend(['status', f'status-{self.status_type}'])
 
-        if self.content:
-            # Nested parsing to handle the full content including RST syntax
-            self.state.nested_parse(content_with_prefix, self.content_offset, paragraph_node)
-            flatten_nested_paragraphs(paragraph_node) #flatten the generated paragraph
+        # Nested parsing to handle the full content including RST syntax
+        self.state.nested_parse(content_with_prefix, self.content_offset, paragraph_node)
+        flatten_nested_paragraphs(paragraph_node) #flatten the generated paragraph
 
         return [paragraph_node]
 
