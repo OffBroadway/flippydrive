@@ -108,4 +108,5 @@ Once you are ready to play, press ``START`` on the game select screen and it wil
 
     updates
     backup
+    memcardprogc
 

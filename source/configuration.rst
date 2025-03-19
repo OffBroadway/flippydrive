@@ -31,7 +31,7 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     # Force progressive scan inside the IPL menu
     force_progressive = 0
 
-    # Disable Memcard Pro Support
+    # Disable MemCard PRO GC Support
     disable_mcp_select = 0
 
     # Used for waiting for GCVideo to initialize
