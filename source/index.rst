@@ -25,7 +25,7 @@ Major Features
 ==============
 
 - :doc:`No-solder internal install <installation>` into the original Disc Drive slot
-- Load games from µSD Card
+- Load games from microSD Card
 - Experimental loading over :doc:`Wi-Fi <wifi>` (RPi / PC / NAS)
 - No software patching required (games can run stock)
 - Preinstalled `cubeboot <https://github.com/OffBroadway/cubeboot>`_ menu patcher
