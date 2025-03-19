@@ -68,13 +68,6 @@ Passthrough Mode
 
 Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.
 
-Enhanced Passthrough
-********************
-
-Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
-
-This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
-
 Pure Passthrough
 ****************
 
@@ -83,6 +76,13 @@ Hold the ``L`` trigger on P1 when powering up the console to enter pure passthro
 Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.
 
 Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.
+
+Enhanced Passthrough
+********************
+
+Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
+
+This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
 
 .. _cubeboot:
 
