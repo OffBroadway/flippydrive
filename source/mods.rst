@@ -6,7 +6,7 @@ Picoboot and other IPL replacements
 
 Because Picoboot and other IPL replacements feed the GameCube a non-stock boot program, Cubeboot is not compatible with these mods. It is not necessary to remove them, but they must be disabled according to their respective project's documentation.
 
-Pico based mods like the Picoboot can be disabled simply by erasing the flash using the first-party ``picotool``.
+Pico-based mods like the Picoboot can be disabled simply by erasing the flash using the first-party ``picotool``.
 
 GCVideo
 ```````
