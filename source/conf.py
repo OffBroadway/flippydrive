@@ -3,26 +3,39 @@ from docutils.parsers.rst import roles
 from docutils.parsers.rst import Directive
 from docutils.statemachine import StringList
 
+def flatten_nested_paragraphs(node):
+    """Recursively flattens nested paragraph elements."""
+    if isinstance(node, nodes.paragraph):
+        i = 0
+        while i < len(node.children):
+            child = node.children[i]
+            if isinstance(child, nodes.paragraph):
+                node[i:i + 1] = child.children  # Replace nested paragraph with its children
+            else:
+                i += 1
+    for child in node.children:
+        flatten_nested_paragraphs(child)
+
 class BaseStatusDirective(Directive):
     has_content = True
     status_type = 'status'
     prefix_text = 'Status'  # Default text, overridden in subclasses
 
-    def run(self):
+    def run(self) -> list[Node]:
         # Create a new list of strings from the content with the prefixed text
         content_with_prefix = StringList([self.prefix_text] + self.content.data, source='')
 
         # Create a paragraph node to contain the content
         paragraph_node = nodes.paragraph()
-        
-        # Nested parsing to handle the full content including RST syntax
-        self.state.nested_parse(content_with_prefix, self.content_offset, paragraph_node)
-        
-        # Apply the specific class to all nodes in the paragraph
-        for node in paragraph_node.traverse(nodes.TextElement):
-            node['classes'].append('status')
-            node['classes'].append(f'status-{self.status_type}')
-        
+
+        # Adds classes
+        paragraph_node['classes'].extend(['status', f'status-{self.status_type}'])
+
+        if self.content:
+            # Nested parsing to handle the full content including RST syntax
+            self.state.nested_parse(content_with_prefix, self.content_offset, paragraph_node)
+            flatten_nested_paragraphs(paragraph_node) #flatten the generated paragraph
+
         return [paragraph_node]
 
 class OkDirective(BaseStatusDirective):
