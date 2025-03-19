@@ -22,7 +22,9 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
     boot_mode = normal
 
     [cubeboot]
-    # Support rgb hex colors aka websafe colors (comment out to use default color)
+    # Cube color - Supports RGB hex colors aka websafe colors
+    # comment out/remove the whole line to use the original color
+    # Setting "random" shows a random color
     cube_color = 660089
 
     # Enable booting through Swiss for all games
