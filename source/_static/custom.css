@@ -1,34 +1,34 @@
 .status {
-    text-align: center;
-    color: #fff;  /* white text color */
+  text-align: center;
+  color: #fff; /* white text color */
 }
 
 .status-gok {
-    background-color: #4CAF50;  /* green */
+  background-color: #4CAF50; /* green */
 }
 
 .status-gprob {
-    background-color: #C99E26;  /* amber */
+  background-color: #C99E26; /* amber */
 }
 
 .status-gbad {
-    background-color: #F44336;  /* red */
+  background-color: #F44336; /* red */
 }
 
 .status-split {
-    position: relative;
-    text-align: center;
-    color: #fff;  /* white text color */
-    background-color: transparent; /* ensure no default background color */
+  position: relative;
+  text-align: center;
+  color: #fff; /* white text color */
+  background-color: transparent; /* ensure no default background color */
 }
 
 .status-split::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom right, #4CAF50 50%, #C99E26 50%);
-    z-index: -1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #4CAF50 50%, #C99E26 50%);
+  z-index: -1;
 }
