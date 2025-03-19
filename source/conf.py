@@ -91,6 +91,7 @@ html_theme_options = {
 
 html_title = 'FlippyDrive Docs'
 html_show_sphinx = False
+html_show_sourcelink = False
 
 html_css_files = [
     'https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css',
