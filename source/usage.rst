@@ -56,31 +56,30 @@ When booting the GameCube using FlippyDrive you have three options:
 
 .. _updatemode:
 
-Update Mode
------------
+Bootloader menu
+---------------
 
-If you hold down the ``X`` button on the P1 controller it will start the FlippyDrive bootloader menu.
+If you hold down the ``X`` button on the P1 controller it will start the FlippyDrive :doc:`bootloader`.
 
-.. _bypassmode:
+.. _discmode:
 
-Passthrough Mode
-------------------
-
-Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.
-
-Pure Passthrough
+Disc Mode
 ****************
+.. versionchanged:: 1.5.0
+   In version 1.4.3 and below, the ``L`` and ``R`` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
 
-Hold the ``L`` trigger on P1 when powering up the console to enter pure passthrough mode.
+Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.
+
+Hold ``Left (←)`` on the +Control Pad (Player 1) when powering up the console to enter disc mode mode.
 
 Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.
 
 Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.
 
-Enhanced Passthrough
+Enhanced Disc Mode
 ********************
 
-Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
+Hold ``Right (→)`` on the +Control Pad (Player 1) when powering up the console to enter Enhanced Disc Mode.
 
 This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
 
@@ -107,6 +106,6 @@ Once you are ready to play, press ``START`` on the game select screen and it wil
     :hidden:
 
     updates
+    bootloader
     backup
     memcardprogc
-
