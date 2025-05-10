@@ -51,7 +51,7 @@ Installing
 In order to install the firmware simply copy the recovery.uf2 file into the USB drive labeled "RPI-RP2" and wait for the copy to complete. You will know that it is done when the drive Auto ejects and disappears.
 
 .. note::
-    Installing via this method will wipe out the internal flash on the FlippyDrive. This means any Homebrew dol files you have copied over will be removed.
+    Installing via this method will wipe out the internal flash on the FlippyDrive. This means any homebrew dol files you have copied over will be removed.
     
     This method does not affect the microSD card at all and it is safe to use while the microSD card is inserted.
 
