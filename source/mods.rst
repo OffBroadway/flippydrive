@@ -18,9 +18,7 @@ In addition to the damage this may be doing to the GameCube, it keeps the Flippy
 .. admonition:: GCVideo support bracket compatibility with FlippyDrive Ethernet add-on
    :class: note
 
-   If you've bought or 3D-printed a support bracket for your plug-and-play GCVideo adapter (such as the Carby) to rest on, please note that the vents in the FlippyDrive Ethernet add-on are slightly smaller, your existing support plug might not fit through.
-
-   Use a recommended 3D model xyz from HERE which should fit.
+   If you've bought or 3D-printed a support bracket for your plug-and-play GCVideo adapter (such as the Carby) to rest on, please note that the vents in the FlippyDrive Ethernet add-on rear I/O panel are slightly smaller, your existing support bracket might not fit through.
 
 Power
 `````
