@@ -10,6 +10,8 @@ The configuration file is a simple ini file with sections. The sections are used
 
 Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
 
+.. warning::
+   ``preboot_delay_ms`` did not work correctly before version 1.5.0. It is advised not to use it as it could cause other issues such as being unable to boot certain titles.
 
 **Example Configuration file:**
 
@@ -45,7 +47,7 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
 
     [network]
     # All network features require a server to be set and running the FlippyDrive app
-    # WiFi connections also require a ssid and password
+    # Wi-Fi connections also require a SSID and password
 
     # Sets the network interface as the default disc device (active is 1)
     # cubeboot can use other network features regardless of setting
