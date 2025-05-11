@@ -28,6 +28,8 @@ It is possible to launch onboard DOL files from the FlippyDrive flash storage di
 - cubeboot
     This launches cubeboot, basically the same thing that happens when powering up the GameCube without opening the bootloader.
 
+- remote-access
+    This launches remote access so that you can transfer files from/to the SD card through FTP and/or SMB. Check out the :doc:`remote-access` for more information.
 - swiss-gc
     This launches the homebrew software `Swiss <https://github.com/emukidid/swiss-gc>`_.
 
