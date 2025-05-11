@@ -1,3 +1,4 @@
 Sphinx==8.2.3
 furo==2024.8.6
 sphinx-reredirects
+sphinx-copybutton
