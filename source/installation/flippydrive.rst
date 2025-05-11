@@ -179,7 +179,11 @@ Please wait to see that the install completes successfully and press ``START`` w
     
     See the :doc:`/troubleshooting` section for more tips.
 
-Step 5: Reassemble GameCube
+Step 5: Install Ethernet add-on (optional)
+
+If you ordered the FlippyDrive Deluxe <!-- or the standalone Basic to Deluxe upgrade kit -->now would be the time to install it. :doc:`Follow the installation guide here </installation/ethernet>`.
+
+Step 6: Reassemble GameCube
 ```````````````````````````
 
 Follow the instructions in Step 1 in reverse.
