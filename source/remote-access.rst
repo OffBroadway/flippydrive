@@ -6,8 +6,8 @@ Make sure the FlippyDrive application is open on your computer before turning on
 
 #. Hold ``X`` to get to the FlippyDrive bootloader
 #. Select ``Boot Onboard DOL``
-#. Select ``remote-access.dol``.
+#. Select ``remote-access``.
 
 This app will start the FTP/SMB connection. You can then use your favorite FTP client to connect to the IP address and port specified in the app.
 
-.. todo:: Screenshot of remote-access.dol running
+.. todo:: Screenshot of program running
