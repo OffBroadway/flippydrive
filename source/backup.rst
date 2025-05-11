@@ -19,6 +19,6 @@ The backup process can take anywhere from 25 minutes to over an hour.
 Fast Mode
 ---------
 .. warning:: This mode is currently not available yet
-.. _versionadded:: 1.5.0
+.. versionadded: 1.5.0
 
 The FlippyDrive will snoop on drive traffic in fast mode and attempt to store data as it is streaming by.  This will likely succeed in SD mode and will likely fail in Network modes.  The program will inform you if the FlippyDrive storage medium cannot keep up and the transfer will abort.
