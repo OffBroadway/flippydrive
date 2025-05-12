@@ -55,10 +55,9 @@ Now that the PCB has been inserted into the rear I/O panel, insert the rear I/O 
 
 Step 3: Connect ribbon cable
 ````````````````````````````
+Connect the ribbon cable to the extension port on the FlippyDrive and the Ethernet board:
 
-Connect the ribbon cable to the FlippyDrive and the Ethernet board.
-
-Inspect the Ethernet add-on. Check the ribbon cable connector locking tab and make sure it is in the unlocked/up position.
+Inspect the Ethernet add-on and the FlippyDrive extension port. Check both ribbon cable connector locking tabs and make sure they are in the unlocked/up position.
 
 Insert the ribbon cable, with the blue side of the ribbon cable facing **up** on both sides.
 
@@ -71,9 +70,9 @@ Inserting it into the flex cable connector the might require a little bit of for
 
     .. image:: /_static/molex.png
 
-When locked, the black locking tab will be flush with the body of the connector.
+When locked, the black locking tab will be flush with the body of the connector. Make sure that the ribbon cable is inserted straight into the connector, not at a slight angle.
 
-.. todo:: Add image of Ethernet add-on ribbon cable connector.
+.. todo:: Add image of Ethernet add-on/FlippyDrive extension port ribbon cable connector.
 
 Step 4: Verify Installation
 ```````````````````````````
