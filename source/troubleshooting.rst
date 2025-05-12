@@ -4,7 +4,7 @@ Troubleshooting
 .. admonition:: Need more help?
    :class: hint
    
-   Submit a support ticket at `<https://help.teamoffbroadway.com/portal>`_
+   Ask for support on the `Discord server <https://discord.com/invite/dryH3tuycR>`_ or submit a support ticket at `<https://help.teamoffbroadway.com/portal>`_.
 
 During FlippyDrive install
 ``````````````````````````
