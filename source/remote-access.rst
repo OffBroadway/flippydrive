@@ -10,4 +10,4 @@ Make sure the FlippyDrive application is open on your computer before turning on
 
 This app will start the FTP/SMB connection. You can then use your favorite FTP client to connect to the IP address and port specified in the app.
 
-.. todo:: Screenshot of program running
+.. todo:: Screenshot of program running - add steps here how to connect to SMB through a tool such as FileZilla
