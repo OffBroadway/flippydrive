@@ -35,10 +35,10 @@ It is possible to launch onboard DOL files from the FlippyDrive flash storage di
 
 Boot Disc Mode
 ***************************
-.. hint:: You can also hold down ``L`` while turning on the GameCube to boot directly to Pure Bypass mode.
+.. hint:: You can also hold down ``L`` while turning on the GameCube to boot directly to Disc Mode.
 
-This starts Disc mode. For more information, check out the :doc`usage`
-This allows you to boot physical media from the DVD drive, in Pure Bypass mode, your GameCube will function the same as if it's a original GameCube, with the same restrictions.
+This starts Disc Mode. For more information, check out the :doc`usage`
+This allows you to boot physical media from the DVD drive, your GameCube will function the same as if it's a original GameCube, with the same restrictions.
 
 Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock GameCube behavior.
 
@@ -46,9 +46,9 @@ Boot Enhanced Disc Mode
 *******************************
 
 .. versionadded:: 1.3.0
-.. hint:: You can also hold down ``R`` while turning on the GameCube to boot directly to Enhanced Bypass mode.
+.. hint:: You can also hold down ``R`` while turning on the GameCube to boot directly to Enhanced Disc Mode.
 
-This allows you to boot physical media from the DVD drive via cubeboot, in Enhanced Bypass mode. Enhanced Bypass mode allows you to bypass region restrictions. Please note that this mode is currently a bit unstable.
+This allows you to boot physical media from the DVD drive via cubeboot, in Enhanced Disc Mode. Enhanced Bypass mode allows you to bypass region restrictions. Please note that this mode is currently a bit unstable.
 
 
 Exit
