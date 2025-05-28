@@ -167,12 +167,11 @@ Using a #0 Phillips, attach FlippyDrive to the frame with the two provided screw
 Step 4: Verify Installation
 ```````````````````````````
 
-.. warning::    
-    If you removed the front panel/controller board, time will be lost and you must set the clock. After setting the clock, power cycle the GameCube to proceed.
+.. warning:: If you removed the front panel/controller board, time will be lost and you must set the clock. After setting the clock, power cycle the GameCube to proceed.
 
 Connect the GameCube to a display and power on the GameCube while holding ``X``. It is safe to run the GameCube without a fan for quite some time. You should see the FlippyDrive bootloader, which means the install was successful!
 
-Please wait to see that the install completes successfully and press ``START`` when prompted before powering off.
+.. tip:: Please make note of the software version in the bottom right corner - there might be a software update available. Read the :doc:`/updates` page for more information.
 
 .. admonition:: Need help?
     :class: hint
@@ -180,8 +179,8 @@ Please wait to see that the install completes successfully and press ``START`` w
     See the :doc:`/troubleshooting` section for more tips.
 
 Step 5: Install Ethernet add-on (optional)
-
-If you ordered the FlippyDrive Deluxe <!-- or the standalone Basic to Deluxe upgrade kit -->now would be the time to install it. :doc:`Follow the installation guide here </installation/ethernet>`.
+``````````````````````````````````````````
+If you ordered the FlippyDrive Deluxe or upgraded from a basic FlippyDrive, now would be the time to install it. :doc:`Follow the installation guide here </installation/ethernet>`.
 
 Step 6: Reassemble GameCube
 ```````````````````````````
