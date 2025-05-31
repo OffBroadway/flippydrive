@@ -74,7 +74,7 @@ Fold the flex cable along the perforation as seen below. When viewing the flex c
      :width: 320
      :class: align-center
 
-.. note::    
+.. warning::
     The flex cable is quite forgiving to excessive force, but it is undesirable to form a sharp fold. As long as it can seat into the connector, it will function.
 
 .. image:: /_static/4X1A7498.jpg
