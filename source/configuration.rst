@@ -11,6 +11,56 @@ Some options are optional. If so, they are marked with a ``#`` in front of them,
 
 This document explains the various configuration options available in the ``config.ini`` file.
 
+Example Configuration file
+==========================
+
+.. code-block:: ini
+
+    [flippydrive]
+    # Default boot mode, values are "normal" and "bypass"
+    # Setting "bypass" will always boot from the disc drive unless X is held down,
+    # at which point you can choose cubeboot, swiss, etc.
+    boot_mode = normal
+
+    [cubeboot]
+    # Custom cube logo color - Supports RGB hex colors aka websafe colors
+    # Keep the line commented out to use original logo color
+    # Setting "random" shows a random color
+    # cube_color = 660089
+
+    # Enable booting through Swiss for all games
+    force_swiss_default = 0
+
+    # Force progressive scan inside the IPL menu
+    force_progressive = 0
+
+    # Disable MemCard PRO GC Support
+    disable_mcp_select = 0
+
+    # Used for waiting for GCVideo to initialize
+    preboot_delay_ms = 0
+
+    # Delays loading after the boot logo
+    # to mimic the load times you would usually experience when booting a disc
+    # postboot_delay_ms = 3000
+
+    [network]
+    # All network features require a server to be set and running the FlippyDrive app
+    # Wi-Fi connections also require a SSID and password
+
+    # Sets the network interface as the default disc device (active is 1)
+    # cubeboot can use other network features regardless of setting
+    is_default = 0
+
+    # Server IP address, in either IPv4 or IPv6 format. Port is 7031
+    server = 198.51.100.1
+
+    # SSID of your network
+    ssid = FBIWhiteVan
+
+    # Network key
+    password = JEdgarHooverDidNothingWrong
+
 Configuration File Format
 =========================
 
@@ -137,53 +187,3 @@ Wi-Fi connections also necessitate providing both an SSID and password.
    :type: string
 
    The network key (password) for your Wi-Fi network.
-
-Example Configuration file
-==========================
-
-.. code-block:: ini
-
-    [flippydrive]
-    # Default boot mode, values are "normal" and "bypass"
-    # Setting "bypass" will always boot from the disc drive unless X is held down,
-    # at which point you can choose cubeboot, swiss, etc.
-    boot_mode = normal
-
-    [cubeboot]
-    # Custom cube logo color - Supports RGB hex colors aka websafe colors
-    # Keep the line commented out to use original logo color
-    # Setting "random" shows a random color
-    # cube_color = 660089
-
-    # Enable booting through Swiss for all games
-    force_swiss_default = 0
-
-    # Force progressive scan inside the IPL menu
-    force_progressive = 0
-
-    # Disable MemCard PRO GC Support
-    disable_mcp_select = 0
-
-    # Used for waiting for GCVideo to initialize
-    preboot_delay_ms = 0
-
-    # Delays loading after the boot logo
-    # to mimic the load times you would usually experience when booting a disc
-    # postboot_delay_ms = 3000
-
-    [network]
-    # All network features require a server to be set and running the FlippyDrive app
-    # Wi-Fi connections also require a SSID and password
-
-    # Sets the network interface as the default disc device (active is 1)
-    # cubeboot can use other network features regardless of setting
-    is_default = 0
-
-    # Server IP address, in either IPv4 or IPv6 format. Port is 7031
-    server = 198.51.100.1
-
-    # SSID of your network
-    ssid = FBIWhiteVan
-
-    # Network key
-    password = JEdgarHooverDidNothingWrong
