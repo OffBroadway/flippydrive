@@ -1,5 +1,5 @@
 Installation
-============
+************
 
 FlippyDrive has a solderless installation process and can be used with or without the disc drive. Many of the notes and callouts here are the result of previous failed installs, so read them carefully to avoid falling into the same trap.
 

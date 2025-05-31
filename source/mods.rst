@@ -1,5 +1,5 @@
 Other Mod Compatibility
-=======================
+***********************
 
 Picoboot and other IPL replacements
 ```````````````````````````````````

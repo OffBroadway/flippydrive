@@ -1,5 +1,5 @@
 Using the FlippyDrive
-=====================
+*********************
 
 .. _sdcard:
 
@@ -64,7 +64,7 @@ If you hold down the :kbd:`X` button on the P1 controller it will start the Flip
 .. _discmode:
 
 Disc Mode
-****************
+=========
 .. versionchanged:: 1.5.0
    In version 1.4.3 and below, the :kbd:`L` and :kbd:`R` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
 
@@ -77,7 +77,7 @@ Control is handed completely to the physical disc drive and the disc will load a
 Once control is handed off to the drive in Disc Mode, it is not possible to exit unless you power off the GameCube.
 
 Enhanced Disc Mode
-********************
+==================
 
 Hold ``Right (→)`` on the +Control Pad (Player 1) when powering up the console to enter Enhanced Disc Mode.
 

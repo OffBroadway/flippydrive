@@ -1,5 +1,5 @@
 Troubleshooting
-===============
+***************
 
 .. admonition:: Need more help?
    :class: hint
@@ -7,7 +7,7 @@ Troubleshooting
    Ask for support on the `Discord server <https://discord.com/invite/dryH3tuycR>`_ or submit a support ticket at `<https://help.teamoffbroadway.com/portal>`_.
 
 During FlippyDrive install
-``````````````````````````
+==========================
 
 - **The flex cable doesn't reach the FlippyDrive**
 
@@ -24,7 +24,7 @@ During FlippyDrive install
      :class: align-center
 
 First Boot
-``````````
+==========
 
 - **I see the bootloader on first boot/pressing X but get a black screen after**
 
@@ -33,4 +33,4 @@ First Boot
   Make sure you're :doc:`running the latest software<updates>`. This is almost certainly a software bug and the details of your cube/install should be reported `to the issue tracker <https://github.com/OffBroadway/flippydrive/issues>`_ or `customer support <https://help.teamoffbroadway.com/portal>`_.
 
 Normal Usage
-````````````
+============

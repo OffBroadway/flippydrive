@@ -1,5 +1,5 @@
 Installation
-````````````
+************
 
 - :doc:`FlippyDrive <flippydrive>`
 

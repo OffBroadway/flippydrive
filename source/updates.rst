@@ -1,10 +1,10 @@
 Software Updates
-================
+****************
 
 .. _sdinstall:
 
 Install from microSD
-````````````````````
+====================
 
 In order to install software updates from the microSD card, you must download the *update.fpkg* file from the `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest stable release and download the update file.
 
@@ -20,7 +20,7 @@ There is an alternative to doing this where you can create an empty file called 
 .. _usbinstall:
 
 Install via USB
-```````````````
+===============
 
 .. hint::
     This process is only necessary if the firmware has somehow become corrupt and unbootable. You should always use the SD install process first, and attempt a software reinstall of the current version by holding :kbd:`X` at boot.
@@ -40,7 +40,7 @@ Be very careful when doing so as to not put undue stress on the flex cable. The 
 .. _connecting:
 
 Connecting to PC
-------------------
+----------------
 Before plugging in the USB cable, hold down the button on the front of the FlippyDrive while inserting the USB. You will know that it worked if a USB drive called "RPI-RP2" is mounted on your computer.
 
 
@@ -49,7 +49,7 @@ You can download the latest recovery.uf2 firmware file from the `FlippyDrive ass
 .. _installing:
 
 Installing
-------------------
+----------
 
 In order to install the firmware simply copy the recovery.uf2 file into the USB drive labeled "RPI-RP2" and wait for the copy to complete. You will know that it is done when the drive Auto ejects and disappears.
 
@@ -62,7 +62,7 @@ In order to install the firmware simply copy the recovery.uf2 file into the USB 
 .. _reassembly:
 
 Reassembly
-------------------
+----------
 
 Next, you can unplug the USB cable and mount the FlippyDrive back to the mounting post with the two screws.
 

@@ -1,5 +1,5 @@
 Disc Backup Utility
-===================
+*******************
 
 .. image:: /_static/bootloader_backup.png
   :width: 50%

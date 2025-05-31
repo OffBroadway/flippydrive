@@ -1,5 +1,5 @@
 MemCard PRO GC
-==============
+**************
 .. versionadded:: 1.4.0
 
 The FlippyDrive supports the MemCard PRO GC by 8BitMods.

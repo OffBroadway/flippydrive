@@ -1,10 +1,10 @@
 Configuration Files
-===================
+*******************
 
 The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.
     
 Configuration File Format
-`````````````````````````
+=========================
 
 The configuration file is a simple ini file with sections. The sections are used to group the configuration options.
 
@@ -13,7 +13,8 @@ Create an text file on the root of your SD card called ``config.ini``. The file 
 .. warning::
    ``preboot_delay_ms`` did not work correctly before version 1.5.0. It is advised not to use it as it could cause other issues such as being unable to boot certain titles.
 
-**Example Configuration file:**
+Example Configuration file:
+---------------------------
 
 .. code-block:: ini
 

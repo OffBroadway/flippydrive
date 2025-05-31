@@ -1,5 +1,5 @@
 Wi-Fi
-=====
+*****
 
 The FlippyDrive has onboard Wi-Fi for management, updates, and experimental support for loading games live.  All of this is accomplished with the FlippyDrive application.
 

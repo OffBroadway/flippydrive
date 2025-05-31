@@ -1,5 +1,5 @@
 Remote Access
-==============
+**************
 .. versionadded:: 1.5.0
 
 Make sure the FlippyDrive application is open on your computer before turning on your GameCube.
