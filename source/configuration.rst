@@ -44,6 +44,14 @@ Example Configuration file
     # to mimic the load times you would usually experience when booting a disc
     # postboot_delay_ms = 3000
 
+    # Experimental configuration options below
+    #
+    # This enables folder icons and game icons which are still a little buggy
+    # enable_experimental_png = 0
+    #
+    # This enables the cube logo feature which replaces the word 'GAMECUBE' on the boot animation
+    # cube_logo = somelogo.png
+
     [network]
     # All network features require a server to be set and running the FlippyDrive app
     # Wi-Fi connections also require a SSID and password
@@ -111,7 +119,8 @@ This section contains settings specific to cubeboot functionality.
    :type: integer
    :default: 0
 
-   When set to ``1``, forces progressive scan mode within the IPL (GameCube menu). On PAL 1.0, enabling this can cause graphical issues in various games.
+   When set to ``1``, forces progressive scan mode within the IPL (GameCube menu).
+   .. attention:: Doesn't work in IPL NTSC-U 1.0. Also causes graphical issues in games when running PAL IPL 1.0 if not forcing games to boot through Swiss (``force_swiss_default = 1``)
 
    Values:
 
@@ -187,3 +196,42 @@ Wi-Fi connections also necessitate providing both an SSID and password.
    :type: string
 
    The network key (password) for your Wi-Fi network.
+
+Experimental Options
+--------------------
+
+The following options are still under development. Use them at your own discretion.
+
+[cubeboot]
+^^^^^^^^^^
+.. confval:: enable_experimental_png
+   :type: integer
+   :default: 0 (commented out)
+
+   .. versionadded:: 1.5.0
+
+   When set to ``1``, this enables folder icons and game icons in the interface.
+   Be aware that this feature is still experimental and might have bugs.
+
+   Place PNG files with the same filename as the folder or game file, e.g. ``tux.png`` for ``tux.iso`` or ``misc.png`` for a folder called 'misc'
+
+   Values:
+
+   - ``0``: Disabled
+   - ``1``: Enabled
+
+.. confval:: cube_logo
+   :type: string (filename)
+   :default: (commented out)
+
+   .. versionadded:: 1.5.0
+
+   This enables the custom Cube logo feature, which replaces the word 'GAMECUBE' on
+   the boot animation with a custom image. Specify the filename of your desired logo image.
+   PNG dimensions must be 352x40.
+
+   Values:
+
+   - A valid PNG filename
+
+
