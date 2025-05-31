@@ -13,9 +13,9 @@ In order to install software updates from the microSD card, you must download th
 
 You can then place the file on the root of your microSD card. It must be named ``update.fpkg`` in order for the FlippyDrive to detect the update properly.
 
-In order to start the update, you must hold down ``X`` on the P1 controller while turning on the GameCube.
+In order to start the update, you must hold down :kbd:`X` on the P1 controller while turning on the GameCube.
 
-There is an alternative to doing this where you can create an empty file called ``forceupdate`` on the root of the microSD card as well. This will do the same thing as holding down ``X`` and force the FlippyDrive to do a software update when it starts.
+There is an alternative to doing this where you can create an empty file called ``forceupdate`` on the root of the microSD card as well. This will do the same thing as holding down :kbd:`X` and force the FlippyDrive to do a software update when it starts.
 
 .. _usbinstall:
 
@@ -23,7 +23,7 @@ Install via USB
 ```````````````
 
 .. hint::
-    This process is only necessary if the firmware has somehow become corrupt and unbootable. You should always use the SD install process first, and attempt a software reinstall of the current version by holding ``X`` at boot.
+    This process is only necessary if the firmware has somehow become corrupt and unbootable. You should always use the SD install process first, and attempt a software reinstall of the current version by holding :kbd:`X` at boot.
 
 In order to install a software update from USB you have to perform a full recovery.
 This method must be performed while the GameCube is turned off. It is suggested that you remove the power cable from the back of the GameCube.

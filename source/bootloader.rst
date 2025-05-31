@@ -1,7 +1,7 @@
 Bootloader menu
 ===============
 
-If you hold ``X`` while powering on the GameCube, the GameCube boots to the FlippyDrive bootloader menu.
+If you hold :kbd:`X` while powering on the GameCube, the GameCube boots to the FlippyDrive bootloader menu.
 
 .. image:: /_static/bootloader.png
   :width: 50%
@@ -36,7 +36,7 @@ It is possible to launch onboard DOL files from the FlippyDrive flash storage di
 Boot Disc Mode
 ***************************
 
-.. hint:: Formerly known as Pure Bypass mode. You can also hold down ``L`` while turning on the GameCube to boot directly to Disc Mode.
+.. hint:: Formerly known as Pure Bypass mode. You can also hold down :kbd:`L` while turning on the GameCube to boot directly to Disc Mode.
 
 This starts Disc Mode. For more information, check out the :doc`usage`
 This allows you to boot physical media from the DVD drive, your GameCube will function the same as if it's a original GameCube, with the same restrictions.
@@ -47,7 +47,7 @@ Boot Enhanced Disc Mode
 *******************************
 .. versionadded:: 1.3.0
 
-.. hint:: Formerly known as Enhanced Bypass mode. You can also hold down ``R`` while turning on the GameCube to boot directly to Enhanced Disc Mode.
+.. hint:: Formerly known as Enhanced Bypass mode. You can also hold down :kbd:`R` while turning on the GameCube to boot directly to Enhanced Disc Mode.
 
 This allows you to boot physical media from the DVD drive via cubeboot, in Enhanced Disc Mode. Enhanced Bypass mode allows you to bypass region restrictions. Please note that this mode is currently a bit unstable.
 

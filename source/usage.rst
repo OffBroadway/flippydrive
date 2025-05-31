@@ -59,14 +59,14 @@ When booting the GameCube using FlippyDrive you have three options:
 Bootloader menu
 ---------------
 
-If you hold down the ``X`` button on the P1 controller it will start the FlippyDrive :doc:`bootloader`.
+If you hold down the :kbd:`X` button on the P1 controller it will start the FlippyDrive :doc:`bootloader`.
 
 .. _discmode:
 
 Disc Mode
 ****************
 .. versionchanged:: 1.5.0
-   In version 1.4.3 and below, the ``L`` and ``R`` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
+   In version 1.4.3 and below, the :kbd:`L` and :kbd:`R` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
 
 Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.
 
@@ -92,9 +92,9 @@ If you do not hold down any buttons while the GameCube is turning on, it will bo
 
 Cubeboot will play the GameCube startup animation and then jump directly into the Cubeboot Loader which allows you to select a game to play.
 
-You can navigate the loader with the analog stick and press ``A`` to select a game. If you do not want to start that game simply press ``B`` to get back to the list of games.
+You can navigate the loader with the analog stick and press :kbd:`A` to select a game. If you do not want to start that game simply press :kbd:`B` to get back to the list of games.
 
-Once you are ready to play, press ``START`` on the game select screen and it will immediately boot the game.
+Once you are ready to play, press :kbd:`START` on the game select screen and it will immediately boot the game.
 
 Multi-disc games
 ----------------

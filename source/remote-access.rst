@@ -4,7 +4,7 @@ Remote Access
 
 Make sure the FlippyDrive application is open on your computer before turning on your GameCube.
 
-#. Hold ``X`` to get to the FlippyDrive bootloader
+#. Hold :kbd:`X` to get to the FlippyDrive bootloader
 #. Select ``Boot Onboard DOL``
 #. Select ``remote-access``.
 

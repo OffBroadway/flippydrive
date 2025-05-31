@@ -169,7 +169,7 @@ Step 4: Verify Installation
 
 .. warning:: If you removed the front panel/controller board, time will be lost and you must set the clock. After setting the clock, power cycle the GameCube to proceed.
 
-Connect the GameCube to a display and power on the GameCube while holding ``X``. It is safe to run the GameCube without a fan for quite some time. You should see the FlippyDrive bootloader, which means the install was successful!
+Connect the GameCube to a display and power on the GameCube while holding :kbd:`X`. It is safe to run the GameCube without a fan for quite some time. You should see the FlippyDrive bootloader, which means the install was successful!
 
 .. tip:: Please make note of the software version in the bottom right corner - there might be a software update available. Read the :doc:`/updates` page for more information.
 
