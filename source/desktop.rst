@@ -75,6 +75,7 @@ Advanced Options
 * **Enable High Compression Levels (not recommended)**
 
   .. caution:: While this may result in even smaller file sizes, it is **not recommended** as, depending on the file you compress, will **likely** cause compatibility issues, causing files to fail to boot on the GameCube. Use this option with caution and at your own risk.
+
   Checking this box will enable the use of potentially higher compression levels.
 
 * **Save Intermediate NKit Files**

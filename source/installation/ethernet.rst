@@ -1,6 +1,6 @@
 FlippyDrive Ethernet
 ********************
-.. caution:: 2025-05-31: This guide is not 100% complete.
+.. caution:: 2025-06-01: This guide is not 100% complete.
 
 Things Required
 ===============

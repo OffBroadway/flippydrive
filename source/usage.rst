@@ -70,7 +70,7 @@ Disc Mode
 
 Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.
 
-Hold ``Left (←)`` on the +Control Pad (Player 1) when powering up the console to enter disc mode mode.
+Hold ``Left (←)`` on the +Control Pad (Player 1) when powering up the console to enter Disc Mode.
 
 Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock GameCube behavior.
 
