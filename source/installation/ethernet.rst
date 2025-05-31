@@ -1,10 +1,12 @@
 FlippyDrive Ethernet
 ********************
-.. caution:: 2025-05-12: This guide is not 100% ready yet. Images will be added as soon as possible.
-.. todo:: Insert picture here of the Ethernet PCB, ribbon cable and back panel
+.. caution:: 2025-05-31: This guide is not 100% complete.
 
 Things Required
 ===============
+.. image:: /_static/install_ethernet/1_overview.jpg
+  :width: 50%
+
 - 10-15 Minutes
 - FlippyDrive Ethernet kit (Ethernet expansion PCB, ribbon cable, rear I/O panel ('back plate'))
 - 4.5mm Gamebit screwdriver
@@ -20,9 +22,9 @@ If you haven't already installed the FlippyDrive, :doc:`follow the installation 
 Step 1: Remove screw
 ====================
 
-For the Ethernet add-on to fit inside the GameCube below the lid switch, it's required to remove one screw.
+.. image:: /_static/install_ethernet/16_gc_screw.jpg
 
-.. todo:: Add picture here showing the screw
+For the Ethernet add-on to fit inside the GameCube below the lid switch, it's required to remove one screw.
 
 Using a #0 Phillips, remove the leftmost screw on the back side of the GameCube, below the lid switch. There is no space in the rear I/O panel to hold this screw, please store it somewhere safe or tape it to the inside of the rear I/O panel.
 
@@ -36,7 +38,7 @@ Viewing from the back, the lights on the ethernet port should be on the RIGHT.
 
 The process of inserting the ethernet add-on PCB / getting the module past the two clamps can be a bit finicky. It help to use the side of the metal Ethernet port to push the black holding clamps away.
 
-.. admonition:: Need help with inserting the ethernet board?
+.. admonition:: Need help with installation?
     :class: hint
 
     See the :doc:`../troubleshooting` section for more tips or join the Discord link through there while the documentation is being finalized.
@@ -60,7 +62,7 @@ Inspect the Ethernet add-on and the FlippyDrive extension port. Check both ribbo
 
 Insert the ribbon cable, with the blue side of the ribbon cable facing **up** on both sides.
 
-.. todo:: Insert picture here
+.. image:: /_static/install_ethernet/19_gc_fd_ribbon_insert.jpg
 
 Inserting it into the flex cable connector the might require a little bit of force, **DO NOT** use excessive force or you might damage the connector.
 
@@ -77,7 +79,7 @@ Step 4: Verify Installation
 ===========================
 Connect the GameCube to a display and power on the GameCube. If everything works, you should be able to ping the FlippyDrive from a computer. (hostname: ``flippydrive``)
 
-.. todo:: Add section how to verify
+.. todo:: Add section how to verify installation through the bootloader menu
 
 .. admonition:: Need help?
     :class: hint
@@ -87,7 +89,7 @@ Connect the GameCube to a display and power on the GameCube. If everything works
 Step 5: Reassemble GameCube
 ===========================
 
-Follow the instructions in :ref:`Step 1 of the FlippyDrive installation guide <opengamecube>` in reverse. While putting the lid back on, make sure to gently push the ribbon cable underneath the side wall carefully.
+Follow the instructions in :ref:`Step 1 of the FlippyDrive installation guide <opengamecube>` in reverse without the screw that was removed in Step 2. While putting the lid back on (with the lid open), make sure to gently push the ribbon cable underneath the side wall carefully.
 
 .. danger::
     Make sure your disc lid is **open** before reassembly. Attaching it when closed can damage the door cover switch.
