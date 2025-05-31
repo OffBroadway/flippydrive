@@ -37,3 +37,7 @@
   text-align: center;
   border: 0;
 }
+
+.sig-name {
+  --color-api-name: #fff;
+}
