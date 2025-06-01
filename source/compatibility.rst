@@ -10,7 +10,8 @@ Having just entered beta, the FlippyDrive currently has a few thousand hours of 
 Game List
 =========
 
-:: note:: 2025-06-01 - The table on this page will be updated soon!
+.. note:: 2025-06-02 - The table on this page will be updated soon!
+
 
 .. note:: 
     This list is largely sourced from community feedback, so it may have some inaccuracies.
