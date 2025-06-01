@@ -21,9 +21,7 @@ By default, the FlippyDrive uses the following network parameters:
 
 The FlippyDrive has onboard Wi-Fi for management, updates, and experimental support for loading games live. All of this is accomplished with the FlippyDrive application.
 
-Take a look at the :doc:`configuration file<configuration>` entries, :doc:`server<server>`, and/or :doc:`desktop app<desktop>` required to use Wi-Fi.
-
-.. todo:: The desktop application documentation is now in progress, standby.
+Take a look at the :doc:`configuration file<configuration>` entries, :doc:`server<server>`, and/or :doc:`desktop app<desktop>` required to use network features.
 
 Gameplay Network Requirements
 `````````````````````````````

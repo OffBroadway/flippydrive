@@ -228,7 +228,7 @@ The following options are still under development. Use them at your own discreti
 
    This enables the custom Cube logo feature, which replaces the word 'GAMECUBE' on
    the boot animation with a custom image. Specify the filename of your desired logo image.
-   PNG dimensions must be 352x40.
+   PNG dimensions must be 352x40 and can be generated `here <https://trevor.la/logo>`_.
 
    Values:
 
