@@ -1,5 +1,5 @@
 Using the FlippyDrive
-=====================
+*********************
 
 .. _sdcard:
 
@@ -56,31 +56,30 @@ When booting the GameCube using FlippyDrive you have three options:
 
 .. _updatemode:
 
-Update Mode
------------
+Bootloader menu
+---------------
 
-If you hold down the ``X`` button on the P1 controller it will start the FlippyDrive bootloader menu.
+If you hold down the :kbd:`X` button on the P1 controller it will start the FlippyDrive :doc:`bootloader`.
 
-.. _bypassmode:
+.. _discmode:
 
-Passthrough Mode
-------------------
+Disc Mode
+=========
+.. versionchanged:: 1.5.0
+   In version 1.4.3 and below, the :kbd:`L` and :kbd:`R` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
 
-Two passthrough modes are provided by the FlippyDrive to launch games in the physical disc drive.
+Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.
 
-Pure Passthrough
-****************
+Hold ``Left (←)`` on the +Control Pad (Player 1) when powering up the console to enter Disc Mode.
 
-Hold the ``L`` trigger on P1 when powering up the console to enter pure passthrough mode.
+Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock GameCube behavior.
 
-Control is handed completely to the physical disc drive and the disc will load as if no FlippyDrive is installed.  That means your disc and console must match regions and no additional features are available as this is stock gamecube behavior.
+Once control is handed off to the drive in Disc Mode, it is not possible to exit unless you power off the GameCube.
 
-Once control is handed off to the drive in pure mode, it is not possible to exit unless you power off the GameCube.
+Enhanced Disc Mode
+==================
 
-Enhanced Passthrough
-********************
-
-Hold the ``R`` trigger on P1 when powering up the console to enter enhanced passthrough mode.
+Hold ``Right (→)`` on the +Control Pad (Player 1) when powering up the console to enter Enhanced Disc Mode.
 
 This process uses your physical disc loaded via cubeboot with the ``config.ini`` file with read with appropriate video and region-free settings applied.
 
@@ -93,9 +92,13 @@ If you do not hold down any buttons while the GameCube is turning on, it will bo
 
 Cubeboot will play the GameCube startup animation and then jump directly into the Cubeboot Loader which allows you to select a game to play.
 
-You can navigate the loader with the analog stick and press ``A`` to select a game. If you do not want to start that game simply press ``B`` to get back to the list of games.
+You can navigate the loader with the analog stick and press :kbd:`A` to select a game. If you do not want to start that game simply press :kbd:`B` to get back to the list of games.
 
-Once you are ready to play, press ``START`` on the game select screen and it will immediately boot the game.
+Once you are ready to play, press :kbd:`START` on the game select screen and it will immediately boot the game.
+
+Multi-disc games
+----------------
+When a game requests another game disc to be loaded, as long as the disc image is available from the current source (SD or network) it will load the disc within a few seconds.
 
 .. seealso::
   - If you experience any issues during gameplay please reference the :doc:`compatibility` page and submit a bug report using the form.
@@ -107,6 +110,6 @@ Once you are ready to play, press ``START`` on the game select screen and it wil
     :hidden:
 
     updates
+    bootloader
     backup
     memcardprogc
-

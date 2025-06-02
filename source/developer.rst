@@ -1,5 +1,5 @@
 Developer Info
-==============
+**************
 
 .. toctree::
     :hidden:

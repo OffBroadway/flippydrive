@@ -70,7 +70,7 @@ author = 'ChrisPVille & RadicalPlants'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.todo']
+extensions = ['sphinx.ext.todo', 'sphinx_reredirects', 'sphinx_copybutton']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -93,11 +93,15 @@ html_show_sphinx = False
 html_show_sourcelink = False
 
 html_css_files = [
-    'https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css',
+    'https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css',
 ]
 
 html_js_files = [
     'https://code.jquery.com/jquery-3.7.1.min.js',
-    'https://cdn.datatables.net/2.2.2/js/dataTables.min.js',
+    'https://cdn.datatables.net/2.3.0/js/dataTables.min.js',
     'main.js',
 ]
+
+redirects = {
+     "installation":"/installation/flippydrive.html"
+}
