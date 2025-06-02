@@ -1,5 +1,5 @@
 Game Compatibility
-==================
+******************
 
 Having just entered beta, the FlippyDrive currently has a few thousand hours of total game runtime.  Compatibility has been excellent overall with a handful of third-party titles revealing a few minor bugs in our drive emulation that have since been fixed.  Below is the list of GameCube titles, and their status with various loading modes.
 
@@ -8,7 +8,10 @@ Having just entered beta, the FlippyDrive currently has a few thousand hours of 
     If you try a game and see it works correctly, please `let us know here <https://forms.gle/Qdr2Fx8JbchLmhBKA>`_!
     
 Game List
-`````````
+=========
+
+.. note:: 2025-06-02 - The table on this page will be updated soon!
+
 
 .. note:: 
     This list is largely sourced from community feedback, so it may have some inaccuracies.

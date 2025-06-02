@@ -32,3 +32,12 @@
   background: linear-gradient(to bottom right, #4CAF50 50%, #C99E26 50%);
   z-index: -1;
 }
+
+.align-center {
+  text-align: center;
+  border: 0;
+}
+
+.sig-name {
+  --color-api-name: #fff;
+}

@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Using the FlippyDrive" href="../usage.html" /><link rel="prev" title="Installation" href="flippydrive.html" />
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2024.08.06 -->
+        <title>FlippyDrive Ethernet - FlippyDrive Docs</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=c432bf62" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+<div class="announcement">
+  <aside class="announcement-content">
+     <em>IMPORTANT:</em> docs are still a work in progress! 
+  </aside>
+</div>
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">FlippyDrive Docs</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">FlippyDrive Docs</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">Installation</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Installation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="flippydrive.html">FlippyDrive</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">FlippyDrive Ethernet</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../updates.html">Software Updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bootloader.html">Bootloader menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../backup.html">Disc Backup Utility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../memcardprogc.html">MemCard PRO GC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../compatibility.html">Game Compatibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../wifi.html">Wi-Fi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ethernet.html">Ethernet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../server.html">Headless Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../desktop.html">GUI Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../remote-access.html">Remote Access</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../mods.html">Other Mod Compatibility</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../developer.html">Developer Info</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../API.html">libflippy API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../di.html">Disc Interface Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../fdi.html">FDI Compression Format</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="flippydrive-ethernet">
+<h1>FlippyDrive Ethernet<a class="headerlink" href="#flippydrive-ethernet" title="Link to this heading">¶</a></h1>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>2025-06-01: This guide is not 100% complete yet.</p>
+</div>
+<section id="things-required">
+<h2>Things Required<a class="headerlink" href="#things-required" title="Link to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/1_overview.jpg"><img alt="../_images/1_overview.jpg" src="../_images/1_overview.jpg" style="width: 50%;" />
+</a>
+<ul class="simple">
+<li><p>10-15 Minutes</p></li>
+<li><p>FlippyDrive Ethernet kit (Ethernet expansion PCB, ribbon cable, rear I/O panel (‘back plate’))</p></li>
+<li><p>4.5mm Gamebit screwdriver</p></li>
+<li><p>#0 Phillips screwdriver</p></li>
+<li><p>#1 Phillips screwdriver (optional)</p></li>
+<li><p>#2 Phillips screwdriver</p></li>
+</ul>
+</section>
+<section id="step-0-install-the-flippydrive">
+<h2>Step 0: Install the FlippyDrive<a class="headerlink" href="#step-0-install-the-flippydrive" title="Link to this heading">¶</a></h2>
+<p>If you haven’t already installed the FlippyDrive, <a class="reference internal" href="flippydrive.html"><span class="doc">follow the installation guide here</span></a>.</p>
+</section>
+<section id="step-1-remove-screw">
+<h2>Step 1: Remove screw<a class="headerlink" href="#step-1-remove-screw" title="Link to this heading">¶</a></h2>
+<img alt="../_images/16_gc_screw.jpg" src="../_images/16_gc_screw.jpg" />
+<p>For the Ethernet add-on to fit inside the GameCube below the lid switch, it’s required to remove one screw.</p>
+<p>Using a #0 Phillips, remove the leftmost screw on the back side of the GameCube, below the lid switch. There is no space in the rear I/O panel to hold this screw, please store it somewhere safe or tape it to the inside of the rear I/O panel.</p>
+</section>
+<section id="step-2-assemble-ethernet-add-on">
+<h2>Step 2: Assemble Ethernet add-on<a class="headerlink" href="#step-2-assemble-ethernet-add-on" title="Link to this heading">¶</a></h2>
+<p>Grab the supplied rear I/O panel and the Ethernet board (PCB).</p>
+<p>To insert the Ethernet add-on into the rear I/O panel, position the PCB with the flex cable connector facing upward, with the logo facing away from the GameCube A/V ports.
+Viewing from the back, the lights on the ethernet port should be on the RIGHT.</p>
+<img alt="../_images/4_reariopanelzoom.jpg" src="../_images/4_reariopanelzoom.jpg" />
+<p>The process of inserting the ethernet add-on PCB / getting the module past the two clamps can be a bit finicky. It helps to use the side of the metal Ethernet port to push the black holding clamps away.</p>
+<div class="hint admonition">
+<p class="admonition-title">Need help with installation?</p>
+<p>See the <a class="reference internal" href="../troubleshooting.html"><span class="doc">Troubleshooting</span></a> section for more tips or join the Discord link through there while the documentation is being finalized.</p>
+</div>
+<img alt="../_images/6_rear_io_angle2.jpg" src="../_images/6_rear_io_angle2.jpg" />
+<img alt="../_images/11_rear_io_press2.jpg" src="../_images/11_rear_io_press2.jpg" />
+</section>
+<section id="step-3-insert-rear-i-o-panel">
+<h2>Step 3: Insert rear I/O panel<a class="headerlink" href="#step-3-insert-rear-i-o-panel" title="Link to this heading">¶</a></h2>
+<p>Now that the PCB has been inserted into the rear I/O panel, insert the rear I/O panel into the GameCube. Assuming you haven’t screwed the rest of the screws in (except for the three during the FlippyDrive install, those don’t need to be removed), it might be necessary to push the disc drive up slightly to be able to position the Ethernet add-on under the lid switch.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you’re upgrading your existing FlippyDrive install, it isn’t necessary to unscrew all screws. Loosen all screws one revolution (360 degrees) counter-clockwise underneath the back, fan side (including the screws underneath the fan) and FlippyDrive side (except for the two holding the FlippyDrive bracket) so that you have just enough leeway in the back to slightly push the corner of the disc drive up. Then, tighten the screws again.</p>
+</div>
+<img alt="../_images/17_gc_cable.jpg" src="../_images/17_gc_cable.jpg" />
+</section>
+<section id="step-3-connect-ribbon-cable">
+<h2>Step 3: Connect ribbon cable<a class="headerlink" href="#step-3-connect-ribbon-cable" title="Link to this heading">¶</a></h2>
+<p>Connect the ribbon cable to the extension port on the FlippyDrive and the Ethernet board:</p>
+<p>Inspect the Ethernet add-on and the FlippyDrive extension port. Check both ribbon cable connector locking tabs and make sure they are in the unlocked/up position.</p>
+<img alt="../_images/13_rear_io_ribbon_insert.jpg" src="../_images/13_rear_io_ribbon_insert.jpg" />
+<p>Insert the ribbon cable, with the blue side of the ribbon cable facing <strong>up</strong> on both sides.</p>
+<img alt="../_images/19_gc_fd_ribbon_insert.jpg" src="../_images/19_gc_fd_ribbon_insert.jpg" />
+<p>Inserting it into the flex cable connectors might require a little bit of force, <strong>DO NOT</strong> use excessive force or you might damage the connector.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>When closing the black flex locking tab, push it closed from the <strong>center</strong>, ideally with your whole thumb. <strong>DO NOT</strong> push it closed from one edge. <strong>YOU WILL BREAK IT</strong> if you try closing the tab unevenly.</p>
+</div>
+<p>When locked, the black locking tab will be flush with the body of the connector. Make sure that the ribbon cable is inserted straight into the connector, not at a slight angle.</p>
+</section>
+<section id="step-4-verify-installation">
+<h2>Step 4: Verify Installation<a class="headerlink" href="#step-4-verify-installation" title="Link to this heading">¶</a></h2>
+<p>Connect the GameCube to a display and power on the GameCube. If everything works, you should be able to ping the FlippyDrive from a computer. (hostname: <code class="docutils literal notranslate"><span class="pre">flippydrive</span></code>)</p>
+<div class="admonition-todo admonition" id="id1">
+<p class="admonition-title">Todo</p>
+<p>Add section how to verify installation through the bootloader menu</p>
+</div>
+<div class="hint admonition">
+<p class="admonition-title">Need help?</p>
+<p>See the <a class="reference internal" href="../troubleshooting.html"><span class="doc">Troubleshooting</span></a> section for more tips.</p>
+</div>
+</section>
+<section id="step-5-reassemble-gamecube">
+<h2>Step 5: Reassemble GameCube<a class="headerlink" href="#step-5-reassemble-gamecube" title="Link to this heading">¶</a></h2>
+<p>Follow the instructions in <a class="reference internal" href="flippydrive.html#opengamecube"><span class="std std-ref">Step 1 of the FlippyDrive installation guide</span></a> in reverse without the screw that was removed in Step 2. While putting the lid back on (with the lid open!), make sure to gently push the ribbon cable underneath the side wall carefully.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>Make sure your disc lid is <strong>open</strong> before reassembly. Attaching it when closed can damage the door cover switch.</p>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="../usage.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Using the FlippyDrive</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="flippydrive.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Installation</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024-2025, ChrisPVille &amp; RadicalPlants
+            </div>
+            Made with 
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">FlippyDrive Ethernet</a><ul>
+<li><a class="reference internal" href="#things-required">Things Required</a></li>
+<li><a class="reference internal" href="#step-0-install-the-flippydrive">Step 0: Install the FlippyDrive</a></li>
+<li><a class="reference internal" href="#step-1-remove-screw">Step 1: Remove screw</a></li>
+<li><a class="reference internal" href="#step-2-assemble-ethernet-add-on">Step 2: Assemble Ethernet add-on</a></li>
+<li><a class="reference internal" href="#step-3-insert-rear-i-o-panel">Step 3: Insert rear I/O panel</a></li>
+<li><a class="reference internal" href="#step-3-connect-ribbon-cable">Step 3: Connect ribbon cable</a></li>
+<li><a class="reference internal" href="#step-4-verify-installation">Step 4: Verify Installation</a></li>
+<li><a class="reference internal" href="#step-5-reassemble-gamecube">Step 5: Reassemble GameCube</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.0/js/dataTables.min.js"></script>
+    <script src="../_static/main.js?v=71e46913"></script>
+    </body>
+</html>

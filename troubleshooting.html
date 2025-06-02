@@ -9,9 +9,10 @@
         <title>Troubleshooting - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c432bf62" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css" />
     
     
 
@@ -206,9 +207,14 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="installation/index.html">Installation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Installation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/flippydrive.html">FlippyDrive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/ethernet.html">FlippyDrive Ethernet</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bootloader.html">Bootloader menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
@@ -216,14 +222,16 @@
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Troubleshooting</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="wifi.html">Wi-Fi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ethernet.html">Ethernet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="server.html">Headless Server</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desktop.html">GUI Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="remote-access.html">Remote Access</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mods.html">Other Mod Compatibility</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="developer.html">Developer Info</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="developer.html">Developer Info</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="API.html">libflippy API</a></li>
 <li class="toctree-l2"><a class="reference internal" href="di.html">Disc Interface Commands</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fdi.html">FDI Compression Format</a></li>
@@ -269,29 +277,30 @@
 <h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Link to this heading">¶</a></h1>
 <div class="hint admonition">
 <p class="admonition-title">Need more help?</p>
-<p>Submit a support ticket at <a class="reference external" href="https://help.teamoffbroadway.com/portal">https://help.teamoffbroadway.com/portal</a></p>
+<p>Ask for support on the <a class="reference external" href="https://discord.com/invite/dryH3tuycR">Discord server</a> or submit a support ticket at <a class="reference external" href="https://help.teamoffbroadway.com/portal">https://help.teamoffbroadway.com/portal</a>.</p>
 </div>
-<section id="during-install">
-<h2>During Install<a class="headerlink" href="#during-install" title="Link to this heading">¶</a></h2>
-<ol class="arabic">
-<li><dl>
-<dt>The flex cable doesn’t reach the FlippyDrive:</dt><dd><p>This can happen if you skip <a class="reference internal" href="installation.html#fpcfold"><span class="std std-ref">this step</span></a> or if the flex cable unfolds when placing the drive. Take the drive off if installed, verify the flex cable is still properly tucked between the drive/plug and heat sink, then try again.</p>
-<p>Once the drive/plug is in place, you can gently pull on the flex cable to test the slack length.</p>
-</dd>
-</dl>
+<section id="during-flippydrive-install">
+<h2>During FlippyDrive install<a class="headerlink" href="#during-flippydrive-install" title="Link to this heading">¶</a></h2>
+<ul>
+<li><p><strong>The flex cable doesn’t reach the FlippyDrive</strong></p>
+<p>This can happen if you skip <a class="reference internal" href="installation/flippydrive.html#fpcfold"><span class="std std-ref">this step</span></a> or if the flex cable unfolds when placing the drive. Take the drive off if installed, verify the flex cable is still properly tucked between the drive/plug and heat sink, then try again.
+Once the drive/plug is in place, you can gently pull on the flex cable to test the slack length.</p>
 </li>
-</ol>
+<li><p><strong>The GameCube shows an error (‘An error has occurred.’) with the FlippyDrive connected / the bootloader menu doesn’t launch after installing</strong></p>
+<p>Please check if the flex cable is correctly inserted into the drive connector. Make sure you folded it correctly into a W-like shape with the gold connectors of the flex cable inserted in the middle section of the connector.</p>
+<a class="align-center reference internal image-reference" href="_images/connector.svg"><img alt="_images/connector.svg" class="align-center" src="_images/connector.svg" style="width: 320px;" />
+</a>
+</li>
+</ul>
 </section>
 <section id="first-boot">
 <h2>First Boot<a class="headerlink" href="#first-boot" title="Link to this heading">¶</a></h2>
-<ol class="arabic">
-<li><dl>
-<dt>I see the bootloader on first boot/pressing <code class="docutils literal notranslate"><span class="pre">X</span></code> but get a black screen after:</dt><dd><p>Your connection to the cube is fully working. The flex cable and nearly all of the FlippyDrive hardware is exercised to get to this point.</p>
+<ul>
+<li><p><strong>I see the bootloader on first boot/pressing X but get a black screen after</strong></p>
+<p>Your connection to the cube is fully working. The flex cable and nearly all of the FlippyDrive hardware is exercised to get to this point.</p>
 <p>Make sure you’re <a class="reference internal" href="updates.html"><span class="doc">running the latest software</span></a>. This is almost certainly a software bug and the details of your cube/install should be reported <a class="reference external" href="https://github.com/OffBroadway/flippydrive/issues">to the issue tracker</a> or <a class="reference external" href="https://help.teamoffbroadway.com/portal">customer support</a>.</p>
-</dd>
-</dl>
 </li>
-</ol>
+</ul>
 </section>
 <section id="normal-usage">
 <h2>Normal Usage<a class="headerlink" href="#normal-usage" title="Link to this heading">¶</a></h2>
@@ -353,7 +362,7 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Troubleshooting</a><ul>
-<li><a class="reference internal" href="#during-install">During Install</a></li>
+<li><a class="reference internal" href="#during-flippydrive-install">During FlippyDrive install</a></li>
 <li><a class="reference internal" href="#first-boot">First Boot</a></li>
 <li><a class="reference internal" href="#normal-usage">Normal Usage</a></li>
 </ul>
@@ -371,8 +380,10 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.0/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>

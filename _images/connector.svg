@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+        viewBox="0 0 32 32"
+        shape-rendering="crispEdges"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+    <!-- First version by CrazySnake, further refinements by rctgamer3 -->
+    <path
+            d="M5 1h13M3 2h3M8 2h2M13 2h2M17 2h3M1 3h3M6 3h1M9 3h1M13 3h1M16 3h1M19 3h3M1 4h1M4 4h3M9 4h1M13 4h1M16 4h3M21 4h1M1 5h4M6 5h1M9 5h1M13 5h1M16 5h1M18 5h4M6 6h1M9 6h1M13 6h1M16 6h1M6 7h1M9 7h1M13 7h1M16 7h1M28 7h3M6 8h1M9 8h1M13 8h1M16 8h1M27 8h2M30 8h1M6 9h1M9 9h1M13 9h1M16 9h1M22 9h3M26 9h2M29 9h2M6 10h1M9 10h1M13 10h1M16 10h1M22 10h1M24 10h3M28 10h2M6 11h1M16 11h1M22 11h2M25 11h1M27 11h2M6 12h1M16 12h1M23 12h2M26 12h2M6 13h11M24 13h3M3 16h4M3 17h1M6 17h2M3 18h2M7 18h13M4 19h2M9 19h1M13 19h2M19 19h2M5 20h2M9 20h1M13 20h1M16 20h2M20 20h1M6 21h1M9 21h1M13 21h1M16 21h5M6 22h1M9 22h1M12 22h1M14 22h1M16 22h1M6 23h1M9 23h1M12 23h3M16 23h1M6 24h1M9 24h1M12 24h3M16 24h1M23 24h3M27 24h3M6 25h1M9 25h1M12 25h3M16 25h1M23 25h1M25 25h3M29 25h1M6 26h1M9 26h1M12 26h3M16 26h1M23 26h2M26 26h1M28 26h2M6 27h1M8 27h1M10 27h1M12 27h3M16 27h1M24 27h2M27 27h2M6 28h1M8 28h3M12 28h3M16 28h1M23 28h2M26 28h1M28 28h2M6 29h1M16 29h1M23 29h1M25 29h3M29 29h1M6 30h11M23 30h3M27 30h3"
+            stroke="#ffffff"
+            style="fill:#ffffff;fill-opacity:1"
+            id="Border"
+    />
+    <path
+            d="M6 2h2M11 2h1M15 2h2M4 3h2M8 3h1M14 3h1M17 3h2M2 4h2M8 4h1M14 4h1M19 4h2M8 5h1M14 5h1M8 6h1M14 6h1M8 7h1M14 7h1M8 8h1M14 8h1M8 9h1M14 9h1M8 10h1M14 10h1M8 11h3M12 11h3M4 17h2M5 18h2M6 19h3M10 19h3M15 19h4M8 20h1M10 20h1M12 20h1M14 20h1M18 20h2M8 21h1M10 21h1M12 21h1M14 21h1M8 22h1M10 22h1M13 22h1M8 23h1M10 23h1M8 24h1M10 24h1M8 25h1M10 25h1M8 26h1M10 26h1M9 27h1"
+            stroke="#ff7c00"
+            style="fill:#ff7c00;fill-opacity:1"
+            id="Orange"/>
+    <path
+            d="M10 2h1M12 2h1M10 3h1M12 3h1M10 4h1M12 4h1M10 5h1M12 5h1M10 6h1M12 6h1M10 7h1M12 7h1M10 8h1M12 8h1M10 9h1M12 9h1M10 10h1M12 10h1"
+            stroke="#daa520"
+            style="fill:#000000;fill-opacity:1"
+            id="Gold"/>
+    <path
+            d="M7 3h1M15 3h1M7 4h1M11 4h1M15 4h1M7 5h1M11 5h1M15 5h1M7 6h1M11 6h1M15 6h1M7 7h1M11 7h1M15 7h1M7 8h1M11 8h1M15 8h1M7 9h1M11 9h1M15 9h1M7 10h1M11 10h1M15 10h1M7 11h1M11 11h1M15 11h1M7 12h9M7 20h1M15 20h1M7 21h1M11 21h1M15 21h1M7 22h1M11 22h1M15 22h1M7 23h1M11 23h1M15 23h1M7 24h1M11 24h1M15 24h1M7 25h1M11 25h1M15 25h1M7 26h1M11 26h1M15 26h1M7 27h1M11 27h1M15 27h1M7 28h1M11 28h1M15 28h1M7 29h9"
+            stroke="#000000"
+            style="fill:#000000;fill-opacity:1"
+            id="Black"/>
+    <path
+            d="M11 3h1M11 20h1"
+            stroke="#a0a0a0"
+            style="fill:#a0a0a0;fill-opacity:1"
+            id="Grey"/>
+    <path
+            d="M29 8h1M28 9h1M23 10h1M27 10h1M24 11h1M26 11h1M25 12h1"
+            stroke="#33bf33"
+            style="fill:#33bf33;fill-opacity:1"
+            id="✔"/>
+    <path
+            d="M24 25h1M28 25h1M25 26h1M27 26h1M26 27h1M25 28h1M27 28h1M24 29h1M28 29h1"
+            stroke="#ff0000"
+            style="fill:#ff0000;fill-opacity:1"
+            id="❌"/>
+</svg>

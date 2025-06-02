@@ -9,9 +9,10 @@
         <title>Configuration Files - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c432bf62" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css" />
     
     
 
@@ -206,9 +207,14 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="installation/index.html">Installation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Installation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/flippydrive.html">FlippyDrive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/ethernet.html">FlippyDrive Ethernet</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bootloader.html">Bootloader menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
@@ -216,14 +222,16 @@
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Configuration Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="wifi.html">Wi-Fi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ethernet.html">Ethernet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="server.html">Headless Server</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desktop.html">GUI Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="remote-access.html">Remote Access</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mods.html">Other Mod Compatibility</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="developer.html">Developer Info</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="developer.html">Developer Info</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="API.html">libflippy API</a></li>
 <li class="toctree-l2"><a class="reference internal" href="di.html">Disc Interface Commands</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fdi.html">FDI Compression Format</a></li>
@@ -268,22 +276,23 @@
           <section id="configuration-files">
 <h1>Configuration Files<a class="headerlink" href="#configuration-files" title="Link to this heading">¶</a></h1>
 <p>The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.</p>
-<section id="configuration-file-format">
-<h2>Configuration File Format<a class="headerlink" href="#configuration-file-format" title="Link to this heading">¶</a></h2>
-<p>The configuration file is a simple ini file with sections. The sections are used to group the configuration options.</p>
+<p>The sections are used to group the configuration options.</p>
 <p>Create an text file on the root of your SD card called <code class="docutils literal notranslate"><span class="pre">config.ini</span></code>. The file should look similar to the example in the following section. Note that the settings file <strong>must</strong> include the <code class="docutils literal notranslate"><span class="pre">[&lt;name&gt;]</span></code> section headers for the settings to take effect.</p>
-<p><strong>Example Configuration file:</strong></p>
+<p>Some options are optional. If so, they are marked with a <code class="docutils literal notranslate"><span class="pre">#</span></code> in front of them, remove <code class="docutils literal notranslate"><span class="pre">#</span></code> and one space to enable them.</p>
+<p>This document explains the various configuration options available in the <code class="docutils literal notranslate"><span class="pre">config.ini</span></code> file.</p>
+<section id="example-configuration-file">
+<h2>Example Configuration file<a class="headerlink" href="#example-configuration-file" title="Link to this heading">¶</a></h2>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[flippydrive]</span>
-<span class="c1"># Default boot mode, options are &quot;normal&quot; and &quot;bypass&quot;</span>
+<span class="c1"># Default boot mode, values are &quot;normal&quot; and &quot;bypass&quot;</span>
 <span class="c1"># Setting &quot;bypass&quot; will always boot from the disc drive unless X is held down,</span>
 <span class="c1"># at which point you can choose cubeboot, swiss, etc.</span>
 <span class="na">boot_mode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">normal</span>
 
 <span class="k">[cubeboot]</span>
-<span class="c1"># Cube color - Supports RGB hex colors aka websafe colors</span>
-<span class="c1"># comment out/remove the whole line to use the original color</span>
+<span class="c1"># Custom cube logo color - Supports RGB hex colors aka websafe colors</span>
+<span class="c1"># Keep the line commented out to use original logo color</span>
 <span class="c1"># Setting &quot;random&quot; shows a random color</span>
-<span class="na">cube_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">660089</span>
+<span class="c1"># cube_color = 660089</span>
 
 <span class="c1"># Enable booting through Swiss for all games</span>
 <span class="na">force_swiss_default</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0</span>
@@ -301,9 +310,17 @@
 <span class="c1"># to mimic the load times you would usually experience when booting a disc</span>
 <span class="c1"># postboot_delay_ms = 3000</span>
 
+<span class="c1"># Experimental configuration options below</span>
+<span class="c1">#</span>
+<span class="c1"># This enables folder icons and game icons which are still a little buggy</span>
+<span class="c1"># enable_experimental_png = 0</span>
+<span class="c1">#</span>
+<span class="c1"># This enables the cube logo feature which replaces the word &#39;GAMECUBE&#39; on the boot animation</span>
+<span class="c1"># cube_logo = somelogo.png</span>
+
 <span class="k">[network]</span>
 <span class="c1"># All network features require a server to be set and running the FlippyDrive app</span>
-<span class="c1"># WiFi connections also require a ssid and password</span>
+<span class="c1"># Wi-Fi connections also require a SSID and password</span>
 
 <span class="c1"># Sets the network interface as the default disc device (active is 1)</span>
 <span class="c1"># cubeboot can use other network features regardless of setting</span>
@@ -319,6 +336,246 @@
 <span class="na">password</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">JEdgarHooverDidNothingWrong</span>
 </pre></div>
 </div>
+</section>
+<section id="configuration-file-format">
+<h2>Configuration File Format<a class="headerlink" href="#configuration-file-format" title="Link to this heading">¶</a></h2>
+<section id="flippydrive">
+<h3>[flippydrive]<a class="headerlink" href="#flippydrive" title="Link to this heading">¶</a></h3>
+<p>Settings under this section control the general boot behavior of the FlippyDrive.</p>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-boot_mode">
+<span class="sig-name descname"><span class="pre">boot_mode</span></span><a class="headerlink" href="#confval-boot_mode" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">normal</dd>
+</dl>
+<p>Sets the default boot mode.</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">normal</span></code>: Boots according to the standard FlippyDrive sequence.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bypass</span></code>: Always boots directly from the disc drive. Boot to the bootloader (<kbd class="kbd docutils literal notranslate">X</kbd>) if you want to use cubeboot, swiss, etc.</p></li>
+</ul>
+</dd></dl>
+
+</section>
+<section id="cubeboot">
+<h3>[cubeboot]<a class="headerlink" href="#cubeboot" title="Link to this heading">¶</a></h3>
+<p>This section contains settings specific to cubeboot functionality.</p>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-cube_color">
+<span class="sig-name descname"><span class="pre">cube_color</span></span><a class="headerlink" href="#confval-cube_color" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string (RGB hex)</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">(commented out)</dd>
+</dl>
+<p>Customizes the color of the GameCube logo displayed during boot.</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><strong>Commented out</strong>: If this line is commented out (or not present), the original logo color will be used.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">random</span></code>: Displays a random color for the GameCube logo each time you boot.</p></li>
+<li><p><strong>RGB hex color</strong>: Enter a 6-digit hexadecimal color code (similar to websafe colors) to set a specific color. For example, <code class="docutils literal notranslate"><span class="pre">660089</span></code> would set a particular shade of purple.</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-force_swiss_default">
+<span class="sig-name descname"><span class="pre">force_swiss_default</span></span><a class="headerlink" href="#confval-force_swiss_default" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0</dd>
+</dl>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, all games will automatically boot through Swiss.
+Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code> Off</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code> On</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-force_progressive">
+<span class="sig-name descname"><span class="pre">force_progressive</span></span><a class="headerlink" href="#confval-force_progressive" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0</dd>
+</dl>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, forces progressive scan mode within the IPL (GameCube menu).
+.. attention:: Doesn’t work in IPL NTSC-U 1.0. Also causes graphical issues in games when running PAL IPL 1.0 if not forcing games to boot through Swiss (<code class="docutils literal notranslate"><span class="pre">force_swiss_default</span> <span class="pre">=</span> <span class="pre">1</span></code>)</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code> Off</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code> On</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-disable_mcp_select">
+<span class="sig-name descname"><span class="pre">disable_mcp_select</span></span><a class="headerlink" href="#confval-disable_mcp_select" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0</dd>
+</dl>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, disables support for MemCard PRO GC.</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code> Off (MemCard Pro GC enabled)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code> On (MemCard Pro GC disabled)</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-preboot_delay_ms">
+<span class="sig-name descname"><span class="pre">preboot_delay_ms</span></span><a class="headerlink" href="#confval-preboot_delay_ms" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0 (milliseconds)</dd>
+</dl>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 1.5.0.</span></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code class="docutils literal notranslate"><span class="pre">preboot_delay_ms</span></code> existed before version 1.5.0 but did not function at all. It is advised not to use it on lower versions as it could cause other issues such as being unable to boot certain titles.</p>
+</div>
+<p>Sets a delay, in milliseconds, used for waiting for GCVideo to initialize before proceeding with the boot process.</p>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-postboot_delay_ms">
+<span class="sig-name descname"><span class="pre">postboot_delay_ms</span></span><a class="headerlink" href="#confval-postboot_delay_ms" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">(commented out)</dd>
+</dl>
+<p>Sets a delay, in milliseconds, after the boot logo appears. This can be used
+to mimic the typical disc loading times you would experience with a physical
+game disc. This line is commented out by default.</p>
+</dd></dl>
+
+<p>—</p>
+</section>
+<section id="network">
+<h3>[network]<a class="headerlink" href="#network" title="Link to this heading">¶</a></h3>
+<p>This section configures network features. Please note that all network
+features require a server running the FlippyDrive application to be set and
+active, however, if a cable is plugged in, it will connect to your local network regardless of network setting.
+Wi-Fi connections also necessitate providing both an SSID and password.</p>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-is_default">
+<span class="sig-name descname"><span class="pre">is_default</span></span><a class="headerlink" href="#confval-is_default" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0</dd>
+</dl>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, the network interface is set as the default disc device.
+CubeBoot can utilize other network features regardless of this setting.</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code> - Off - Games will be read from SD</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code> - On - Games will be read from network first</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-server">
+<span class="sig-name descname"><span class="pre">server</span></span><a class="headerlink" href="#confval-server" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string (IPv4 or IPv6 address)</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">198.51.100.1</dd>
+</dl>
+<p>The IP address of your FlippyDrive server. This can be either an IPv4 or
+IPv6 address. The default port for the server is <code class="docutils literal notranslate"><span class="pre">7031</span></code>.</p>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-ssid">
+<span class="sig-name descname"><span class="pre">ssid</span></span><a class="headerlink" href="#confval-ssid" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string</dd>
+</dl>
+<p>The SSID (network name) of your 2.4 GHz Wi-Fi network.</p>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-password">
+<span class="sig-name descname"><span class="pre">password</span></span><a class="headerlink" href="#confval-password" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string</dd>
+</dl>
+<p>The network key (password) for your Wi-Fi network.</p>
+</dd></dl>
+
+</section>
+<section id="experimental-options">
+<h3>Experimental Options<a class="headerlink" href="#experimental-options" title="Link to this heading">¶</a></h3>
+<p>The following options are still under development. Use them at your own discretion.</p>
+<section id="id1">
+<h4>[cubeboot]<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-enable_experimental_png">
+<span class="sig-name descname"><span class="pre">enable_experimental_png</span></span><a class="headerlink" href="#confval-enable_experimental_png" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">integer</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">0 (commented out)</dd>
+</dl>
+<div class="versionadded">
+<p><span class="versionmodified added">Added in version 1.5.0.</span></p>
+</div>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, this enables folder icons and game icons in the interface.
+Be aware that this feature is still experimental and might have bugs.</p>
+<p>Place PNG files with the same filename as the folder or game file, e.g. <code class="docutils literal notranslate"><span class="pre">tux.png</span></code> for <code class="docutils literal notranslate"><span class="pre">tux.iso</span></code> or <code class="docutils literal notranslate"><span class="pre">misc.png</span></code> for a folder called ‘misc’</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">0</span></code>: Disabled</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">1</span></code>: Enabled</p></li>
+</ul>
+</dd></dl>
+
+<dl class="std confval">
+<dt class="sig sig-object std" id="confval-cube_logo">
+<span class="sig-name descname"><span class="pre">cube_logo</span></span><a class="headerlink" href="#confval-cube_logo" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd">string (filename)</dd>
+<dt class="field-even">Default<span class="colon">:</span></dt>
+<dd class="field-even">(commented out)</dd>
+</dl>
+<div class="versionadded">
+<p><span class="versionmodified added">Added in version 1.5.0.</span></p>
+</div>
+<p>This enables the custom Cube logo feature, which replaces the word ‘GAMECUBE’ on
+the boot animation with a custom image. Specify the filename of your desired logo image.
+PNG dimensions must be 352x40 and can be generated <a class="reference external" href="https://trevor.la/logo">here</a>.</p>
+<p>Values:</p>
+<ul class="simple">
+<li><p>A valid PNG filename</p></li>
+</ul>
+</dd></dl>
+
+</section>
+</section>
 </section>
 </section>
 
@@ -377,7 +634,38 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Configuration Files</a><ul>
-<li><a class="reference internal" href="#configuration-file-format">Configuration File Format</a></li>
+<li><a class="reference internal" href="#example-configuration-file">Example Configuration file</a></li>
+<li><a class="reference internal" href="#configuration-file-format">Configuration File Format</a><ul>
+<li><a class="reference internal" href="#flippydrive">[flippydrive]</a><ul>
+<li><a class="reference internal" href="#confval-boot_mode"><code class="docutils literal notranslate"><span class="pre">boot_mode</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cubeboot">[cubeboot]</a><ul>
+<li><a class="reference internal" href="#confval-cube_color"><code class="docutils literal notranslate"><span class="pre">cube_color</span></code></a></li>
+<li><a class="reference internal" href="#confval-force_swiss_default"><code class="docutils literal notranslate"><span class="pre">force_swiss_default</span></code></a></li>
+<li><a class="reference internal" href="#confval-force_progressive"><code class="docutils literal notranslate"><span class="pre">force_progressive</span></code></a></li>
+<li><a class="reference internal" href="#confval-disable_mcp_select"><code class="docutils literal notranslate"><span class="pre">disable_mcp_select</span></code></a></li>
+<li><a class="reference internal" href="#confval-preboot_delay_ms"><code class="docutils literal notranslate"><span class="pre">preboot_delay_ms</span></code></a></li>
+<li><a class="reference internal" href="#confval-postboot_delay_ms"><code class="docutils literal notranslate"><span class="pre">postboot_delay_ms</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#network">[network]</a><ul>
+<li><a class="reference internal" href="#confval-is_default"><code class="docutils literal notranslate"><span class="pre">is_default</span></code></a></li>
+<li><a class="reference internal" href="#confval-server"><code class="docutils literal notranslate"><span class="pre">server</span></code></a></li>
+<li><a class="reference internal" href="#confval-ssid"><code class="docutils literal notranslate"><span class="pre">ssid</span></code></a></li>
+<li><a class="reference internal" href="#confval-password"><code class="docutils literal notranslate"><span class="pre">password</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#experimental-options">Experimental Options</a><ul>
+<li><a class="reference internal" href="#id1">[cubeboot]</a><ul>
+<li><a class="reference internal" href="#confval-enable_experimental_png"><code class="docutils literal notranslate"><span class="pre">enable_experimental_png</span></code></a></li>
+<li><a class="reference internal" href="#confval-cube_logo"><code class="docutils literal notranslate"><span class="pre">cube_logo</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -393,8 +681,10 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.0/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>

@@ -1,5 +1,5 @@
 Other Mod Compatibility
-=======================
+***********************
 
 Picoboot and other IPL replacements
 ```````````````````````````````````
@@ -11,9 +11,14 @@ Pico-based mods like the Picoboot can be disabled simply by erasing the flash us
 GCVideo
 ```````
 
-In general, GCVideo output mods work just fine, although some are very poorly designed electrically. We have received reports that when coupled with questionable displays, a few backpower the GameCube's 5V rail even when the GameCube is off, in violation of the HDMI specification's reverse current protection requirement.
+In general, GCVideo output mods work just fine, although some are very poorly designed electrically. We have received reports that when coupled with questionable displays, a few backpower the GameCube's 3.3V rail even when the GameCube is off, in violation of the HDMI specification's reverse current protection requirement.
 
 In addition to the damage this may be doing to the GameCube, it keeps the FlippyDrive powered up while the GameCube is off, usually resulting in the previously selected game immediately launching or region errors depending on the game and GameCube in question. We are gathering more information on how prevalent this is.
+
+.. admonition:: GCVideo support bracket compatibility with FlippyDrive Ethernet add-on
+   :class: note
+
+   If you've bought or 3D-printed a support bracket for your plug-and-play GCVideo adapter (such as the Carby) to rest on, please note that the vents in the FlippyDrive Ethernet add-on rear I/O panel are slightly smaller, your existing support bracket might not fit through.
 
 Power
 `````

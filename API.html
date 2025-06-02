@@ -9,9 +9,10 @@
         <title>libflippy API - FlippyDrive Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=6b2b3d01" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c432bf62" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.3.0/css/dataTables.dataTables.min.css" />
     
     
 
@@ -206,9 +207,14 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="installation/index.html">Installation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Installation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation/flippydrive.html">FlippyDrive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation/ethernet.html">FlippyDrive Ethernet</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="usage.html">Using the FlippyDrive</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Using the FlippyDrive</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="updates.html">Software Updates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bootloader.html">Bootloader menu</a></li>
 <li class="toctree-l2"><a class="reference internal" href="backup.html">Disc Backup Utility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
@@ -216,14 +222,16 @@
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="wifi.html">Wi-Fi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ethernet.html">Ethernet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="server.html">Headless Server</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desktop.html">GUI Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="remote-access.html">Remote Access</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mods.html">Other Mod Compatibility</a></li>
-<li class="toctree-l1 current has-children"><a class="reference internal" href="developer.html">Developer Info</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="developer.html">Developer Info</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Developer Info</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">libflippy API</a></li>
 <li class="toctree-l2"><a class="reference internal" href="di.html">Disc Interface Commands</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fdi.html">FDI Compression Format</a></li>
@@ -321,8 +329,10 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.0/js/dataTables.min.js"></script>
     <script src="_static/main.js?v=71e46913"></script>
     </body>
 </html>
