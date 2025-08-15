@@ -21,6 +21,13 @@ Things Required
 - #1 Phillips screwdriver (optional)
 - #2 Phillips screwdriver
 
+.. warning::
+    Unfortunately due to a production error some of the first deliveries in Batch 3 may include the wrong flex cable.
+    Some units were prepared with the Panasonic Q flex cable which is clearly marked with the words "**Q Flex**" in white text.
+    Unfortunately these are incompatible with the normal FlippyDrive install for DOL-001 and DOL-101 units.
+    If you receive a unit with this error, please `reach out to our support directly <https://help.teamoffbroadway.com/portal>`_.
+    We will promptly send you a replacement flex cable free of charge.
+
 .. _opengamecube:
 
 Step 1: Open the GameCube
@@ -122,7 +129,7 @@ Step 2b: Without Disc Drive
 
 Use the provided drive plug and push straight down onto the flex cable and connector until it stops.
 
-.. attention::    
+.. attention::
     If you need to remove the drive plug for any reason, pull it up from both sides simultaneously and do not aggressively rock it from side to side. Doing so may break off the alignment tabs inside the connector. If that happens, use tweezers to reach underneath the broken plastic to pull it upward.  The drive plug will still work with broken alignment tabs, although you will need to be more careful about left-right placement.
 
 .. image:: /_static/4X1A7512.jpg
