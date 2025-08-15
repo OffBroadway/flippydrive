@@ -39,5 +39,5 @@
 }
 
 .sig-name {
-  --color-api-name: #fff;
+  --color-api-name: var(--color-content-foreground);
 }
