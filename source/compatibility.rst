@@ -1,3 +1,10 @@
+:hide-toc:
+
+.. raw:: html
+
+    <script>document.body.classList.add('full-width-page');</script>
+
+
 Game Compatibility
 ******************
 

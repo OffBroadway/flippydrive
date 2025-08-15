@@ -1,3 +1,7 @@
+.full-width-page .content {
+  width: unset;
+}
+
 .status {
   text-align: center;
   color: #fff; /* white text color */
