@@ -1,12 +1,11 @@
 Name	SD card	Wi-Fi	Ethernet	FDI	Tested SW Ver#	Notes
-4x4 Evo 2	.. gok::				1.4.2
-18 Wheeler: American Pro Trucker	.. gok::				0.2.9
 1080° Avalanche	.. gok::				1.4.2
+18 Wheeler: American Pro Trucker	.. gok::				0.2.9
 2002 FIFA World Cup	.. gok::				1.4.2
 2006 FIFA World Cup
-FIFA World Cup: Germany 2006
-The Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies
-The Adventures of Jimmy Neutron Boy Genius: Jet Fusion
+4x4 Evo 2	.. gok::				1.4.2
+ATV: Quad Power Racing 2
+Ace Golf
 Aggressive Inline
 Alien Hominid	.. gok::	.. gok:: [2]_			0.2.1
 All-Star Baseball 2002
@@ -17,26 +16,24 @@ American Chopper 2: Full Throttle
 Animal Crossing	.. gok::				1.4.2
 Animal Crossing Deluxe (community mod)	.. gok::				1.4.5	Works fine in cubeboot, not in Clean Boot mode in Swiss due to known issue
 Animaniacs: The Great Edgar Hunt	.. gok:: |br| Initial test				0.2.3
-The Ant Bully
 Aquaman: Battle for Atlantis	.. gok::				1.4.2
 Army Men: Air Combat - The Elite Missions	.. gok::				0.2.7
 Army Men: RTS	.. gok::				0.2.7
 Army Men: Sarge's War	.. gok::				1.4.0
 Asterix & Obelix XXL
-ATV: Quad Power Racing 2
 Auto Modellista	.. gok::				0.2.10
 Avatar: The Last Airbender
 Avatar: The Legend of Aang
+BMX XXX
 Backyard Baseball
 Backyard Football
 Backyard Sports: Baseball 2007
-Bad Boys: Miami Takedown
 Bad Boys II
+Bad Boys: Miami Takedown
 Baldur's Gate: Dark Alliance	.. gok:: |br| Initial test				0.2.6
 Barnyard
-The Baseball 2003: Battle Ballpark Sengen Perfect Play Pro Yakyū
-Baten Kaitos: Eternal Wings and the Lost Ocean	.. gok::				1.4.2
 Baten Kaitos Origins	.. gok::				1.4.2
+Baten Kaitos: Eternal Wings and the Lost Ocean	.. gok::				1.4.2
 Batman Begins
 Batman: Dark Tomorrow
 Batman: Rise of Sin Tzu
@@ -57,19 +54,17 @@ Blood Omen 2
 BloodRayne
 Bloody Roar: Primal Fury	.. gok::
 BlowOut
-BMX XXX
 Bobobo-bo Bo-bobo Dassutsu! Hajike Royale
 Bokujou Monogatari: Shiawase no Uta
-Bomberman Land 2
 Bomberman Generation	.. gok::				0.2.10
 Bomberman Jetters	.. gok::				0.2.8
+Bomberman Land 2
 Bratz: Forever Diamondz
 Bratz: Rock Angelz
 Buffy the Vampire Slayer: Chaos Bleeds
 Burnout	.. gok::				0.2.10
 Burnout 2: Point of Impact	.. gok::				1.4.0
 Bust-a-Move 3000	.. gok::				0.2.8
-Super Bust-a-Move All-StarsPAL
 Butt-Ugly Martians: Zoom or Doom
 Cabela's Big Game Hunter 2005 Adventures
 Cabela's Dangerous Hunts 2
@@ -82,7 +77,6 @@ Carmen Sandiego: The Secret of the Stolen Drums
 Cars	.. gok::				0.2.9
 Casper: Spirit Dimensions
 Castleween
-Spirits & Spells
 Catwoman
 Cel Damage
 Chaos Field	.. gok::
@@ -91,7 +85,7 @@ Charlie and the Chocolate Factory
 Charlie's Angels
 Chibi-Robo!	.. gok::				1.4.2
 Chicken Little
-The Chronicles of Narnia: The Lion	the Witch and the Wardrobe
+Choro Q!
 City Racer	.. gok::				1.4.2
 Cocoto Funfair
 Cocoto Kart Racer
@@ -111,12 +105,12 @@ Custom Robo	.. gok::				0.2.1
 Dakar 2: The World's Ultimate Rally
 Dance Dance Revolution: Mario Mix	.. gok::				0.2.10
 Dancing Stage Mario Mix
-Darkened Skye
 Dark Summit
+Darkened Skye
 Dave Mirra Freestyle BMX 2
 Dead to Rights
-Def Jam: Fight for NY
 Def Jam Vendetta	.. gok::				0.2.7
+Def Jam: Fight for NY
 Defender
 Defender: For All Mankind
 Densetsu no Quiz Ou Ketteisen
@@ -127,24 +121,24 @@ Digimon World 4
 Dinotopia: The Sunstone Odyssey
 Disney Sports Basketball
 Disney Sports Football
-Disney Sports: American Football
 Disney Sports Skateboarding
 Disney Sports Soccer
+Disney Sports: American Football
 Disney Sports: Football
 Disney's Extreme Skate Adventure
 Disney's Hide & Sneak
 Disney's Magical Mirror Starring Mickey Mouse
 Disney's Party
-Dōbutsu no Mori e+
 Dokapon DX: Wataru Sekai wa Oni Darake
 Donald Duck: Goin' Quackers
+Donald Duck: PK
 Donald Duck: Quack Attack
 Donkey Kong Jungle Beat	.. gok::				1.4.2
 Donkey Konga	.. gok::				1.4.2
 Donkey Konga 2	.. gok::				0.2.10
 Donkey Konga 3
-Doraemon: Minna de Asobō! Minidorando
 Dora the Explorer: Journey to the Purple Planet
+Doraemon: Minna de Asobō! Minidorando
 Dorīmumikkusu Tībī Wārudo Faitāzu
 Doshin the Giant
 Dr. Muto
@@ -157,14 +151,14 @@ Dragon's Lair 3D: Special Edition
 Driven
 Drome Racers	.. gbad::				1.4.2	The game causes the Gamecube to restart. You never get into the game
 Duel Masters: Nettō! Battle Arena
+Dōbutsu no Mori e+
+ESPN International Winter Sports 2002
+ESPN MLS ExtraTime 2002
 Ed	Edd n Eddy: The Mis-Edventures	.. gok::				0.2.7
 Egg Mania: Eggstreme Madness
 Eggo Mania
 Eisei Meijin VI
 Enter the Matrix
-ESPN International Winter Sports 2002
-International Winter SportsPAL
-ESPN MLS ExtraTime 2002
 Eternal Darkness: Sanity's Requiem	.. gok::				0.2.7
 Evolution Skateboarding
 Evolution Snowboarding
@@ -173,23 +167,22 @@ Extreme-G 3	.. gok::		.. gok::		0.2.10
 F-Zero GX	.. gok::				0.2.1
 F1 2002
 F1 Career Challenge
-The Fairly OddParents: Breakin' Da Rules
-The Fairly OddParents: Shadow Showdown
-Family Stadium 2003
-Fantastic Four	.. gok::				1.4.2
 FIFA 06
-FIFA Soccer 06	.. gok::				1.4.3
 FIFA 07
-FIFA Soccer 07
 FIFA Football 2003
-FIFA Soccer 2003
 FIFA Football 2004
-FIFA Soccer 2004
 FIFA Football 2005
-FIFA Soccer 2005
+FIFA Soccer 06	.. gok::				1.4.3
+FIFA Soccer 07
 FIFA Soccer 2002: Major League Soccer
+FIFA Soccer 2003
+FIFA Soccer 2004
+FIFA Soccer 2005
 FIFA Street
 FIFA Street 2	.. gok::				1.4.2
+FIFA World Cup: Germany 2006
+Family Stadium 2003
+Fantastic Four	.. gok::				1.4.2
 Fight Night Round 2
 Final Fantasy Crystal Chronicles	.. gok::				1.4.2
 Finding Nemo
@@ -202,12 +195,13 @@ Freedom Fighters	.. gok::				1.4.0
 Freekstyle
 Freestyle MetalX
 Freestyle Street Soccer
-Urban Freestyle Soccer
-Frogger: Ancient Shadow
 Frogger Beyond
 Frogger's Adventures: The Rescue
+Frogger: Ancient Shadow
 From TV Animation – One Piece: Treasure Battle!
 Future Tactics: The Uprising
+GT Cube
+Gadget Racers	.. gbad::				1.4.2	Freezes on the initial loading icon.
 Gakuen Toshi Vara Noir
 Gameboy Player	.. gok::				0.2.9
 Gauntlet Dark Legacy	.. gok::				1.4.2	Previously had a hang on level change reported on 0.3.3
@@ -221,28 +215,24 @@ Goblin Commander: Unleash the Horde
 Godzilla: Destroy All Monsters Melee	.. gok::				0.2.9
 GoldenEye: Rogue Agent	.. gok::				0.3.1
 Gotcha Force	.. gok::				1.4.2
-The Grim Adventures of Billy & Mandy
 Grooverider: Slot Car Thunder
-GT Cube
 Gun
 Gurando Batoru! 3
 Happy Feet
 Harry Potter and the Chamber of Secrets
 Harry Potter and the Goblet of Fire
 Harry Potter and the Philosopher's Stone
-Harry Potter and the Sorcerer's Stone
 Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Sorcerer's Stone
 Harry Potter: Quidditch World Cup
+Harvest Moon: A Wonderful Life	.. gok::				1.4.2
 Harvest Moon: Another Wonderful Life
 Harvest Moon: Magical Melody
-Harvest Moon: A Wonderful Life	.. gok::				1.4.2
-The Haunted Mansion	.. gok::				0.2.9
 Hello Kitty: Roller Rescue
 Hikaru no Go 3
 Hitman 2: Silent Assassin
-The Hobbit
-Homeland
 Home Run King	.. gok::				0.2.6
+Homeland
 Hot Wheels: Velocity X
 Hot Wheels: World Race	.. gok::
 Hudson Selection Vol. 1: Lode Runner	.. gok::				1.4.2
@@ -254,28 +244,25 @@ Hunter: The Reckoning
 I-Ninja
 Ice Age 2: The Meltdown
 Ikaruga	.. gok::				1.4.2
-The Incredible Hulk: Ultimate Destruction
-The Incredibles	.. gok::				1.4.2
-The Incredibles: Rise of the Underminer
 Intellivision Lives!	.. gok::				0.2.6
 International Superstar Soccer 2
-Jikkyō World Soccer 2002
 International Superstar Soccer 3
-The Italian Job
+International Winter SportsPAL
 James Bond 007: Agent Under Fire	.. gok::				1.4.2
 James Bond 007: Everything or Nothing	.. gok::				0.2.6
 James Bond 007: From Russia with Love
 James Bond 007: Nightfire	.. gok::				1.4.0
 Jeremy McGrath Supercross World
-Jikkyou Powerful Major League
-Jikkyou Pawafuru Puroyakyu 9
-Jikkyou Powerful Pro 9 Ketteiban
 Jikkyou Pawafuru Puroyakyu 10
-Jikkyou Powerful Pro Yakyuu 10 Chou Ketteiban
 Jikkyou Pawafuru Puroyakyu 11
-Jikkyou Powerful Pro Yakyuu 11 Chou Ketteiban
 Jikkyou Pawafuru Puroyakyu 12
+Jikkyou Pawafuru Puroyakyu 9
+Jikkyou Powerful Major League
+Jikkyou Powerful Pro 9 Ketteiban
+Jikkyou Powerful Pro Yakyuu 10 Chou Ketteiban
+Jikkyou Powerful Pro Yakyuu 11 Chou Ketteiban
 Jikkyou Powerful Pro Yakyuu 12 Ketteiban
+Jikkyō World Soccer 2002
 Jimmy Neutron: Boy Genius	.. gok::				0.2.9
 Judge Dredd: Dredd vs. Death
 Kao the Kangaroo: Round 2
@@ -289,31 +276,28 @@ Kirby Air Ride	.. gok::				1.4.2
 Kiwame Mahjong DX2
 Knights of the Temple: Infernal Crusade
 Knockout Kings 2003
-Konjiki no Gash Bell!! Yūjō no Tag Battle Full Power
 Konjiki no Gash Bell!! Go! Go! Mamono Fight!!
+Konjiki no Gash Bell!! Yūjō no Tag Battle Full Power
 Korokke! Ban-Ō no Kiki o Sukue
 Kururin Squash!
 Largo Winch: Empire Under Threat
 Legend of Golfer
-The Legend of Spyro: A New Beginning
-The Legend of Zelda: Collector's Edition	.. gok::				1.4.2
-The Legend of Zelda: Four Swords Adventures	.. gok::				0.2.6
-The Legend of Zelda: Ocarina of Time / Master Quest	.. gok::				0.2.1
-The Legend of Zelda: Twilight Princess	.. gprob:: |br| See notes				1.4.2	Several reports, rare audio issues, most notable in Goron dungeon, occasional random game crashes while the game is loading, be sure to save regularly. Being investigated.
-The Legend of Zelda: The Wind Waker	.. gok::	.. gok:: [1]_	.. gok::		1.4.2
 Legends of Wrestling	.. gok::				0.2.6
 Legends of Wrestling II
-Lego Star Wars: The Video Game	.. gok::				0.2.10
 Lego Star Wars II: The Original Trilogy
+Lego Star Wars: The Video Game	.. gok::				0.2.10
 Lemony Snicket's A Series of Unfortunate Events	.. gbad::				1.4.2	Cubeboot freezes when you select the game and you have to restart your gamecube to get functionality back.
 Looney Tunes: Back in Action
-The Lord of the Rings: The Return of the King
-The Lord of the Rings: The Third Age
-The Lord of the Rings: The Two Towers	.. gok::				0.2.8
 Lost Kingdoms
 Lost Kingdoms II
 Lotus Challenge
 Luigi's Mansion	.. gok::				1.4.2
+MC Groovz Dance Craze
+MLB Slugfest 2003
+MLB Slugfest 2004
+MVP Baseball 2004
+MVP Baseball 2005
+MX Superfly
 Madagascar
 Madden NFL 06
 Madden NFL 07
@@ -330,12 +314,12 @@ Mario Party 5	.. gok::				0.2.7
 Mario Party 6
 Mario Party 7	.. gok::				0.2.6
 Mario Power Tennis	.. gok::		.. gok::		1.4.2
+Mario Smash Football
 Mario Superstar Baseball	.. gprob:: |br| See notes				1.4.2
 Mark Davis Pro Bass Challenge
 Marvel Nemesis: Rise of the Imperfects
 Mary-Kate and Ashley: Sweet 16 – Licensed to Drive
 Mat Hoffman's Pro BMX 2
-MC Groovz Dance Craze
 Medabots Infinity	.. gok::				0.2.7
 Medal of Honor: European Assault
 Medal of Honor: Frontline
@@ -358,34 +342,22 @@ Midway Arcade Treasures 3	.. gok::				1.4.2
 Minority Report: Everybody Runs
 Mission: Impossible – Operation Surma
 Misutā Dorirā Doriru Rando
-MLB Slugfest 2003
-MLB Slugfest 2004
 Momotarō Dentetsu 11: Black Bombee Shutsugen! No Maki
 Momotarō Dentetsu 12: Nishinihon Hen mo ari Masse!
 Monopoly Party
 Monster 4x4: Masters of Metal
 Monster House
-Monsters	Inc. Scream Arena	.. gok::				0.2.9
 Monster Jam: Maximum Destruction
+Monsters	Inc. Scream Arena	.. gok::				0.2.9
 Mortal Kombat: Deadly Alliance
 Mortal Kombat: Deception
 Muppets Party Cruise
 Muscle Champion: Kinnikutō Kessen
 Mutsu to Nohohon
-MVP Baseball 2004
-MVP Baseball 2005
-MX Superfly
 Mystic Heroes
-Namco Museum
-Namco Museum 50th Anniversary	.. gok::				0.2.5
-Naruto: Clash of Ninja
-Naruto: Clash of Ninja 2	.. gok::				1.4.2
-Naruto: Clash of Ninja European Version
-Naruto: Gekitō Ninja Taisen! 3
-Naruto: Gekitō Ninja Taisen! 4
 NASCAR 2005: Chase for the Cup
-NASCAR: Dirt to Daytona
 NASCAR Thunder 2003
+NASCAR: Dirt to Daytona
 NBA 2K2
 NBA 2K3
 NBA Courtside 2002
@@ -394,19 +366,13 @@ NBA Live 2003
 NBA Live 2004
 NBA Live 2005
 NBA Street
-NBA Street Vol. 2
 NBA Street V3
+NBA Street Vol. 2
 NCAA College Basketball 2K3
 NCAA College Football 2K3
 NCAA Football 2003
 NCAA Football 2004
 NCAA Football 2005
-Need for Speed: Carbon	.. gok::				1.4.2
-Need for Speed: Hot Pursuit 2	.. gok::				1.4.0
-Need for Speed: Most Wanted	.. gok::	.. gbad::	.. gbad::		1.4.2	There is a chance the game will fail to load a song or portion of the map during races, causing it to crash. Works fine when loading it through microSD.
-Need for Speed: Underground
-Need for Speed: Underground 2	.. gok::				0.3.3
-Neighbours from Hell
 NFL 2K3
 NFL Blitz 2002
 NFL Blitz 2003	.. gok::				0.2.9
@@ -422,10 +388,22 @@ NHL 2K3
 NHL Hitz 2002
 NHL Hitz 2003	.. gok::				0.2.9
 NHL Hitz Pro	.. gok::				1.4.2
+Namco Museum
+Namco Museum 50th Anniversary	.. gok::				0.2.5
+Naruto: Clash of Ninja
+Naruto: Clash of Ninja 2	.. gok::				1.4.2
+Naruto: Clash of Ninja European Version
+Naruto: Gekitō Ninja Taisen! 3
+Naruto: Gekitō Ninja Taisen! 4
+Need for Speed: Carbon	.. gok::				1.4.2
+Need for Speed: Hot Pursuit 2	.. gok::				1.4.0
+Need for Speed: Most Wanted	.. gok::	.. gbad::	.. gbad::		1.4.2	There is a chance the game will fail to load a song or portion of the map during races, causing it to crash. Works fine when loading it through microSD.
+Need for Speed: Underground
+Need for Speed: Underground 2	.. gok::				0.3.3
+Neighbours from Hell
 Nickelodeon Party Blast
-Nicktoons: Battle for Volcano Island
 Nicktoons Unite!
-SpongeBob SquarePants & Friends: Unite!
+Nicktoons: Battle for Volcano Island
 Nintendo GameCube Preview Disc May 2003					1.4.3	Games seem playable but the movie demos do not. Rating logo shows then nothing. Press button and returns to menu screen fine
 Nintendo Puzzle Collection
 Odama
@@ -438,6 +416,7 @@ Open Season
 Outlaw Golf
 Over the Hedge	.. gok::				0.2.8
 P.N.03
+PK: Out of the Shadows
 Pac-Man Fever
 Pac-Man Vs.
 Pac-Man World 2
@@ -451,28 +430,25 @@ Phantasy Star Online Episode III: C.A.R.D. Revolution	.. gok::				0.2.7
 Piglet's Big Game
 Pikmin	.. gok::				1.5.0	When landing at a site, the name of the site normally appears before landing on it, with orange letters on a black screen that say the name of the site (e.g. The Forest Navel). On the FlippyDrive, this either doesn't happen or it happens a lot quicker than it is supposed to. This is consistent among all landing sites. (Extremely small bug that doesn't even crash the game, just something I noticed :))
 Pikmin 2	.. gok::				1.4.2
-PK: Out of the Shadows
-Donald Duck: PK
 Pinball Hall of Fame: The Gottlieb Collection
 Pitfall: The Lost Expedition
 Pokémon Box: Ruby and Sapphire	.. gok::				0.2.8
 Pokémon Channel	.. gok::				0.2.8
 Pokémon Colosseum	.. gok::				0.2.1
-Pokémon Colosseum Jirachi Bonus Disc	.. gok::				0.2.1
 Pokémon Colosseum Celebi Bonus Disc	.. gok::				0.2.5
+Pokémon Colosseum Jirachi Bonus Disc	.. gok::				0.2.1
 Pokémon XD: Gale of Darkness	.. gok::				0.2.1
-The Polar Express
 Pool Edge
 Pool Paradise
 Power Rangers Dino Thunder
-The Powerpuff Girls: Relish Rampage - Pickled Edition
 Prince of Persia: The Sands of Time
 Prince of Persia: The Two Thrones
 Prince of Persia: Warrior Within
 Pro Rally
+Pro Tennis WTA Tour
 Puyo Pop Fever	.. gok::				0.2.6
-R: Racing Evolution
 R: Racing
+R: Racing Evolution
 Radirgy GeneriC	.. gok::				1.4.0
 Rally Championship
 Rampage: Total Destruction
@@ -481,20 +457,18 @@ Rave Master
 Rayman 3: Hoodlum Havoc
 Rayman Arena
 Red Faction II
-RedCard 2003
 RedCard
+RedCard 2003
 Rei Fighter Gekitsui Senki
 Reign of Fire
 Resident Evil	.. gok::				0.2.7
 Resident Evil 2
 Resident Evil 3: Nemesis
 Resident Evil 4	.. gok:: Disc 1				0.2.7
-Resident Evil – Code: Veronica X	.. gbad::				1.4.1	Game starts and opening cinematic plays, crashes when entering gameplay first time
 Resident Evil Zero
+Resident Evil – Code: Veronica X	.. gbad::				1.4.1	Game starts and opening cinematic plays, crashes when entering gameplay first time
 Ribbit King
 Road Trip: The Arcade Edition
-Gadget Racers	.. gbad::				1.4.2	Freezes on the initial loading icon.
-Choro Q!
 RoadKill
 RoboCop: Aratanaru Kiki	.. gok::				1.4.2
 Robotech: Battlecry	.. gok::				0.2.7
@@ -504,33 +478,30 @@ Rocky
 Rogue Ops
 Rugrats: Royal Ransom	.. gok::				1.4.2
 Rupan Sansei: Umi ni Kieta Hihou
+SD Gundam Gashapon Wars
+SSX 3	.. gok::				1.4.2
+SSX Tricky	.. gok::				1.4.2
+SSX on Tour
+SX Superstar
 Samurai Jack: The Shadow of Aku
 Scaler
 Scooby-Doo! Mystery Mayhem
 Scooby-Doo! Night of 100 Frights
 Scooby-Doo! Unmasked
-The Scorpion King: Rise of the Akkadian
-SD Gundam Gashapon Wars
 Second Sight
 Sega Soccer Slam
 Serious Sam: Next Encounter
 Shadow the Hedgehog	.. gok::				1.4.2
-Shāman Kingu: Souru Faito
 Shamu's Deep Sea Adventures
 Shark Tale
 Shikigami no Shiro II
 Shinseiki GPX Cyber Formula: Road to the Evolution
 Shrek 2
-Shrek: Extra Large
 Shrek Smash n' Crash Racing	.. gok::				0.2.10
 Shrek Super Party	.. gok:: [2]_				0.3.3
 Shrek SuperSlam	.. gok::				0.2.10
-The Simpsons: Hit & Run	.. gprob::				1.4.0
-The Simpsons: Road Rage	.. gok::				0.2.6
-The Sims
-The Sims 2
-The Sims 2: Pets
-The Sims Bustin' Out
+Shrek: Extra Large
+Shāman Kingu: Souru Faito
 Skies of Arcadia Legends	.. gok:: |br| Initial test				0.2.1
 Smashing Drive
 Smuggler's Run: Warzones
@@ -550,33 +521,30 @@ Speed Kings
 Sphinx and the Cursed Mummy
 Spider-Man
 Spider-Man 2
+Spirits & Spells
+SpongeBob SquarePants & Friends: Unite!
 SpongeBob SquarePants: Battle for Bikini Bottom
 SpongeBob SquarePants: Creature from the Krusty Krab
 SpongeBob SquarePants: Lights	Camera	Pants!
-The SpongeBob SquarePants Movie
 SpongeBob SquarePants: Revenge of the Flying Dutchman					1.4.6	"Report 1: Game loads fine to the title screen. Once you press start and enter the staging area, game still seems fine. Once you walk over to the spot to begin a new game and press the ""A"" button, the game freezes on the loading screen with a black background and bubbles. Report 2: The game boots and progresses to the new game hub in the Krusty Krab, but selecting the ""New Game"" option causes the game to lock up on the bubble loading screen. Same applies for watching any of the videos in the ""Extras"" menu."
 SpyHunter	.. gok::				1.4.2
-Spyro: Enter the Dragonfly
 Spyro: A Hero's Tail
-SSX 3	.. gok::				1.4.2
-SSX on Tour
-SSX Tricky	.. gok::				1.4.2
+Spyro: Enter the Dragonfly
 Star Fox Adventures
 Star Fox: Assault	.. gok::				0.2.1
-Starsky & Hutch
-Star Wars: Bounty Hunter
-Star Wars: The Clone Wars	.. gprob::				1.4.2	Game launches into title screen. However, when trying to create a save file on a memory card or when trying to play without a memory card, the game freezes and must be turned off and back on again
 Star Wars Jedi Knight II: Jedi Outcast
 Star Wars Rogue Squadron II: Rogue Leader	.. gok::				1.4.2
 Star Wars Rogue Squadron III: Rebel Strike	.. gok::				0.2.9
+Star Wars: Bounty Hunter
+Star Wars: The Clone Wars	.. gprob::				1.4.2	Game launches into title screen. However, when trying to create a save file on a memory card or when trying to play without a memory card, the game freezes and must be turned off and back on again
+Starsky & Hutch
 Street Hoops
 Street Racing Syndicate
 Strike Force Bowling
-The Sum of All Fears
 Summoner: A Goddess Reborn
 Super Bubble Pop
+Super Bust-a-Move All-StarsPAL
 Super Mario Strikers
-Mario Smash Football
 Super Mario Sunshine	.. gok::				1.4.2
 Super Monkey Ball	.. gok::				1.4.0
 Super Monkey Ball 2	.. gprob::		.. gok::		1.4.2	When trying to play the character Baby (tested in Party Games, don't know about main game) the game crashes when trying to load into the minigame. If Baby is avoided, the game works perfectly.
@@ -586,14 +554,14 @@ Super Smash Bros. Melee	.. gok::	.. gok:: [1]_	.. gok::		1.4.2
 Superman: Shadow of Apokolips
 Surf's Up
 Swingerz Golf
-Ace Golf
-SX Superstar
+TMNT
+TMNT: Mutant Melee
+Tak 2: The Staff of Dreams
 Tak and the Power of Juju
 Tak: The Great Juju Challenge	.. gok::				1.4.2
-Tak 2: The Staff of Dreams
 Tales of Symphonia	.. gok:: Disc 1+2				0.2.1
-Tarzan: Untamed
 Tarzan: Freeride
+Tarzan: Untamed
 Taxi 3
 Taz: Wanted
 Teen Titans
@@ -604,15 +572,48 @@ Tengai Makyō II: Manji Maru
 Tensai Bit-Kun: Gramon Battle
 Terminator 3: The Redemption
 Tetris Worlds	.. gok::				0.2.6
+The Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies
+The Adventures of Jimmy Neutron Boy Genius: Jet Fusion
+The Ant Bully
+The Baseball 2003: Battle Ballpark Sengen Perfect Play Pro Yakyū
+The Chronicles of Narnia: The Lion	the Witch and the Wardrobe
+The Fairly OddParents: Breakin' Da Rules
+The Fairly OddParents: Shadow Showdown
+The Grim Adventures of Billy & Mandy
+The Haunted Mansion	.. gok::				0.2.9
+The Hobbit
+The Incredible Hulk: Ultimate Destruction
+The Incredibles	.. gok::				1.4.2
+The Incredibles: Rise of the Underminer
+The Italian Job
+The Legend of Spyro: A New Beginning
+The Legend of Zelda: Collector's Edition	.. gok::				1.4.2
+The Legend of Zelda: Four Swords Adventures	.. gok::				0.2.6
+The Legend of Zelda: Ocarina of Time / Master Quest	.. gok::				0.2.1
+The Legend of Zelda: The Wind Waker	.. gok::	.. gok:: [1]_	.. gok::		1.4.2
+The Legend of Zelda: Twilight Princess	.. gprob:: |br| See notes				1.4.2	Several reports, rare audio issues, most notable in Goron dungeon, occasional random game crashes while the game is loading, be sure to save regularly. Being investigated.
+The Lord of the Rings: The Return of the King
+The Lord of the Rings: The Third Age
+The Lord of the Rings: The Two Towers	.. gok::				0.2.8
+The Polar Express
+The Powerpuff Girls: Relish Rampage - Pickled Edition
+The Scorpion King: Rise of the Akkadian
+The Simpsons: Hit & Run	.. gprob::				1.4.0
+The Simpsons: Road Rage	.. gok::				0.2.6
+The Sims
+The Sims 2
+The Sims 2: Pets
+The Sims Bustin' Out
+The SpongeBob SquarePants Movie
+The Sum of All Fears
+The Tower of Druaga	.. gok:: |br| See notes				1.4.2	Advised to use FDI as this game is <1MB in actual size
+The Urbz: Sims in the City
 Tiger Woods PGA Tour 06
 Tiger Woods PGA Tour 2003
 Tiger Woods PGA Tour 2004
 Tiger Woods PGA Tour 2005
 TimeSplitters 2
 TimeSplitters: Future Perfect	.. gok::				0.2.10
-TMNT
-TMNT: Mutant Melee
-Tom and Jerry: War of the Whiskers
 Tom Clancy's Ghost Recon
 Tom Clancy's Ghost Recon 2
 Tom Clancy's Rainbow Six 3
@@ -621,6 +622,7 @@ Tom Clancy's Splinter Cell	.. gok:: |br| PAL needs test				0.2.9
 Tom Clancy's Splinter Cell: Chaos Theory
 Tom Clancy's Splinter Cell: Double Agent
 Tom Clancy's Splinter Cell: Pandora Tomorrow
+Tom and Jerry: War of the Whiskers
 Tomb Raider: Legend
 Tonka: Rescue Patrol
 Tony Hawk's American Wasteland	.. gok::				0.2.5
@@ -630,7 +632,6 @@ Tony Hawk's Underground
 Tony Hawk's Underground 2	.. gok::				0.2.6
 Top Angler: Real Bass Fishing
 Top Gun: Combat Zones	.. gok::				1.4.0
-The Tower of Druaga	.. gok:: |br| See notes				1.4.2	Advised to use FDI as this game is <1MB in actual size
 TransWorld Surf: Next Wave
 Trigger Man
 True Crime: New York City
@@ -645,7 +646,7 @@ UFC: Throwdown
 Ultimate Muscle: Legends vs. New Generation	.. gok::				1.4.0	Garbled text in Cubeboot?
 Ultimate Spider-Man
 Universal Studios Theme Parks Adventure
-The Urbz: Sims in the City
+Urban Freestyle Soccer
 V-Rally 3
 Vexx
 Viewtiful Joe	.. gok::				0.2.5
@@ -654,6 +655,12 @@ Viewtiful Joe: Red Hot Rumble
 Virtua Quest
 Virtua Striker 2002
 Virtua Striker 3 ver. 2002
+WTA Tour Tennis
+WWE Crush Hour
+WWE Day of Reckoning
+WWE Day of Reckoning 2
+WWE WrestleMania X8	.. gok::				0.2.6
+WWE WrestleMania XIX
 Wallace & Gromit in Project Zoo
 Wario World	.. gok::				0.2.7
 WarioWare Inc.: Mega Party Games!	.. gprob::				1.4.2	As far as gameplay goes, everything has worked perfectly so far. But, if you let the game stay on the title screen long enough it'll start playing these short scenes, and if you stay long enough doing that, there is a specific scene that crashes the game.
@@ -666,19 +673,12 @@ World Soccer Winning Eleven 6 Final Evolution
 Worms 3D
 Worms Blast
 Wreckless: The Yakuza Missions
-WTA Tour Tennis
-Pro Tennis WTA Tour
-WWE Crush Hour
-WWE Day of Reckoning
-WWE Day of Reckoning 2
-WWE WrestleMania X8	.. gok::				0.2.6
-WWE WrestleMania XIX
+X-Men 2: Wolverine's Revenge
 X-Men Legends	.. gok::				0.2.1
 X-Men Legends II: Rise of Apocalypse
 X-Men: Next Dimension
 X-Men: The Official Game
 X2: Wolverine's Revenge
-X-Men 2: Wolverine's Revenge
 XGRA: Extreme-G Racing Association
 XIII
 Yu-Gi-Oh! The Falsebound Kingdom	.. gok::				0.2.7
@@ -687,7 +687,7 @@ Zatch Bell! Mamodo Battles
 Zatch Bell! Mamodo Fury
 Zoids Vs.
 Zoids Vs. III
-Zoids: Battle Legends	.. gok::				0.2.6
 Zoids Vs. IIJP
+Zoids: Battle Legends	.. gok::				0.2.6
 Zoids: Full Metal Crash
 ZooCube	.. gok::				1.4.2
