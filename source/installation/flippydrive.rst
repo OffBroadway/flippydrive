@@ -169,6 +169,8 @@ When locked, the black locking tab will be flush with the body of the connector.
 
 Using a #0 Phillips, attach FlippyDrive to the frame with the two provided screws.
 
+.. tip:: If you received your FlippyDrive in or after August of 2025, your kit might not include screws and you can just press the FlippyDrive carefully into the mounting frame, no screws required.
+
 .. image:: /_static/4X1A7533.jpg
 
 Step 4: Verify Installation
