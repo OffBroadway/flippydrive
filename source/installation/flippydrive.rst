@@ -75,7 +75,7 @@ The mounting frame will cover one of the GameCube screw holes, so put 1 of the R
 
 .. image:: /_static/4X1A7520.jpg
 
-Fold the flex cable along the perforation as seen below. When viewing the flex cable, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex cable with a triangle symbol.
+Fold the flex cable carefully along the perforation as seen below. When viewing the flex cable, make sure the fold along the perforation results in the crease pointing "upward" like a 'W' on the side of the flex cable with a triangle symbol.
 
 .. image:: /_static/connector.svg
      :width: 320
