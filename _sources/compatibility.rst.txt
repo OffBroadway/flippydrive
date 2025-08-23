@@ -1,3 +1,10 @@
+:hide-toc:
+
+.. raw:: html
+
+    <script>document.body.classList.add('full-width-page');</script>
+
+
 Game Compatibility
 ******************
 
@@ -10,16 +17,13 @@ Having just entered beta, the FlippyDrive currently has a few thousand hours of 
 Game List
 =========
 
-.. note:: 2025-06-02 - The table on this page will be updated soon!
-
-
 .. note:: 
     This list is largely sourced from community feedback, so it may have some inaccuracies.
 
 .. csv-table::
-   :file: compatibility_data.csv
+   :file: compatibility_data.tsv
    :header-rows: 1
-   :delim: ;
+   :delim: tab
    :class: datatable
    :encoding: UTF-8
 

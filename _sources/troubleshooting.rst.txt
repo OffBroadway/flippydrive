@@ -23,6 +23,10 @@ During FlippyDrive install
      :width: 320
      :class: align-center
 
+- **I damaged the flex cable, what now?**
+
+  You can order a replacement ribbon `here <https://teamoffbroadway.com/product/flippydrive-flex/>`_.
+
 First Boot
 ==========
 

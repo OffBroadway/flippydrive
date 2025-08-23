@@ -1,3 +1,7 @@
+.full-width-page .content {
+  width: unset;
+}
+
 .status {
   text-align: center;
   color: #fff; /* white text color */
@@ -39,5 +43,5 @@
 }
 
 .sig-name {
-  --color-api-name: #fff;
+  --color-api-name: var(--color-content-foreground);
 }
