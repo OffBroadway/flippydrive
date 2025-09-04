@@ -11,7 +11,7 @@ Alien Hominid	.. gok::	.. gok:: [2]_			0.2.1
 All-Star Baseball 2002						
 All-Star Baseball 2003						
 All-Star Baseball 2004						
-Amazing Island						
+Amazing Island	.. gok::				1.4.6	
 American Chopper 2: Full Throttle						
 Animal Crossing	.. gok::				1.4.2	AKA: Doubutsu no Mori, Doubutsu no Mori e+
 Animal Crossing Deluxe	.. gok::				1.4.6	Community mod of Animal Crossing with QoL changes and new features.
@@ -33,15 +33,15 @@ Barnyard
 Barbart						AKA: Warrior Blade: Rastan vs. Barbarian
 Baten Kaitos Origins	.. gok::				1.4.2	
 Baten Kaitos: Eternal Wings and the Lost Ocean	.. gok::				1.4.2	
-Batman Begins						
-Batman: Dark Tomorrow						
-Batman: Rise of Sin Tzu						
-Batman: Vengeance						
+Batman Begins	.. gok::			.. gbad::	1.4.2	
+Batman: Dark Tomorrow	.. gok::			.. gbad::	1.4.2	
+Batman: Rise of Sin Tzu	.. gok::			.. gbad::	1.4.2	
+Batman: Vengeance	.. gok::			.. gbad::	1.4.2	
 Battalion Wars	.. gok::				0.2.10	
 Battle Stadium D.O.N						
 Beach Spikers: Virtua Beach Volleyball	.. gok::				0.2.10	
 Beyblade VForce: Super Tournament Battle						
-Beyond Good & Evil	.. gok::					
+Beyond Good & Evil	.. gok::				1.4.0	
 Big Air Freestyle						
 Big Mutha Truckers						
 Billy Hatcher and the Giant Egg	.. gok::				0.2.6	
@@ -150,7 +150,7 @@ ESPN MLS ExtraTime 2002
 Ed, Edd n Eddy: The Mis-Edventures	.. gok::				0.2.7	
 Eggo Mania						AKA: Egg Mania: Eggstreme Madness
 Eisei Meijin VI						
-Enter the Matrix						
+Enter the Matrix	.. gok::				1.4.2	
 Eternal Darkness: Sanity's Requiem	.. gok::				0.2.7	
 Evolution Skateboarding						
 Evolution Snowboarding						
@@ -206,7 +206,7 @@ Gurando Batoru! 3
 Happy Feet						
 Harry Potter and the Chamber of Secrets						
 Harry Potter and the Goblet of Fire						
-Harry Potter and the Philosopher's Stone						AKA: Harry Potter and the Sorcerer's Stone
+Harry Potter and the Philosopher's Stone	.. gprob::				1.4.2	AKA: Harry Potter and the Sorcerer's Stone |br| Crashed about 10 minutes into the game right after the first mini dungeon. Crashed mid cutscene high pick squealing noise.
 Harry Potter and the Prisoner of Azkaban						
 Harry Potter: Quidditch World Cup						
 Harvest Moon: A Wonderful Life	.. gok::				1.4.2	
@@ -218,7 +218,7 @@ Hitman 2: Silent Assassin
 Home Run King	.. gok::				0.2.6	
 Homeland						
 Hot Wheels: Velocity X						
-Hot Wheels: World Race	.. gok::					
+Hot Wheels: World Race	.. gok::				1.4.0	
 Hudson Selection Vol. 1: Lode Runner	.. gok::				1.4.2	
 Hudson Selection Vol. 2: Star Soldier						
 Hudson Selection Vol. 3: PC Genjin						
@@ -231,10 +231,10 @@ Ikaruga	.. gok::				1.4.2
 Intellivision Lives!	.. gok::				0.2.6	
 International Superstar Soccer 2						
 International Superstar Soccer 3						
-James Bond 007: Agent Under Fire	.. gok::				1.4.2	
-James Bond 007: Everything or Nothing	.. gok::				0.2.6	
-James Bond 007: From Russia with Love						
-James Bond 007: Nightfire	.. gok::				1.4.0	
+James Bond 007: Agent Under Fire	.. gok::			.. gbad::	1.4.2	
+James Bond 007: Everything or Nothing	.. gok::			.. gbad::	0.2.6	
+James Bond 007: From Russia with Love				.. gbad::		
+James Bond 007: Nightfire	.. gok::			.. gbad::	1.4.0	
 Jeremy McGrath Supercross World						
 Jikkyou Pawafuru Puroyakyu 10						
 Jikkyou Pawafuru Puroyakyu 11						
@@ -268,7 +268,7 @@ Legend of Golfer
 Legends of Wrestling	.. gok::				0.2.6	
 Legends of Wrestling II						
 Lego Star Wars II: The Original Trilogy						
-Lego Star Wars: The Video Game	.. gok::				0.2.10	
+Lego Star Wars: The Video Game	.. gprob::				1.4.2	Gameplay is fine, audio is mostly okay. Audio oftentimes had a crackling sound that would play under uncertain circumstances. Audible in areas of first level.
 Lemony Snicket's A Series of Unfortunate Events	.. gbad::				1.4.2	Cubeboot freezes when you select the game and you have to restart your gamecube to get functionality back.
 Looney Tunes: Back in Action						
 Lost Kingdoms						
@@ -298,7 +298,7 @@ Mario Party 6
 Mario Party 7	.. gok::				0.2.6	
 Mario Power Tennis	.. gok::		.. gok::		1.4.2	
 Mario Smash Football						AKA: Mario Smash Football
-Mario Superstar Baseball	.. gprob:: |br| See notes				1.4.2	
+Mario Superstar Baseball	.. gprob:: |br| See notes				1.4.6	Game crashes. 3 times in peaches park.. unsure if other areas have issues too
 Mark Davis Pro Bass Challenge						
 Marvel Nemesis: Rise of the Imperfects						
 Mary-Kate and Ashley: Sweet 16 – Licensed to Drive						
@@ -310,7 +310,7 @@ Medal of Honor: Rising Sun
 Meet the Robinsons						
 Mega Man Anniversary Collection	.. gok::				0.2.9	
 Mega Man Network Transmission						
-Mega Man X Collection	.. gok:: 6 played				0.2.10	
+Mega Man X Collection	.. gok::				0.2.10	6 played
 Mega Man X: Command Mission						
 Men in Black II: Alien Escape						
 Mercedes-Benz World Racing						
@@ -318,6 +318,7 @@ Metal Arms: Glitch in the System
 Metal Gear Solid: The Twin Snakes	.. gok::				1.4.2	
 Metroid Prime	.. gok::				1.4.2	Reported slowness in opening cutscene, could be because of progressive being enabled
 Metroid Prime 2: Echoes	.. gok::				1.4.2	
+Metroid Prime 2: Echoes Bonus Disc	.. gok::				1.4.6	
 Micro Machines						
 Midway Arcade Treasures	.. gok::				1.4.0	
 Midway Arcade Treasures 2	.. gok::				1.4.1	
@@ -331,8 +332,8 @@ Monopoly Party
 Monster 4x4: Masters of Metal						
 Monster House						
 Monster Jam: Maximum Destruction						
-Monsters	Inc. Scream Arena	.. gok::				0.2.9
-Mortal Kombat: Deadly Alliance						
+Monsters Inc. Scream Arena	.. gok::				0.2.9	
+Mortal Kombat: Deadly Alliance	.. gok::				1.4.6	
 Mortal Kombat: Deception						
 Muppets Party Cruise						
 Muscle Champion: Kinnikutō Kessen						
@@ -371,10 +372,10 @@ NHL 2K3
 NHL Hitz 2002						
 NHL Hitz 2003	.. gok::				0.2.9	
 NHL Hitz Pro	.. gok::				1.4.2	
-Namco Museum						
+Namco Museum	.. gok::				1.4.2	Game work fine, but when using the option to go back to the main menu, the game freezes and a very loud error buzzing is played through the television.
 Namco Museum 50th Anniversary	.. gok::				0.2.5	
 Naruto: Clash of Ninja						
-Naruto: Clash of Ninja 2	.. gok::				1.4.2	
+Naruto: Clash of Ninja 2	.. gok::			.. gbad::	1.4.2	
 Naruto: Clash of Ninja European Version						
 Naruto: Gekitō Ninja Taisen! 3						
 Naruto: Gekitō Ninja Taisen! 4						
@@ -404,15 +405,15 @@ Pac-Man Vs.
 Pac-Man World 2						
 Pac-Man World 3						
 Pac-Man World Rally						
-Paper Mario: The Thousand-Year Door	.. gok::				1.5.0	
+Paper Mario: The Thousand-Year Door	.. gok::				1.4.5	
 Peter Jackson's King Kong						
 Phantasy Star Online Episode I & II	.. gok::				1.4.2	
 Phantasy Star Online Episode I & II Plus	.. gok::				1.4.0	
-Phantasy Star Online Episode III: C.A.R.D. Revolution	.. gok::				0.2.7	
+Phantasy Star Online Episode III: C.A.R.D. Revolution	.. gok::				1.4.2	
 Piglet's Big Game						
-Pikmin	.. gok::				1.5.0	When landing at a site, the name of the site normally appears before landing on it, with orange letters on a black screen that say the name of the site (e.g. The Forest Navel). On the FlippyDrive, this either doesn't happen or it happens a lot quicker than it is supposed to. This is consistent among all landing sites. (Extremely small bug that doesn't even crash the game, just something I noticed :))
+Pikmin	.. gok::				1.4.5	When landing at a site, the name of the site normally appears before landing on it, with orange letters on a black screen that say the name of the site (e.g. The Forest Navel). On the FlippyDrive, this either doesn't happen or it happens a lot quicker than it is supposed to. This is consistent among all landing sites. (Extremely small bug that doesn't even crash the game, just something I noticed :))
 Pikmin 2	.. gok::				1.4.2	
-Pinball Hall of Fame: The Gottlieb Collection						
+Pinball Hall of Fame: The Gottlieb Collection	.. gok::				1.4.6	
 Pitfall: The Lost Expedition						
 Pokémon Box: Ruby and Sapphire	.. gok::				0.2.8	
 Pokémon Channel	.. gok::				0.2.8	
@@ -444,11 +445,11 @@ RedCard 2003
 Rei Fighter Gekitsui Senki						
 Reign of Fire						
 Resident Evil	.. gok::				0.2.7	
-Resident Evil 2						
-Resident Evil 3: Nemesis						
+Resident Evil 2	.. gok::				1.4.2	
+Resident Evil 3: Nemesis	.. gok::				1.4.2	
 Resident Evil 4	.. gok:: Disc 1				0.2.7	
 Resident Evil Zero						
-Resident Evil – Code: Veronica X	.. gbad::				1.4.1	Game starts and opening cinematic plays, crashes when entering gameplay first time
+Resident Evil – Code: Veronica X	.. gok::			""	1.4.2	
 Ribbit King						
 Road Trip: The Arcade Edition						
 RoadKill						
@@ -465,7 +466,7 @@ SSX 3	.. gok::				1.4.2
 SSX Tricky	.. gok::				1.4.2	
 SSX on Tour						
 SX Superstar						
-Samurai Jack: The Shadow of Aku						
+Samurai Jack: The Shadow of Aku	.. gprob::				Unknown	One report about not being able to boot, no further details.
 Scaler						
 Scooby-Doo! Mystery Mayhem						
 Scooby-Doo! Night of 100 Frights						
@@ -509,7 +510,7 @@ SpongeBob SquarePants: Creature from the Krusty Krab
 SpongeBob SquarePants: Lights, Camera, Pants!						
 SpongeBob SquarePants: Revenge of the Flying Dutchman					1.4.6	Report 1: Game loads fine to the title screen. Once you press start and enter the staging area, game still seems fine. Once you walk over to the spot to begin a new game and press the 'A' button, the game freezes on the loading screen with a black background and bubbles. |br| Report 2: The game boots and progresses to the new game hub in the Krusty Krab, but selecting the 'New Game' option causes the game to lock up on the bubble loading screen. Same applies for watching any of the videos in the 'Extras' menu.
 SpyHunter	.. gok::				1.4.2	
-Spyro: A Hero's Tail						
+Spyro: A Hero's Tail	.. gok::				1.4.6	
 Spyro: Enter the Dragonfly						
 Star Fox Adventures						
 Star Fox: Assault	.. gok::				0.2.1	
@@ -571,8 +572,8 @@ The Legend of Zelda: Collector's Edition	.. gok::				1.4.2
 The Legend of Zelda: Four Swords Adventures	.. gok::				0.2.6	
 The Legend of Zelda: Ocarina of Time / Master Quest	.. gok::				0.2.1	
 The Legend of Zelda: The Wind Waker	.. gok::	.. gok:: [1]_	.. gok::		1.4.2	
-The Legend of Zelda: Twilight Princess	.. gprob:: |br| See notes				1.4.2	Several reports, rare audio issues, most notable in Goron dungeon, occasional random game crashes while the game is loading, be sure to save regularly. Being investigated.
-The Lord of the Rings: The Return of the King						
+The Legend of Zelda: Twilight Princess	.. gprob:: |br| See notes				1.4.2	Several reports, rare audio issues, most notable in Goron Mines, occasional random game crashes while the game is loading, be sure to save regularly. Being investigated.
+The Lord of the Rings: The Return of the King	.. gok::				1.4.2	
 The Lord of the Rings: The Third Age						
 The Lord of the Rings: The Two Towers	.. gok::				0.2.8	
 The Polar Express						
@@ -592,8 +593,8 @@ Tiger Woods PGA Tour 2003
 Tiger Woods PGA Tour 2004						
 Tiger Woods PGA Tour 2005						
 Tiger Woods PGA Tour 06						
-TimeSplitters 2						
-TimeSplitters: Future Perfect	.. gok::				0.2.10	
+TimeSplitters 2	.. gok::			.. gbad::	1.4.6	
+TimeSplitters: Future Perfect	.. gok::			.. gbad::	1.4.6	
 Tom Clancy's Ghost Recon						
 Tom Clancy's Ghost Recon 2						
 Tom Clancy's Rainbow Six 3						
