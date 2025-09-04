@@ -5,7 +5,7 @@ The FlippyDrive and cubeboot can be configured using a configuration file. The c
 
 The sections are used to group the configuration options.
 
-Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
+Create an text file on the root of your microSD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
 
 Some options are optional. If so, they are marked with a ``#`` in front of them, remove ``#`` and one space to enable them.
 
@@ -208,7 +208,7 @@ The following options are still under development. Use them at your own discreti
    :type: integer
    :default: 0 (commented out)
 
-   .. versionadded:: 1.5.0
+   .. versionadded:: 1.4.3
 
    When set to ``1``, this enables folder icons and game icons in the interface.
    Be aware that this feature is still experimental and might have bugs.
@@ -224,7 +224,7 @@ The following options are still under development. Use them at your own discreti
    :type: string (filename)
    :default: (commented out)
 
-   .. versionadded:: 1.5.0
+   .. versionadded:: 1.4.5
 
    This enables the custom Cube logo feature, which replaces the word 'GAMECUBE' on
    the boot animation with a custom image. Specify the filename of your desired logo image.

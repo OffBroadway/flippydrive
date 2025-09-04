@@ -23,7 +23,7 @@ If you want to use docker compose, you can use the ``compose.yaml`` file provide
 
     services:
       flippydrive-server:
-        image: offbroadway/flippydrive-server:v1.5.0
+        image: offbroadway/flippydrive-server:v1.4.2
         volumes:
           # Mount the data folder in the current directory to /data inside of the container
           - ./data:/data
