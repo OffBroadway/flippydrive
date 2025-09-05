@@ -15,7 +15,7 @@ Things Required
 
     
 - 10-15 Minutes
-- FlippyDrive kit (FlippyDrive, flex cable, mounting frame, drive plug, two screws)
+- FlippyDrive kit (FlippyDrive, flex cable, mounting frame, drive plug, two screws (before August 2025))
 - 4.5mm Gamebit screwdriver
 - #0 Phillips screwdriver
 - #1 Phillips screwdriver (optional)
@@ -167,9 +167,9 @@ When locked, the black locking tab will be flush with the body of the connector.
 .. note::
     Attaching the flex cable to the FlippyDrive after mounting it to the frame is quite difficult, so it is recommended to follow these assembly instructions in-order.
 
-Using a #0 Phillips, attach FlippyDrive to the frame with the two provided screws.
+Using a #0 Phillips, attach FlippyDrive to the frame with the two screws if included.
 
-.. tip:: If you received your FlippyDrive in or after August of 2025, your kit might not include screws and you can just press the FlippyDrive carefully into the mounting frame, no screws required.
+.. tip:: If you received your FlippyDrive in or after August 2025, your kit might not include screws. You can simply press the FlippyDrive carefully into the mounting frame without screws. If the mounting frame is damaged, use M1.6 5mm screws. M1.8 5mm and M2 5mm screws should also be compatible and may be easier to obtain.
 
 .. image:: /_static/4X1A7533.jpg
 
