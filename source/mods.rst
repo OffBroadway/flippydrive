@@ -22,6 +22,11 @@ In addition to the damage this may be doing to the GameCube, it keeps the Flippy
 
    Please use `this 3D model <https://www.printables.com/model/1415696-gamecube-gcvideo-support-braces-flippydrive-deluxe/>`_, remixed by community member '*Sky*', instead.
 
+
+Pluto II
+=====
+The Pluto II Internal HDMI mod takes up a significant amount of space within the console. Due to its position replacing the Digital Out port it will block the installation of the FlippyDrive Deluxe Ethernet Module. Some users have reported success with trimming both the actual Pluto board as well as the 3D printed mount that holds it in place, but this is very much not recommended. Any attempts to force the FlippyDrive Ethernet Module and Pluto II mod to work in the same system at the same time are at your own (substantial) risk.
+
 Power
 `````
 
