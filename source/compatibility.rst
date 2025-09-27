@@ -20,7 +20,7 @@ Game List
 .. note:: 
     This list is largely sourced from community feedback, so it may have some inaccuracies.
 
-*Last updated: 2025-09-05*
+*Last updated: 2025-09-28*
 
 .. csv-table::
    :file: compatibility_data.tsv
