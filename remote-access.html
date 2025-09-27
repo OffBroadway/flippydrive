@@ -218,7 +218,7 @@
 <li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration File</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="network.html">Networking</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
@@ -275,7 +275,7 @@
           <section id="remote-access">
 <h1>Remote Access<a class="headerlink" href="#remote-access" title="Link to this heading">¶</a></h1>
 <div class="versionadded">
-<p><span class="versionmodified added">Added in version 1.5.0.</span></p>
+<p><span class="versionmodified added">Added in version 1.4.5.</span></p>
 </div>
 <p>Make sure the FlippyDrive application is open on your computer before turning on your GameCube.</p>
 <ol class="arabic simple">
@@ -284,9 +284,14 @@
 <li><p>Select <code class="docutils literal notranslate"><span class="pre">remote-access</span></code>.</p></li>
 </ol>
 <p>This app will start the FTP/SMB connection. You can then use your favorite client to connect to the IP address of the computer running the FlippyDrive application and port <cite>7021</cite>.</p>
+<p>Make sure that you recognize the IP address and that the FlippyDrive application isn’t binding to a different network adapter on your computer.</p>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
 <p>Screenshot of program running - add steps here how to connect to SMB/FTP through a tool such as FileZilla</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In beta versions 1.4.5 and 1.4.6, creating folder on the microSD is broken.</p>
 </div>
 </section>
 

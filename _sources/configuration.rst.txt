@@ -1,11 +1,11 @@
-Configuration Files
+Configuration File
 *******************
 
 The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.
 
 The sections are used to group the configuration options.
 
-Create an text file on the root of your SD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
+Create an text file on the root of your microSD card called ``config.ini``. The file should look similar to the example in the following section. Note that the settings file **must** include the ``[<name>]`` section headers for the settings to take effect.
 
 Some options are optional. If so, they are marked with a ``#`` in front of them, remove ``#`` and one space to enable them.
 
@@ -14,60 +14,11 @@ This document explains the various configuration options available in the ``conf
 Example Configuration file
 ==========================
 
-.. code-block:: ini
+:download:`Download <_static/config.ini>`
 
-    [flippydrive]
-    # Default boot mode, values are "normal" and "bypass"
-    # Setting "bypass" will always boot from the disc drive unless X is held down,
-    # at which point you can choose cubeboot, swiss, etc.
-    boot_mode = normal
+.. literalinclude:: _static/config.ini
+   :language: ini
 
-    [cubeboot]
-    # Custom cube logo color - Supports RGB hex colors aka websafe colors
-    # Keep the line commented out to use original logo color
-    # Setting "random" shows a random color
-    # cube_color = 660089
-
-    # Enable booting through Swiss for all games
-    force_swiss_default = 0
-
-    # Force progressive scan inside the IPL menu
-    force_progressive = 0
-
-    # Disable MemCard PRO GC Support
-    disable_mcp_select = 0
-
-    # Used for waiting for GCVideo to initialize
-    preboot_delay_ms = 0
-
-    # Delays loading after the boot logo
-    # to mimic the load times you would usually experience when booting a disc
-    # postboot_delay_ms = 3000
-
-    # Experimental configuration options below
-    #
-    # This enables folder icons and game icons which are still a little buggy
-    # enable_experimental_png = 0
-    #
-    # This enables the cube logo feature which replaces the word 'GAMECUBE' on the boot animation
-    # cube_logo = somelogo.png
-
-    [network]
-    # All network features require a server to be set and running the FlippyDrive app
-    # Wi-Fi connections also require a SSID and password
-
-    # Sets the network interface as the default disc device (active is 1)
-    # cubeboot can use other network features regardless of setting
-    is_default = 0
-
-    # Server IP address, in either IPv4 or IPv6 format. Port is 7031
-    server = 198.51.100.1
-
-    # SSID of your network
-    ssid = FBIWhiteVan
-
-    # Network key
-    password = JEdgarHooverDidNothingWrong
 
 Configuration File Format
 =========================
@@ -208,7 +159,7 @@ The following options are still under development. Use them at your own discreti
    :type: integer
    :default: 0 (commented out)
 
-   .. versionadded:: 1.5.0
+   .. versionadded:: 1.4.3
 
    When set to ``1``, this enables folder icons and game icons in the interface.
    Be aware that this feature is still experimental and might have bugs.
@@ -224,7 +175,7 @@ The following options are still under development. Use them at your own discreti
    :type: string (filename)
    :default: (commented out)
 
-   .. versionadded:: 1.5.0
+   .. versionadded:: 1.4.5
 
    This enables the custom Cube logo feature, which replaces the word 'GAMECUBE' on
    the boot animation with a custom image. Specify the filename of your desired logo image.

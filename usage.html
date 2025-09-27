@@ -218,7 +218,7 @@
 <li class="toctree-l2"><a class="reference internal" href="memcardprogc.html">MemCard PRO GC</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration File</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compatibility.html">Game Compatibility</a></li>
 <li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="network.html">Networking</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Networking</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -276,15 +276,45 @@
 <h1>Using the FlippyDrive<a class="headerlink" href="#using-the-flippydrive" title="Link to this heading">¶</a></h1>
 <section id="sd-card">
 <span id="sdcard"></span><h2>SD Card<a class="headerlink" href="#sd-card" title="Link to this heading">¶</a></h2>
-<p>You can use any SDHC/SDXC card with FlippyDrive. We do not suggest using SD Cards with a capacity less than 4GB as those may have compatibility issues.</p>
+<p>You can use any SDHC/SDXC card with FlippyDrive. We do not suggest using microSD Cards with a capacity less than 4GB as those may have compatibility issues.</p>
 <section id="sd-card-setup">
 <span id="sdcardsetup"></span><h3>SD Card Setup<a class="headerlink" href="#sd-card-setup" title="Link to this heading">¶</a></h3>
-<p>In order to use the FlippyDrive you must first format the SD card or configure Wi-Fi to target a desktop machine.</p>
-<p>Make sure your SD card is formatted with exFAT or FAT32. We suggest using exFAT as it is a more modern standard.</p>
+<p>In order to use the FlippyDrive you must first format the microSD card or configure Wi-Fi to target a desktop machine.</p>
+<p>Format your microSD card using <strong>exFAT</strong> (recommended) or FAT32 file system with an appropriate cluster/allocation unit size.
+We recommend exFAT since it is the more modern file system standard.</p>
+<p>For FAT32 formatting of cards larger than 32GB, you can use <a class="reference external" href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this formatting tool</a>.</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-left">
+<thead>
+<tr class="row-odd"><th class="head"><p>microSD size</p></th>
+<th class="head"><p>Allocation unit size</p></th>
+<th class="head"><p>also known as</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>4, 8, 16, 32 GiB</p></td>
+<td><p>32 KiB</p></td>
+<td><p>‘32 kilobytes’ / ‘32K’</p></td>
+</tr>
+<tr class="row-odd"><td><p>64, 128 GiB</p></td>
+<td><p>128 KiB</p></td>
+<td><p>‘128 kilobytes’ / ‘128K’</p></td>
+</tr>
+<tr class="row-even"><td><p>128, 256, 512 GiB</p></td>
+<td><p>256 KiB</p></td>
+<td><p>‘256 kilobytes’ / ‘256K’</p></td>
+</tr>
+<tr class="row-odd"><td><p>&gt;512 GiB   ≤2 TiB</p></td>
+<td><p>512 KiB</p></td>
+<td><p>‘512 kilobytes’ / ‘512K’</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="sd-card-files">
 <span id="sdcardfiles"></span><h3>SD Card Files<a class="headerlink" href="#sd-card-files" title="Link to this heading">¶</a></h3>
-<p>Once your SD card is formatted you can place supported files in the root of the SD card.</p>
+<p>Once your microSD card is formatted you can place supported files in the root of the microSD card.</p>
 <dl class="simple">
 <dt>Supported files are:</dt><dd><ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">.iso</span></code></p></li>
@@ -304,7 +334,7 @@
 </section>
 <section id="usage">
 <span id="id1"></span><h2>Usage<a class="headerlink" href="#usage" title="Link to this heading">¶</a></h2>
-<p>Now that you have your SD card setup you can insert it into the FlippyDrive and power on your GameCube.</p>
+<p>Now that you have your microSD card setup you can insert it into the FlippyDrive and power on your GameCube.</p>
 <section id="startup">
 <span id="id2"></span><h3>Startup<a class="headerlink" href="#startup" title="Link to this heading">¶</a></h3>
 <p>When booting the GameCube using FlippyDrive you have three options:</p>
@@ -315,7 +345,7 @@
 <section id="disc-mode">
 <span id="discmode"></span><h4>Disc Mode<a class="headerlink" href="#disc-mode" title="Link to this heading">¶</a></h4>
 <div class="versionchanged">
-<p><span class="versionmodified changed">Changed in version 1.5.0: </span>In version 1.4.3 and below, the <kbd class="kbd docutils literal notranslate">L</kbd> and <kbd class="kbd docutils literal notranslate">R</kbd> triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.</p>
+<p><span class="versionmodified changed">Changed in version 1.4.5: </span>In version 1.4.3 and below, the <kbd class="kbd docutils literal notranslate">L</kbd> and <kbd class="kbd docutils literal notranslate">R</kbd> triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.</p>
 </div>
 <p>Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.</p>
 <p>Hold <code class="docutils literal notranslate"><span class="pre">Left</span> <span class="pre">(←)</span></code> on the +Control Pad (Player 1) when powering up the console to enter Disc Mode.</p>
@@ -344,7 +374,7 @@
 <li><p>If you experience any issues during gameplay please reference the <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> page and submit a bug report using the form.</p></li>
 <li><p>For FlippyDrive bugs go to <a class="reference internal" href="troubleshooting.html"><span class="doc">Troubleshooting</span></a>.</p></li>
 <li><p>For Game related issues while using FlippyDrive check <a class="reference internal" href="compatibility.html"><span class="doc">Game Compatibility</span></a> and submit a bug report.</p></li>
-<li><p>For more information on configuring the FlippyDrive check the <a class="reference internal" href="configuration.html"><span class="doc">Configuration Files</span></a> page.</p></li>
+<li><p>For more information on configuring the FlippyDrive check the <a class="reference internal" href="configuration.html"><span class="doc">Configuration File</span></a> page.</p></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">

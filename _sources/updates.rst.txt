@@ -6,7 +6,7 @@ Software Updates
 Install from microSD
 ====================
 
-In order to install software updates from the microSD card, you must download the *update.fpkg* file from the `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest stable release and download the update file. If you haven't already formatted the SD card, format it to either exFAT (*preferred*) or FAT32 (use a tool such as `this one <http://ridgecrop.co.uk/index.htm?guiformat.htm>`__. to format cards larger than 32GB).
+In order to install software updates from the microSD card, you must download the *update.fpkg* file from the `FlippyDrive assets GitHub repo <https://github.com/OffBroadway/flippydrive-assets/releases>`_. Look for the latest stable release and download the update file.
 
 .. important::
     Choose the latest stable release. This might not be the latest version number or the release at the top of the page. Beta/pre-release versions will be labelled as "Pre-release" in orange-gold. If you have issues with a pre-release version, try the topmost version in green with the label "Latest" unless specified otherwise.
@@ -39,7 +39,7 @@ Be very careful when doing so as to not put undue stress on the flex cable. The 
 
 .. _connecting:
 
-Connecting to PC
+Connecting to a computer
 ----------------
 Before plugging in the USB cable, hold down the button on the front of the FlippyDrive while inserting the USB. You will know that it worked if a USB drive called "RPI-RP2" is mounted on your computer.
 
@@ -51,7 +51,7 @@ You can download the latest recovery.uf2 firmware file from the `FlippyDrive ass
 Installing
 ----------
 
-In order to install the firmware simply copy the recovery.uf2 file into the USB drive labeled "RPI-RP2" and wait for the copy to complete. You will know that it is done when the drive Auto ejects and disappears.
+In order to install the firmware simply copy the recovery.uf2 file into the USB drive labeled "RPI-RP2" and wait for the copy to complete. You will know that it is done when the drive auto-ejects and disappears.
 
 .. note::
     Installing via this method will wipe out the internal flash on the FlippyDrive. This means any homebrew dol files you have copied over will be removed.
@@ -64,6 +64,6 @@ In order to install the firmware simply copy the recovery.uf2 file into the USB 
 Reassembly
 ----------
 
-Next, you can unplug the USB cable and mount the FlippyDrive back to the mounting post with the two screws.
+Next, you can unplug the USB cable and mount the FlippyDrive back to the mounting frame.
 
 If you have unplugged the flex cable, insert it as directed in the install guide with the matching square symbol facing out.

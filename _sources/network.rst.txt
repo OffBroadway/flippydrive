@@ -8,7 +8,7 @@ By default, the FlippyDrive uses the following network parameters:
 
 - Addressing: Dynamic, DHCP4 (SLAAC in test)
 - Protocol: TCP
-- Port: 7031
+- Port: 7031, 7021 (Remote Access, v1.4.5 and newer)
 
 .. toctree::
     :hidden:

@@ -1,0 +1,8 @@
+services:
+  flippydrive-server:
+    image: offbroadway/flippydrive-server:v1.4.2
+    ports:
+      - "7031:7031"
+      - "7021:7021"
+    volumes:
+      - "./data:/data"

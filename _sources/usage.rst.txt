@@ -6,26 +6,38 @@ Using the FlippyDrive
 SD Card
 ````````````````
 
-You can use any SDHC/SDXC card with FlippyDrive. We do not suggest using SD Cards with a capacity less than 4GB as those may have compatibility issues.
+You can use any SDHC/SDXC card with FlippyDrive. We do not suggest using microSD Cards with a capacity less than 4GB as those may have compatibility issues.
 
 .. _sdcardsetup:
 
 SD Card Setup
 ------------------
 
-In order to use the FlippyDrive you must first format the SD card or configure Wi-Fi to target a desktop machine.
+In order to use the FlippyDrive you must first format the microSD card or configure Wi-Fi to target a desktop machine.
 
 .. todo
     Wi-Fi configuration is in internal testing and will be available shortly
 
-Make sure your SD card is formatted with exFAT or FAT32. We suggest using exFAT as it is a more modern standard.
+Format your microSD card using **exFAT** (recommended) or FAT32 file system with an appropriate cluster/allocation unit size.
+We recommend exFAT since it is the more modern file system standard.
+
+For FAT32 formatting of cards larger than 32GB, you can use `this formatting tool <http://ridgecrop.co.uk/index.htm?guiformat.htm>`__.
+
+..  csv-table::
+    :header: "microSD size", "Allocation unit size", "also known as"
+    :align: left
+
+    "4, 8, 16, 32 GiB", "32 KiB", "'32 kilobytes' / '32K'"
+    "64, 128 GiB", "128 KiB", "'128 kilobytes' / '128K'"
+    "128, 256, 512 GiB", "256 KiB", "'256 kilobytes' / '256K'"
+    ">512 GiB 	≤2 TiB", "512 KiB", "'512 kilobytes' / '512K'"
 
 .. _sdcardfiles:
 
 SD Card Files
 ------------------
 
-Once your SD card is formatted you can place supported files in the root of the SD card.
+Once your microSD card is formatted you can place supported files in the root of the microSD card.
 
 Supported files are:
     - ``.iso``
@@ -44,7 +56,7 @@ Supported files are:
 Usage
 ````````````````
 
-Now that you have your SD card setup you can insert it into the FlippyDrive and power on your GameCube.
+Now that you have your microSD card setup you can insert it into the FlippyDrive and power on your GameCube.
 
 .. _startup:
 
@@ -65,7 +77,7 @@ If you hold down the :kbd:`X` button on the P1 controller it will start the Flip
 
 Disc Mode
 =========
-.. versionchanged:: 1.5.0
+.. versionchanged:: 1.4.5
    In version 1.4.3 and below, the :kbd:`L` and :kbd:`R` triggers were used for Disc Mode and Enhanced Disc mode (also called passthrough/bypass - as it lets all of the disc drive information pass through the FlippyDrive). It was moved to the +Control Pad to avoid controller calibration issues while powering on the system.
 
 Two disc modes are provided by the FlippyDrive to launch games in the physical disc drive.
