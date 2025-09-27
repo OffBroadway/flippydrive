@@ -23,7 +23,7 @@ Game List
 *Last updated: 2025-09-28*
 
 .. csv-table::
-   :file: compatibility_data.tsv
+   :file: _static/compatibility_data.tsv
    :header-rows: 1
    :delim: tab
    :class: datatable
