@@ -23,6 +23,11 @@ During FlippyDrive install
      :width: 320
      :class: align-center
 
+
+- **The GameCube hangs on 'Firmware is booting' while in the bootloader**
+
+  Please ask for help on the Discord server or submit a ticket. Links are at the top of this page.
+
 - **I damaged the flex cable, what now?**
 
   You can order a replacement ribbon `here <https://teamoffbroadway.com/product/flippydrive-flex/>`_.
