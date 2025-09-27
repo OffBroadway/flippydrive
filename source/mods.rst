@@ -18,7 +18,14 @@ In addition to the damage this may be doing to the GameCube, it keeps the Flippy
 .. admonition:: GCVideo support bracket compatibility with FlippyDrive Ethernet add-on
    :class: note
 
-   If you've bought or 3D-printed a support bracket for your plug-and-play GCVideo adapter (such as the Carby) to rest on, please note that the vents in the FlippyDrive Ethernet add-on rear I/O panel are slightly smaller, your existing support bracket might not fit through.
+   If you've bought or 3D-printed a support bracket for your plug-and-play GCVideo adapter (such as the Carby) to rest on, please note that the air vents in the FlippyDrive Ethernet add-on rear I/O panel are slightly smaller (changing from ±3.4mm to ±2.8mm), your existing support bracket will likely not fit through.
+
+   Please use `this 3D model <https://www.printables.com/model/1415696-gamecube-gcvideo-support-braces-flippydrive-deluxe/>`_, remixed by community member '*Sky*', instead.
+
+
+Pluto II
+=====
+The Pluto II Internal HDMI mod takes up a significant amount of space within the console. Due to its position replacing the Digital Out port it will block the installation of the FlippyDrive Deluxe Ethernet Module. Some users have reported success with trimming both the actual Pluto board as well as the 3D printed mount that holds it in place, but this is very much not recommended. Any attempts to force the FlippyDrive Ethernet Module and Pluto II mod to work in the same system at the same time are at your own (substantial) risk.
 
 Power
 `````

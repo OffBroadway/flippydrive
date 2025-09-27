@@ -5,7 +5,7 @@ Disc Backup Utility
   :width: 50%
 
 The FlippyDrive provides an integrated disc backup utility and can be launched through the :doc:`bootloader`.
-This program will read and checksum the current disc loaded in the drive while saving it to the current storage device.  Usually this storage destination is the SD card, although you can backup to your computer over the network in Wi-Fi and Ethernet mode if they are set as default as described in :doc:`the configuration file<configuration>`.
+This program will read and checksum the current disc loaded in the drive while saving it to the current storage device.  Usually this storage destination is the microSD card, although you can backup to your computer over the network in Wi-Fi and Ethernet mode if they are set as default as described in :doc:`the configuration file<configuration>`.
 
 Stored disc images are immediately usable in cubeboot.
 

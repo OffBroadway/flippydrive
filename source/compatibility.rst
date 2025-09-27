@@ -20,6 +20,8 @@ Game List
 .. note:: 
     This list is largely sourced from community feedback, so it may have some inaccuracies.
 
+*Last updated: 2025-09-05*
+
 .. csv-table::
    :file: compatibility_data.tsv
    :header-rows: 1
@@ -28,7 +30,7 @@ Game List
    :encoding: UTF-8
 
 .. [1] FMV has high bandwidth requirements
-.. [2] Audio streaming games have high bandwidth requirements. Modern/fast SD card recommended to avoid drop-outs. Wi-Fi requires very strong signal and fast host.
+.. [2] Audio streaming games have high bandwidth requirements. Modern/fast microSD card recommended to avoid drop-outs. Wi-Fi requires very strong signal and fast host.
 
 
 .. |br| raw:: html
