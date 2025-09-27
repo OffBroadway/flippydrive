@@ -18,7 +18,10 @@ In order to use the FlippyDrive you must first format the microSD card or config
 .. todo
     Wi-Fi configuration is in internal testing and will be available shortly
 
-Make sure your microSD card is formatted with exFAT or FAT32 with a appropriate cluster size. We suggest using exFAT as it is a more modern standard.
+Format your microSD card using **exFAT** (recommended) or FAT32 file system with an appropriate cluster/allocation unit size.
+We recommend exFAT since it is the more modern file system standard.
+
+For FAT32 formatting of cards larger than 32GB, you can use `this formatting tool <http://ridgecrop.co.uk/index.htm?guiformat.htm>`__.
 
 ..  csv-table::
     :header: "microSD size", "Allocation unit size", "also known as"
