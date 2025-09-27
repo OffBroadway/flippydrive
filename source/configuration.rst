@@ -1,4 +1,4 @@
-Configuration Files
+Configuration File
 *******************
 
 The FlippyDrive and cubeboot can be configured using a configuration file. The configuration file is a simple ini file with sections.
