@@ -12,7 +12,7 @@ Having just entered beta, the FlippyDrive currently has a few thousand hours of 
 
 .. important::
     We do not yet have automated status reporting, so we rely on `viewers like you` to report game compatibility, especially positive reports
-    If you try a game and see it works correctly, please `let us know here <https://forms.gle/Qdr2Fx8JbchLmhBKA>`_!
+    If you try a game and see it works correctly, please `let us know here <https://forms.gle/Qdr2Fx8JbchLmhBKA>`_! Please test with the latest non-beta version.
     
 Game List
 =========
