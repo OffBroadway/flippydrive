@@ -51,7 +51,7 @@ The process of inserting the ethernet add-on PCB / getting the module past the t
 
 Step 3: Insert rear I/O panel
 =============================
-Now that the PCB has been inserted into the rear I/O panel, insert the rear I/O panel into the GameCube. Assuming you haven't screwed the rest of the screws in (except for the three during the FlippyDrive install, those don't need to be removed), it might be necessary to push the disc drive up slightly to be able to position the Ethernet add-on under the lid switch.
+Insert the rear I/O panel with the Ethernet PCB into the GameCube. As long as the rest of the screws are not tightened (except for the three from the FlippyDrive installation under the mounting frame), you may need to gently push up the disc drive near the lid switch to position the Ethernet add-on underneath it. Once positioned correctly, you can lower/push the disc drive back down.
 
 .. hint:: If you're upgrading your existing FlippyDrive install, it isn't necessary to unscrew all screws. Loosen all screws one revolution (360 degrees) counter-clockwise underneath the back, fan side (including the screws underneath the fan) and FlippyDrive side (except for the two holding the FlippyDrive bracket) so that you have just enough leeway in the back to slightly push the corner of the disc drive up. Then, tighten the screws again.
 
@@ -80,7 +80,7 @@ When locked, the black locking tab will be flush with the body of the connector.
 
 Step 4: Verify Installation
 ===========================
-Connect the GameCube to a display and power on the GameCube. If everything works, you should be able to ping the FlippyDrive from a computer. (hostname: ``flippydrive``)
+Connect the GameCube to a display and power on the GameCube. If everything works, you should be able to ping the FlippyDrive from a computer. (hostname: ``flippydrive`` or lookup the IP address)
 
 .. todo:: Add section how to verify installation through the bootloader menu
 
