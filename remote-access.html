@@ -281,13 +281,38 @@
 <ol class="arabic simple">
 <li><p>Hold <kbd class="kbd docutils literal notranslate">X</kbd> to get to the FlippyDrive bootloader</p></li>
 <li><p>Select <code class="docutils literal notranslate"><span class="pre">Boot</span> <span class="pre">Onboard</span> <span class="pre">DOL</span></code></p></li>
-<li><p>Select <code class="docutils literal notranslate"><span class="pre">remote-access</span></code>.</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">remote</span></code>.</p></li>
 </ol>
 <p>This app will start the FTP/SMB connection. You can then use your favorite client to connect to the IP address of the computer running the FlippyDrive application and port <cite>7021</cite>.</p>
 <p>Make sure that you recognize the IP address and that the FlippyDrive application isn’t binding to a different network adapter on your computer.</p>
+<p>You can use any FTP client of choice. For ease of use, we recommend FileZilla or any other well-known client.</p>
+<ol class="arabic simple">
+<li><p>Download an install FileZilla and open it</p></li>
+<li><p>Go to File &gt; Site Manager</p></li>
+<li><p>Click ‘New site’ and name it ‘FlippyDrive’ or something else.</p></li>
+<li><p>In the panel to the right, set the following options:</p></li>
+</ol>
+<p><strong>General tab</strong>:</p>
+<ul class="simple">
+<li><p>Protocol: “FTP - File Transfer Protocol”</p></li>
+<li><p>Host: “127.0.0.1”</p></li>
+<li><p>Port: “7021”</p></li>
+<li><p>Encryption: “Only use plain FTP (insecure) ⚠”</p></li>
+<li><p>Logon Type: “Normal”</p></li>
+<li><p>User: “anonymous”</p></li>
+<li><p>Password: leave empty</p></li>
+</ul>
+<p><strong>Advanced tab:</strong>  Leave as-is</p>
+<p><strong>“Transfer Settings” tab:</strong></p>
+<ul class="simple">
+<li><p>Transfer mode: Default</p></li>
+<li><p>“Limit number of simultaneous connections”: ✅</p></li>
+<li><p>“Maximum number of connections”: 1</p></li>
+</ul>
+<p><strong>“Charset” tab:</strong> Leave as-is (Autodetect)</p>
 <div class="admonition-todo admonition" id="id1">
 <p class="admonition-title">Todo</p>
-<p>Screenshot of program running - add steps here how to connect to SMB/FTP through a tool such as FileZilla</p>
+<p>Add screenshots</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
