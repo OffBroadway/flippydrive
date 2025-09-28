@@ -1,6 +1,6 @@
 FlippyDrive Ethernet
 ********************
-.. caution:: 2025-06-01: This guide is not 100% complete yet.
+.. caution:: 2025-09-29: As of beta version 1.4.6 - if you want to switch from Ethernet back to WiFi again, you'll have to unplug the Ethernet add-on ribbon cable at either end. It will be possible in a future software update to toggle between the two.
 
 Things Required
 ===============
